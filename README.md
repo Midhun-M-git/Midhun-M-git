@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Welcome to My Digital Workspace
+<img src="welcome_spider.svg" alt="Welcome to My Digital Workspace" />
 
 <a href="https://novustech.in">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Midhun+M;Founder+%40+NovusTech.in;AI%2FML+%26+Cybersecurity+Engineer;Building+Scalable+Software+Solutions" alt="Typing SVG" />
