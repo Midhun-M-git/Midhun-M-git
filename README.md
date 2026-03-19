@@ -29,7 +29,7 @@
         <li>🚂 <b>Industry Exp:</b> Signal & Telecom engineering, Southern Railway</li>
         <li>🤝 <b>Leadership:</b> IEDC ASET TECH LEAD (2025-26), COLLEGE UNION GENERAL SECRETARY (2025-26), KBA STUDENT LEAD (2025-26)</li>
       </ul>
-      <p><i>"I don't just write code — I architect resilient business solutions."</i></p>
+      <p><i>"Building solutions that scale beyond code."</i></p>
     </td>
     <td width="45%" valign="top">
       <h3>🛠️ Technical Arsenal</h3>
