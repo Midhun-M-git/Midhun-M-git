@@ -1,9 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">\n<style>\n
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">\n<defs>\n
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#58a6ff" />
+        <stop offset="50%" stop-color="#79c0ff" />
+        <stop offset="100%" stop-color="#c9d1d9" />
+    </linearGradient>
+\n</defs>\n<style>\n
     .title {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 800;
-        fill: #c9d1d9;
     }
     .web-line {
         stroke: rgba(255, 255, 255, 0.7);
@@ -39,7 +44,7 @@
         0% { transform: rotate(-3deg); }
         100% { transform: rotate(3deg); }
     }
-\n</style>\n<text x="400" y="65" text-anchor="middle" alignment-baseline="middle" class="title">🚀 Welcome to My Digital Workspace</text>\n
+\n</style>\n<text x="400" y="65" text-anchor="middle" alignment-baseline="middle" class="title" fill="url(#textGrad)">🚀 Architecting Robust AI &amp; Security Solutions</text>\n
 <g class="web-line">
     <path d="M 0 0 L 120 0 M 0 0 L 100 40 M 0 0 L 60 80 M 0 0 L 20 110 M 0 0 L 0 120" />
     <path d="M 40 0 Q 35 15 10 30 M 70 0 Q 60 25 20 60 M 100 0 Q 80 40 30 90 M 120 0 Q 90 60 0 110" />
