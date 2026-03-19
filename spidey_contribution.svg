@@ -30,7 +30,7 @@
     .arm-right { animation: svg-arm-swing-r 6s infinite; transform-origin: 28px 27px; }
     .leg-left { animation: svg-run-legs-l 6s infinite; transform-origin: 14px 38px; }
     .leg-right { animation: svg-run-legs-r 6s infinite; transform-origin: 26px 38px; }
-    .web { stroke: rgba(255, 255, 255, 0.8); stroke-width: 2; border-radius: 1px; animation: web-shoot 6s infinite linear; stroke-dasharray: 150 150; }
+    .web { stroke: #ffffff; stroke-opacity: 0.8; stroke-width: 2; stroke-linecap: round; animation: web-shoot 6s infinite linear; transform-origin: 20px 0px; }
     
     @keyframes master-path {
         0%   { transform: translate(-50px, 57px); }
@@ -55,10 +55,10 @@
     }
 
     @keyframes web-shoot {
-        0%, 25% { opacity: 0; stroke-dashoffset: 150; }
-        30% { opacity: 1; stroke-dashoffset: 120; }
-        35%, 65% { opacity: 1; stroke-dashoffset: 0; }
-        70%, 100% { opacity: 0; }
+        0%, 25% { opacity: 0; transform: scaleY(0); }
+        30% { opacity: 1; transform: scaleY(0.5); }
+        35%, 65% { opacity: 1; transform: scaleY(1); }
+        70%, 100% { opacity: 0; transform: scaleY(0); }
     }
 
     @keyframes svg-arm-swing-l {
