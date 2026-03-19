@@ -71,7 +71,13 @@ As a founder and developer, my most complex work—including proprietary startup
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="Rainbow line">
 </div>
 
-### 🏆 Achievements & Impact
+
+<div align="center">
+    <img src="https://media.tenor.com/bZeL9f9gLw4AAAAM/spider-man-swing.gif" width="200" alt="Spider-Man Swinging" />
+</div>div>
+
+#
+## 🏆 Achievements & Impact
 
 <div align="center">
   
