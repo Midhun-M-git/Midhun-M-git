@@ -73,8 +73,8 @@ As a founder and developer, my most complex work—including proprietary startup
 
 
 <div align="center">
-    <img src="https://media.tenor.com/bZeL9f9gLw4AAAAM/spider-man-swing.gif" width="200" alt="Spider-Man Swinging" />
-</div>div>
+    <img src="spidey_contribution.svg" alt="Spider-Man Contribution Graph" />
+</div>
 
 #
 ## 🏆 Achievements & Impact

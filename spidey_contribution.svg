@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150">\n<defs>
+    <linearGradient id="armGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="40%" stop-color="#0d47a1" />
+      <stop offset="40%" stop-color="#ff2a2a" />
+    </linearGradient>
+    <linearGradient id="legGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="50%" stop-color="#0d47a1" />
+      <stop offset="50%" stop-color="#ff2a2a" />
+    </linearGradient>
+    <radialGradient id="headGrad" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ff4c4c" />
+      <stop offset="100%" stop-color="#cc0000" />
+    </radialGradient>
+</defs>\n<style>\n
+    .bg { fill: #0d1117; }
+    .box { fill: #161b22; rx: 2; ry: 2; stroke: rgba(27, 31, 35, 0.06); stroke-width: 1; }
+    .box.lvl-1 { fill: #0e4429; }
+    .box.lvl-2 { fill: #006d32; }
+    .box.lvl-3 { fill: #26a641; }
+    .box.lvl-4 { fill: #39d353; }
+    
+    .text-header { fill: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; }
+    
+    /* Animation Keyframes */
+    .scene { animation: master-path 6s infinite linear; }
+    .actor { animation: master-rotation 6s infinite linear; transform-origin: 20px -60px; }
+    
+    /* Center of spidey body is roughly x=20, y=25 */
+    .head { animation: head-bob 6s infinite linear; transform-origin: 20px 15px; }
+    .arm-left { animation: svg-arm-swing-l 6s infinite; transform-origin: 11px 27px; }
+    .arm-right { animation: svg-arm-swing-r 6s infinite; transform-origin: 28px 27px; }
+    .leg-left { animation: svg-run-legs-l 6s infinite; transform-origin: 14px 38px; }
+    .leg-right { animation: svg-run-legs-r 6s infinite; transform-origin: 26px 38px; }
+    .web { stroke: rgba(255, 255, 255, 0.8); stroke-width: 2; animation: web-shoot 6s infinite linear; stroke-dasharray: 60 60; }
+    
+    
+    @keyframes master-path {
+        0%   { transform: translate(-50px, 140px); }
+        15%  { transform: translate(150px, 140px); }
+        25%  { transform: translate(250px, 60px); }
+        40%  { transform: translate(350px, 80px); }
+        50%  { transform: translate(450px, 95px); }
+        60%  { transform: translate(550px, 80px); }
+        70%  { transform: translate(650px, 60px); }
+        80%  { transform: translate(750px, 140px); }
+        100% { transform: translate(950px, 140px); }
+    }
+
+    @keyframes master-rotation {
+        0%, 15% { transform: rotate(15deg); }
+        20% { transform: rotate(-10deg); }
+        30% { transform: rotate(-45deg); }
+        50% { transform: rotate(0deg); }
+        70% { transform: rotate(45deg); }
+        75% { transform: rotate(0deg); }
+        80%, 100% { transform: rotate(15deg); }
+    }
+
+    @keyframes web-shoot {
+        0%, 25% { opacity: 0; stroke-dashoffset: 60; }
+        30% { opacity: 1; stroke-dashoffset: 50; }
+        35%, 65% { opacity: 1; stroke-dashoffset: 0; }
+        70%, 100% { opacity: 0; }
+    }
+
+    @keyframes svg-arm-swing-l {
+        0% { transform: rotate(30deg); }
+        5% { transform: rotate(-30deg); }
+        10% { transform: rotate(30deg); }
+        15% { transform: rotate(-30deg); }
+        20% { transform: rotate(30deg); }
+        25%, 75% { transform: rotate(-140deg); }
+        80% { transform: rotate(30deg); }
+        85% { transform: rotate(-30deg); }
+        90% { transform: rotate(30deg); }
+        95% { transform: rotate(-30deg); }
+        100% { transform: rotate(30deg); }
+    }
+
+    @keyframes svg-arm-swing-r {
+        0% { transform: rotate(-30deg); }
+        5% { transform: rotate(30deg); }
+        10% { transform: rotate(-30deg); }
+        15% { transform: rotate(30deg); }
+        20% { transform: rotate(-30deg); }
+        25%, 75% { transform: rotate(-150deg); }
+        80% { transform: rotate(-30deg); }
+        85% { transform: rotate(30deg); }
+        90% { transform: rotate(-30deg); }
+        95% { transform: rotate(30deg); }
+        100% { transform: rotate(-30deg); }
+    }
+
+    @keyframes head-bob {
+        0%, 10%, 20%, 80%, 90%, 100% { transform: translateY(0) rotate(5deg); }
+        5%, 15%, 85%, 95% { transform: translateY(-2px) rotate(-5deg); }
+        25%, 75% { transform: translateY(-5px) rotate(-15deg); }
+        50% { transform: translateY(-2px) rotate(0deg); }
+    }
+
+    @keyframes svg-run-legs-l {
+        0% { transform: rotate(30deg); }
+        5% { transform: rotate(-30deg); }
+        10% { transform: rotate(30deg); }
+        15% { transform: rotate(-30deg); }
+        20% { transform: rotate(30deg); }
+        25%, 75% { transform: rotate(20deg); }
+        80% { transform: rotate(30deg); }
+        85% { transform: rotate(-30deg); }
+        90% { transform: rotate(30deg); }
+        95% { transform: rotate(-30deg); }
+        100% { transform: rotate(30deg); }
+    }
+
+    @keyframes svg-run-legs-r {
+        0% { transform: rotate(-30deg); }
+        5% { transform: rotate(30deg); }
+        10% { transform: rotate(-30deg); }
+        15% { transform: rotate(30deg); }
+        20% { transform: rotate(-30deg); }
+        25%, 75% { transform: rotate(-20deg); }
+        80% { transform: rotate(-30deg); }
+        85% { transform: rotate(30deg); }
+        90% { transform: rotate(-30deg); }
+        95% { transform: rotate(30deg); }
+        100% { transform: rotate(-30deg); }
+    }
+\n</style>\n<rect width="800" height="150" class="bg" rx="6" stroke="#30363d" stroke-width="1"/>\n<text x="24" y="30" class="text-header">63 contributions in the last year</text>\n<rect x="24" y="44" width="12" height="12" class="box" />\n<rect x="24" y="59" width="12" height="12" class="box lvl-3" />\n<rect x="24" y="74" width="12" height="12" class="box" />\n<rect x="24" y="89" width="12" height="12" class="box" />\n<rect x="24" y="104" width="12" height="12" class="box" />\n<rect x="24" y="119" width="12" height="12" class="box" />\n<rect x="24" y="134" width="12" height="12" class="box" />\n<rect x="39" y="44" width="12" height="12" class="box" />\n<rect x="39" y="59" width="12" height="12" class="box" />\n<rect x="39" y="74" width="12" height="12" class="box" />\n<rect x="39" y="89" width="12" height="12" class="box" />\n<rect x="39" y="104" width="12" height="12" class="box" />\n<rect x="39" y="119" width="12" height="12" class="box lvl-4" />\n<rect x="39" y="134" width="12" height="12" class="box" />\n<rect x="54" y="44" width="12" height="12" class="box" />\n<rect x="54" y="59" width="12" height="12" class="box" />\n<rect x="54" y="74" width="12" height="12" class="box" />\n<rect x="54" y="89" width="12" height="12" class="box" />\n<rect x="54" y="104" width="12" height="12" class="box" />\n<rect x="54" y="119" width="12" height="12" class="box" />\n<rect x="54" y="134" width="12" height="12" class="box lvl-4" />\n<rect x="69" y="44" width="12" height="12" class="box" />\n<rect x="69" y="59" width="12" height="12" class="box lvl-3" />\n<rect x="69" y="74" width="12" height="12" class="box" />\n<rect x="69" y="89" width="12" height="12" class="box" />\n<rect x="69" y="104" width="12" height="12" class="box" />\n<rect x="69" y="119" width="12" height="12" class="box lvl-2" />\n<rect x="69" y="134" width="12" height="12" class="box" />\n<rect x="84" y="44" width="12" height="12" class="box lvl-1" />\n<rect x="84" y="59" width="12" height="12" class="box" />\n<rect x="84" y="74" width="12" height="12" class="box" />\n<rect x="84" y="89" width="12" height="12" class="box" />\n<rect x="84" y="104" width="12" height="12" class="box" />\n<rect x="84" y="119" width="12" height="12" class="box" />\n<rect x="84" y="134" width="12" height="12" class="box lvl-2" />\n<rect x="99" y="44" width="12" height="12" class="box lvl-3" />\n<rect x="99" y="59" width="12" height="12" class="box" />\n<rect x="99" y="74" width="12" height="12" class="box" />\n<rect x="99" y="89" width="12" height="12" class="box lvl-1" />\n<rect x="99" y="104" width="12" height="12" class="box" />\n<rect x="99" y="119" width="12" height="12" class="box" />\n<rect x="99" y="134" width="12" height="12" class="box lvl-3" />\n<rect x="114" y="44" width="12" height="12" class="box" />\n<rect x="114" y="59" width="12" height="12" class="box" />\n<rect x="114" y="74" width="12" height="12" class="box" />\n<rect x="114" y="89" width="12" height="12" class="box" />\n<rect x="114" y="104" width="12" height="12" class="box lvl-2" />\n<rect x="114" y="119" width="12" height="12" class="box" />\n<rect x="114" y="134" width="12" height="12" class="box" />\n<rect x="129" y="44" width="12" height="12" class="box lvl-2" />\n<rect x="129" y="59" width="12" height="12" class="box" />\n<rect x="129" y="74" width="12" height="12" class="box" />\n<rect x="129" y="89" width="12" height="12" class="box" />\n<rect x="129" y="104" width="12" height="12" class="box" />\n<rect x="129" y="119" width="12" height="12" class="box" />\n<rect x="129" y="134" width="12" height="12" class="box" />\n<rect x="144" y="44" width="12" height="12" class="box lvl-4" />\n<rect x="144" y="59" width="12" height="12" class="box" />\n<rect x="144" y="74" width="12" height="12" class="box" />\n<rect x="144" y="89" width="12" height="12" class="box" />\n<rect x="144" y="104" width="12" height="12" class="box" />\n<rect x="144" y="119" width="12" height="12" class="box" />\n<rect x="144" y="134" width="12" height="12" class="box" />\n<rect x="159" y="44" width="12" height="12" class="box" />\n<rect x="159" y="59" width="12" height="12" class="box" />\n<rect x="159" y="74" width="12" height="12" class="box" />\n<rect x="159" y="89" width="12" height="12" class="box" />\n<rect x="159" y="104" width="12" height="12" class="box" />\n<rect x="159" y="119" width="12" height="12" class="box" />\n<rect x="159" y="134" width="12" height="12" class="box" />\n<rect x="174" y="44" width="12" height="12" class="box" />\n<rect x="174" y="59" width="12" height="12" class="box" />\n<rect x="174" y="74" width="12" height="12" class="box" />\n<rect x="174" y="89" width="12" height="12" class="box" />\n<rect x="174" y="104" width="12" height="12" class="box" />\n<rect x="174" y="119" width="12" height="12" class="box" />\n<rect x="174" y="134" width="12" height="12" class="box" />\n<rect x="189" y="44" width="12" height="12" class="box" />\n<rect x="189" y="59" width="12" height="12" class="box" />\n<rect x="189" y="74" width="12" height="12" class="box" />\n<rect x="189" y="89" width="12" height="12" class="box" />\n<rect x="189" y="104" width="12" height="12" class="box" />\n<rect x="189" y="119" width="12" height="12" class="box" />\n<rect x="189" y="134" width="12" height="12" class="box" />\n<rect x="204" y="44" width="12" height="12" class="box" />\n<rect x="204" y="59" width="12" height="12" class="box" />\n<rect x="204" y="74" width="12" height="12" class="box" />\n<rect x="204" y="89" width="12" height="12" class="box" />\n<rect x="204" y="104" width="12" height="12" class="box lvl-1" />\n<rect x="204" y="119" width="12" height="12" class="box" />\n<rect x="204" y="134" width="12" height="12" class="box" />\n<rect x="219" y="44" width="12" height="12" class="box lvl-4" />\n<rect x="219" y="59" width="12" height="12" class="box" />\n<rect x="219" y="74" width="12" height="12" class="box" />\n<rect x="219" y="89" width="12" height="12" class="box" />\n<rect x="219" y="104" width="12" height="12" class="box" />\n<rect x="219" y="119" width="12" height="12" class="box" />\n<rect x="219" y="134" width="12" height="12" class="box" />\n<rect x="234" y="44" width="12" height="12" class="box" />\n<rect x="234" y="59" width="12" height="12" class="box" />\n<rect x="234" y="74" width="12" height="12" class="box" />\n<rect x="234" y="89" width="12" height="12" class="box lvl-2" />\n<rect x="234" y="104" width="12" height="12" class="box lvl-1" />\n<rect x="234" y="119" width="12" height="12" class="box" />\n<rect x="234" y="134" width="12" height="12" class="box" />\n<rect x="249" y="44" width="12" height="12" class="box" />\n<rect x="249" y="59" width="12" height="12" class="box" />\n<rect x="249" y="74" width="12" height="12" class="box" />\n<rect x="249" y="89" width="12" height="12" class="box" />\n<rect x="249" y="104" width="12" height="12" class="box" />\n<rect x="249" y="119" width="12" height="12" class="box" />\n<rect x="249" y="134" width="12" height="12" class="box" />\n<rect x="264" y="44" width="12" height="12" class="box" />\n<rect x="264" y="59" width="12" height="12" class="box lvl-1" />\n<rect x="264" y="74" width="12" height="12" class="box" />\n<rect x="264" y="89" width="12" height="12" class="box" />\n<rect x="264" y="104" width="12" height="12" class="box" />\n<rect x="264" y="119" width="12" height="12" class="box" />\n<rect x="264" y="134" width="12" height="12" class="box" />\n<rect x="279" y="44" width="12" height="12" class="box" />\n<rect x="279" y="59" width="12" height="12" class="box" />\n<rect x="279" y="74" width="12" height="12" class="box" />\n<rect x="279" y="89" width="12" height="12" class="box" />\n<rect x="279" y="104" width="12" height="12" class="box" />\n<rect x="279" y="119" width="12" height="12" class="box" />\n<rect x="279" y="134" width="12" height="12" class="box" />\n<rect x="294" y="44" width="12" height="12" class="box" />\n<rect x="294" y="59" width="12" height="12" class="box" />\n<rect x="294" y="74" width="12" height="12" class="box" />\n<rect x="294" y="89" width="12" height="12" class="box" />\n<rect x="294" y="104" width="12" height="12" class="box" />\n<rect x="294" y="119" width="12" height="12" class="box" />\n<rect x="294" y="134" width="12" height="12" class="box lvl-2" />\n<rect x="309" y="44" width="12" height="12" class="box" />\n<rect x="309" y="59" width="12" height="12" class="box" />\n<rect x="309" y="74" width="12" height="12" class="box" />\n<rect x="309" y="89" width="12" height="12" class="box" />\n<rect x="309" y="104" width="12" height="12" class="box" />\n<rect x="309" y="119" width="12" height="12" class="box" />\n<rect x="309" y="134" width="12" height="12" class="box" />\n<rect x="324" y="44" width="12" height="12" class="box" />\n<rect x="324" y="59" width="12" height="12" class="box" />\n<rect x="324" y="74" width="12" height="12" class="box" />\n<rect x="324" y="89" width="12" height="12" class="box" />\n<rect x="324" y="104" width="12" height="12" class="box" />\n<rect x="324" y="119" width="12" height="12" class="box" />\n<rect x="324" y="134" width="12" height="12" class="box" />\n<rect x="339" y="44" width="12" height="12" class="box" />\n<rect x="339" y="59" width="12" height="12" class="box" />\n<rect x="339" y="74" width="12" height="12" class="box" />\n<rect x="339" y="89" width="12" height="12" class="box" />\n<rect x="339" y="104" width="12" height="12" class="box lvl-3" />\n<rect x="339" y="119" width="12" height="12" class="box" />\n<rect x="339" y="134" width="12" height="12" class="box" />\n<rect x="354" y="44" width="12" height="12" class="box" />\n<rect x="354" y="59" width="12" height="12" class="box" />\n<rect x="354" y="74" width="12" height="12" class="box" />\n<rect x="354" y="89" width="12" height="12" class="box" />\n<rect x="354" y="104" width="12" height="12" class="box" />\n<rect x="354" y="119" width="12" height="12" class="box" />\n<rect x="354" y="134" width="12" height="12" class="box" />\n<rect x="369" y="44" width="12" height="12" class="box lvl-1" />\n<rect x="369" y="59" width="12" height="12" class="box" />\n<rect x="369" y="74" width="12" height="12" class="box" />\n<rect x="369" y="89" width="12" height="12" class="box" />\n<rect x="369" y="104" width="12" height="12" class="box" />\n<rect x="369" y="119" width="12" height="12" class="box" />\n<rect x="369" y="134" width="12" height="12" class="box" />\n<rect x="384" y="44" width="12" height="12" class="box" />\n<rect x="384" y="59" width="12" height="12" class="box" />\n<rect x="384" y="74" width="12" height="12" class="box" />\n<rect x="384" y="89" width="12" height="12" class="box" />\n<rect x="384" y="104" width="12" height="12" class="box" />\n<rect x="384" y="119" width="12" height="12" class="box" />\n<rect x="384" y="134" width="12" height="12" class="box" />\n<rect x="399" y="44" width="12" height="12" class="box" />\n<rect x="399" y="59" width="12" height="12" class="box" />\n<rect x="399" y="74" width="12" height="12" class="box" />\n<rect x="399" y="89" width="12" height="12" class="box" />\n<rect x="399" y="104" width="12" height="12" class="box" />\n<rect x="399" y="119" width="12" height="12" class="box lvl-2" />\n<rect x="399" y="134" width="12" height="12" class="box" />\n<rect x="414" y="44" width="12" height="12" class="box lvl-1" />\n<rect x="414" y="59" width="12" height="12" class="box" />\n<rect x="414" y="74" width="12" height="12" class="box" />\n<rect x="414" y="89" width="12" height="12" class="box lvl-4" />\n<rect x="414" y="104" width="12" height="12" class="box" />\n<rect x="414" y="119" width="12" height="12" class="box lvl-1" />\n<rect x="414" y="134" width="12" height="12" class="box" />\n<rect x="429" y="44" width="12" height="12" class="box" />\n<rect x="429" y="59" width="12" height="12" class="box" />\n<rect x="429" y="74" width="12" height="12" class="box" />\n<rect x="429" y="89" width="12" height="12" class="box" />\n<rect x="429" y="104" width="12" height="12" class="box lvl-4" />\n<rect x="429" y="119" width="12" height="12" class="box" />\n<rect x="429" y="134" width="12" height="12" class="box" />\n<rect x="444" y="44" width="12" height="12" class="box" />\n<rect x="444" y="59" width="12" height="12" class="box" />\n<rect x="444" y="74" width="12" height="12" class="box" />\n<rect x="444" y="89" width="12" height="12" class="box" />\n<rect x="444" y="104" width="12" height="12" class="box" />\n<rect x="444" y="119" width="12" height="12" class="box" />\n<rect x="444" y="134" width="12" height="12" class="box" />\n<rect x="459" y="44" width="12" height="12" class="box" />\n<rect x="459" y="59" width="12" height="12" class="box" />\n<rect x="459" y="74" width="12" height="12" class="box" />\n<rect x="459" y="89" width="12" height="12" class="box" />\n<rect x="459" y="104" width="12" height="12" class="box" />\n<rect x="459" y="119" width="12" height="12" class="box" />\n<rect x="459" y="134" width="12" height="12" class="box" />\n<rect x="474" y="44" width="12" height="12" class="box" />\n<rect x="474" y="59" width="12" height="12" class="box" />\n<rect x="474" y="74" width="12" height="12" class="box" />\n<rect x="474" y="89" width="12" height="12" class="box" />\n<rect x="474" y="104" width="12" height="12" class="box" />\n<rect x="474" y="119" width="12" height="12" class="box" />\n<rect x="474" y="134" width="12" height="12" class="box" />\n<rect x="489" y="44" width="12" height="12" class="box" />\n<rect x="489" y="59" width="12" height="12" class="box" />\n<rect x="489" y="74" width="12" height="12" class="box" />\n<rect x="489" y="89" width="12" height="12" class="box" />\n<rect x="489" y="104" width="12" height="12" class="box" />\n<rect x="489" y="119" width="12" height="12" class="box" />\n<rect x="489" y="134" width="12" height="12" class="box" />\n<rect x="504" y="44" width="12" height="12" class="box" />\n<rect x="504" y="59" width="12" height="12" class="box" />\n<rect x="504" y="74" width="12" height="12" class="box" />\n<rect x="504" y="89" width="12" height="12" class="box" />\n<rect x="504" y="104" width="12" height="12" class="box" />\n<rect x="504" y="119" width="12" height="12" class="box" />\n<rect x="504" y="134" width="12" height="12" class="box" />\n<rect x="519" y="44" width="12" height="12" class="box" />\n<rect x="519" y="59" width="12" height="12" class="box" />\n<rect x="519" y="74" width="12" height="12" class="box" />\n<rect x="519" y="89" width="12" height="12" class="box" />\n<rect x="519" y="104" width="12" height="12" class="box" />\n<rect x="519" y="119" width="12" height="12" class="box" />\n<rect x="519" y="134" width="12" height="12" class="box" />\n<rect x="534" y="44" width="12" height="12" class="box" />\n<rect x="534" y="59" width="12" height="12" class="box" />\n<rect x="534" y="74" width="12" height="12" class="box" />\n<rect x="534" y="89" width="12" height="12" class="box" />\n<rect x="534" y="104" width="12" height="12" class="box" />\n<rect x="534" y="119" width="12" height="12" class="box" />\n<rect x="534" y="134" width="12" height="12" class="box" />\n<rect x="549" y="44" width="12" height="12" class="box" />\n<rect x="549" y="59" width="12" height="12" class="box" />\n<rect x="549" y="74" width="12" height="12" class="box" />\n<rect x="549" y="89" width="12" height="12" class="box" />\n<rect x="549" y="104" width="12" height="12" class="box" />\n<rect x="549" y="119" width="12" height="12" class="box" />\n<rect x="549" y="134" width="12" height="12" class="box" />\n<rect x="564" y="44" width="12" height="12" class="box" />\n<rect x="564" y="59" width="12" height="12" class="box" />\n<rect x="564" y="74" width="12" height="12" class="box" />\n<rect x="564" y="89" width="12" height="12" class="box" />\n<rect x="564" y="104" width="12" height="12" class="box lvl-2" />\n<rect x="564" y="119" width="12" height="12" class="box" />\n<rect x="564" y="134" width="12" height="12" class="box lvl-1" />\n<rect x="579" y="44" width="12" height="12" class="box lvl-1" />\n<rect x="579" y="59" width="12" height="12" class="box" />\n<rect x="579" y="74" width="12" height="12" class="box" />\n<rect x="579" y="89" width="12" height="12" class="box" />\n<rect x="579" y="104" width="12" height="12" class="box" />\n<rect x="579" y="119" width="12" height="12" class="box lvl-2" />\n<rect x="579" y="134" width="12" height="12" class="box" />\n<rect x="594" y="44" width="12" height="12" class="box" />\n<rect x="594" y="59" width="12" height="12" class="box" />\n<rect x="594" y="74" width="12" height="12" class="box lvl-1" />\n<rect x="594" y="89" width="12" height="12" class="box" />\n<rect x="594" y="104" width="12" height="12" class="box" />\n<rect x="594" y="119" width="12" height="12" class="box" />\n<rect x="594" y="134" width="12" height="12" class="box" />\n<rect x="609" y="44" width="12" height="12" class="box" />\n<rect x="609" y="59" width="12" height="12" class="box" />\n<rect x="609" y="74" width="12" height="12" class="box" />\n<rect x="609" y="89" width="12" height="12" class="box" />\n<rect x="609" y="104" width="12" height="12" class="box lvl-2" />\n<rect x="609" y="119" width="12" height="12" class="box lvl-4" />\n<rect x="609" y="134" width="12" height="12" class="box lvl-3" />\n<rect x="624" y="44" width="12" height="12" class="box" />\n<rect x="624" y="59" width="12" height="12" class="box lvl-1" />\n<rect x="624" y="74" width="12" height="12" class="box" />\n<rect x="624" y="89" width="12" height="12" class="box" />\n<rect x="624" y="104" width="12" height="12" class="box" />\n<rect x="624" y="119" width="12" height="12" class="box" />\n<rect x="624" y="134" width="12" height="12" class="box" />\n<rect x="639" y="44" width="12" height="12" class="box lvl-2" />\n<rect x="639" y="59" width="12" height="12" class="box" />\n<rect x="639" y="74" width="12" height="12" class="box" />\n<rect x="639" y="89" width="12" height="12" class="box" />\n<rect x="639" y="104" width="12" height="12" class="box" />\n<rect x="639" y="119" width="12" height="12" class="box" />\n<rect x="639" y="134" width="12" height="12" class="box" />\n<rect x="654" y="44" width="12" height="12" class="box" />\n<rect x="654" y="59" width="12" height="12" class="box lvl-1" />\n<rect x="654" y="74" width="12" height="12" class="box" />\n<rect x="654" y="89" width="12" height="12" class="box" />\n<rect x="654" y="104" width="12" height="12" class="box" />\n<rect x="654" y="119" width="12" height="12" class="box" />\n<rect x="654" y="134" width="12" height="12" class="box" />\n<rect x="669" y="44" width="12" height="12" class="box" />\n<rect x="669" y="59" width="12" height="12" class="box" />\n<rect x="669" y="74" width="12" height="12" class="box lvl-1" />\n<rect x="669" y="89" width="12" height="12" class="box" />\n<rect x="669" y="104" width="12" height="12" class="box" />\n<rect x="669" y="119" width="12" height="12" class="box" />\n<rect x="669" y="134" width="12" height="12" class="box" />\n<rect x="684" y="44" width="12" height="12" class="box" />\n<rect x="684" y="59" width="12" height="12" class="box lvl-1" />\n<rect x="684" y="74" width="12" height="12" class="box" />\n<rect x="684" y="89" width="12" height="12" class="box" />\n<rect x="684" y="104" width="12" height="12" class="box lvl-3" />\n<rect x="684" y="119" width="12" height="12" class="box lvl-3" />\n<rect x="684" y="134" width="12" height="12" class="box" />\n<rect x="699" y="44" width="12" height="12" class="box" />\n<rect x="699" y="59" width="12" height="12" class="box" />\n<rect x="699" y="74" width="12" height="12" class="box" />\n<rect x="699" y="89" width="12" height="12" class="box" />\n<rect x="699" y="104" width="12" height="12" class="box" />\n<rect x="699" y="119" width="12" height="12" class="box" />\n<rect x="699" y="134" width="12" height="12" class="box" />\n<rect x="714" y="44" width="12" height="12" class="box" />\n<rect x="714" y="59" width="12" height="12" class="box" />\n<rect x="714" y="74" width="12" height="12" class="box" />\n<rect x="714" y="89" width="12" height="12" class="box" />\n<rect x="714" y="104" width="12" height="12" class="box" />\n<rect x="714" y="119" width="12" height="12" class="box" />\n<rect x="714" y="134" width="12" height="12" class="box" />\n<rect x="729" y="44" width="12" height="12" class="box" />\n<rect x="729" y="59" width="12" height="12" class="box" />\n<rect x="729" y="74" width="12" height="12" class="box" />\n<rect x="729" y="89" width="12" height="12" class="box" />\n<rect x="729" y="104" width="12" height="12" class="box" />\n<rect x="729" y="119" width="12" height="12" class="box" />\n<rect x="729" y="134" width="12" height="12" class="box" />\n<rect x="744" y="44" width="12" height="12" class="box" />\n<rect x="744" y="59" width="12" height="12" class="box" />\n<rect x="744" y="74" width="12" height="12" class="box" />\n<rect x="744" y="89" width="12" height="12" class="box" />\n<rect x="744" y="104" width="12" height="12" class="box" />\n<rect x="744" y="119" width="12" height="12" class="box" />\n<rect x="744" y="134" width="12" height="12" class="box" />\n<rect x="759" y="44" width="12" height="12" class="box lvl-1" />\n<rect x="759" y="59" width="12" height="12" class="box" />\n<rect x="759" y="74" width="12" height="12" class="box lvl-2" />\n<rect x="759" y="89" width="12" height="12" class="box" />\n<rect x="759" y="104" width="12" height="12" class="box" />\n<rect x="759" y="119" width="12" height="12" class="box" />\n<rect x="759" y="134" width="12" height="12" class="box lvl-3" />\n<rect x="774" y="44" width="12" height="12" class="box" />\n<rect x="774" y="59" width="12" height="12" class="box" />\n<rect x="774" y="74" width="12" height="12" class="box" />\n<rect x="774" y="89" width="12" height="12" class="box" />\n<rect x="774" y="104" width="12" height="12" class="box" />\n<rect x="774" y="119" width="12" height="12" class="box" />\n<rect x="774" y="134" width="12" height="12" class="box" />\n<rect x="789" y="44" width="12" height="12" class="box lvl-1" />\n<rect x="789" y="59" width="12" height="12" class="box" />\n<rect x="789" y="74" width="12" height="12" class="box" />\n<rect x="789" y="89" width="12" height="12" class="box" />\n<rect x="789" y="104" width="12" height="12" class="box lvl-2" />\n<rect x="789" y="119" width="12" height="12" class="box" />\n<rect x="789" y="134" width="12" height="12" class="box lvl-1" />\n
+    <!-- The actor group will move across the screen (x, y translation) -->
+    <g class="scene">
+        <!-- The rotation group handles body tilt and swinging pendulum arc -->
+        <g class="actor">
+            <!-- Web line relative to spidey's position -->
+            <line x1="20" y1="-60" x2="20" y2="0" class="web" />
+            
+            <g transform="translate(0, 0)">
+                <!-- Back Arm and Leg (Left) -->
+                <rect class="arm-left" x="8" y="27" width="7" height="16" rx="3.5" fill="url(#armGrad)" stroke="#7a0000" stroke-width="1"/>
+                <rect class="leg-left" x="10" y="38" width="8" height="15" rx="4" fill="url(#legGrad)" stroke="#7a0000" stroke-width="1"/>
+                
+                <!-- Torso -->
+                <rect class="spidey-torso" x="10" y="26" width="20" height="18" rx="6" fill="#ff2a2a" stroke="#7a0000" stroke-width="1"/>
+                <!-- Torso blue sides -->
+                <rect x="10" y="28" width="4" height="14" rx="2" fill="#0d47a1" />
+                <rect x="26" y="28" width="4" height="14" rx="2" fill="#0d47a1" />
+                <!-- Chest Logo (Spider) -->
+                <ellipse cx="20" cy="34" rx="1.5" ry="2.5" fill="black" />
+                <line x1="16" y1="33" x2="24" y2="35" stroke="black" stroke-width="1" />
+                <line x1="16" y1="35" x2="24" y2="33" stroke="black" stroke-width="1" />
+                
+                <!-- Front Arm and Leg (Right) -->
+                <rect class="arm-right" x="25" y="27" width="7" height="16" rx="3.5" fill="url(#armGrad)" stroke="#7a0000" stroke-width="1"/>
+                <rect class="leg-right" x="22" y="38" width="8" height="15" rx="4" fill="url(#legGrad)" stroke="#7a0000" stroke-width="1"/>
+                
+                <!-- Head -->
+                <g class="head">
+                    <rect x="4" y="0" width="32" height="30" rx="15" fill="url(#headGrad)" stroke="#7a0000" stroke-width="1"/>
+                    <!-- Eyes -->
+                    <!-- Left Eye -->
+                    <path d="M 6,15 Q 12,8 18,15 Q 12,23 6,15 Z" fill="white" stroke="black" stroke-width="1.5" transform="rotate(15 12 15)" />
+                    <!-- Right Eye -->
+                    <path d="M 22,15 Q 28,8 34,15 Q 28,23 22,15 Z" fill="white" stroke="black" stroke-width="1.5" transform="rotate(-15 28 15)" />
+                </g>
+            </g>
+        </g>
+    </g>
+\n</svg>
