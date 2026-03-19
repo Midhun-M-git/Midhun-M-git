@@ -44,7 +44,7 @@
         0% { transform: rotate(-3deg); }
         100% { transform: rotate(3deg); }
     }
-\n</style>\n<text x="400" y="65" text-anchor="middle" alignment-baseline="middle" class="title" fill="url(#textGrad)">🚀 Architecting Robust AI &amp; Security Solutions</text>\n
+\n</style>\n<text x="400" y="65" text-anchor="middle" alignment-baseline="middle" class="title" fill="#ff3b30">🕷️ Welcome to My Digital Workspace</text>\n
 <g class="web-line">
     <path d="M 0 0 L 120 0 M 0 0 L 100 40 M 0 0 L 60 80 M 0 0 L 20 110 M 0 0 L 0 120" />
     <path d="M 40 0 Q 35 15 10 30 M 70 0 Q 60 25 20 60 M 100 0 Q 80 40 30 90 M 120 0 Q 90 60 0 110" />
