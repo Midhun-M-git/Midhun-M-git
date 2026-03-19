@@ -74,11 +74,7 @@ As a founder and developer, my most complex work—including proprietary startup
 ### 🏆 Achievements & Impact
 
 <div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Midhun-M-git&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="Midhun's Trophies" />
-  </a>
-
-  <br><br>
+  
   
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=Midhun-M-git&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false" width="48%" />
   
