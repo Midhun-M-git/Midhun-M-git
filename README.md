@@ -36,15 +36,7 @@
       <p align="center">
         <!-- Animated icons and shields -->
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=py,js,dart,cpp&perline=4" alt="Languages" />
-        </a>
-        <br><br>
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=flutter,fastapi,nodejs,docker,git&perline=5" alt="Frameworks" />
-        </a>
-        <br><br>
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,linux&perline=4" alt="AI & Security" />
+          <img src="https://skillicons.dev/icons?i=c,java,py,flutter&perline=4" alt="Core Skills" />
         </a>
       </p>
     </td>
