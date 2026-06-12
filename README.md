@@ -22,7 +22,7 @@
   <tr>
     <td width="55%" valign="top">
       <h3>👨💻 Executive Summary</h3>
-      <p>I am a Computer Science Engineer and the <b>Founder of <a href="https://novustech.in">NovusTech.in</a></b>. I specialize in bridging the gap between cutting-edge AI research and robust, secure software architecture.</p>
+      <p>I am a Computer Science Engineer . I specialize in bridging the gap between cutting-edge AI research and robust, secure software architecture.</p>
       <ul>
         <li>🚀 <b>Startup:</b> Bootstrapping innovative tech solutions at NovusTech</li>
         <li>🧠 <b>Focus Areas:</b> Computer Vision, Threat Modeling, Mobile & Web</li>
