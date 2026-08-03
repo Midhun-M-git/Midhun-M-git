@@ -22,11 +22,10 @@
   <tr>
     <td width="55%" valign="top">
       <h3>👨💻 Executive Summary</h3>
-      <p>I am a Computer Science Engineer . I specialize in bridging the gap between cutting-edge AI research and robust, secure software architecture.</p>
+      <p>I am a Computer Science Student</p>
       <ul>
-        <li>🚀 <b>Startup:</b> Bootstrapping innovative tech solutions at NovusTech</li>
-        <li>🧠 <b>Focus Areas:</b> Computer Vision, Threat Modeling, Mobile & Web</li>
-        <li>🚂 <b>Industry Exp:</b> Signal & Telecom engineering, Southern Railway</li>
+        <li>🧠 <b>Focus Areas:</b> Software Development, Software Testing and Automation</li>
+        <li>🚂 <b>Industry Exp:</b>Software intern @ ZENDALONA</li>
         <li>🤝 <b>Leadership:</b> IEDC ASET TECH LEAD (2025-26), COLLEGE UNION GENERAL SECRETARY (2025-26), KBA STUDENT LEAD (2025-26)</li>
       </ul>
       <p><i>"Building solutions that scale beyond code."</i></p>
