@@ -63,8 +63,8 @@ I am a Computer Science student and software engineer focusing on building scala
 ## Analytics & Activity
 
 <div align="center">
-  <!-- Spiderman Swinging contribution graph (Static Pose Blueprint Inspection Mode) -->
-  <img src="spidey_contribution.svg?v=20260807_STATIC_BLUEPRINT" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 900px;" />
+  <!-- Spiderman Swinging contribution graph (Static Pose Blueprint V2 Mode) -->
+  <img src="spidey_contribution.svg?v=20260807_STATIC_V2_EXACT" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 900px;" />
 </div>
 
 <br />
