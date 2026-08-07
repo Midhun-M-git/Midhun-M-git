@@ -25,10 +25,9 @@
     .bg { fill: transparent; }
     .contrib-cell { transition: fill 0.3s ease; }
 
-    /* Pure Static Mode: All animations temporarily disabled for pose inspection */
     .thin-web-line {
       stroke: #ffffff;
-      stroke-width: 1.8;
+      stroke-width: 2;
       stroke-linecap: round;
       fill: none;
       filter: url(#subtleWebGlow);
@@ -41,543 +40,541 @@
 
   <!-- GitHub Activity Contribution Grid (53 Weeks x 7 Days) -->
   <g id="contribution-grid">
-        <rect id="cell_0_0" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_0_1" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_0_2" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_0_3" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_0_4" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_0_5" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_0_6" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_1_0" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_1_1" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_1_2" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_1_3" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_1_4" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_1_5" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_1_6" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_2_0" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_2_1" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_2_2" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_2_3" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_2_4" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_2_5" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_2_6" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_3_0" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_3_1" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_3_2" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_3_3" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_3_4" class="contrib-cell cell-w3" fill="#0e4429" rx="2" ry="2" x="130.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_3_5" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_3_6" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_4_0" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_4_1" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_4_2" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_4_3" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_4_4" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_4_5" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_4_6" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_5_0" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_5_1" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_5_2" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_5_3" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_5_4" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_5_5" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_5_6" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_6_0" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_6_1" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_6_2" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_6_3" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_6_4" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_6_5" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_6_6" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_7_0" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_7_1" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_7_2" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_7_3" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_7_4" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_7_5" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_7_6" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_8_0" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_8_1" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_8_2" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_8_3" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_8_4" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_8_5" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_8_6" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_9_0" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_9_1" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_9_2" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_9_3" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_9_4" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_9_5" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_9_6" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_10_0" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_10_1" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_10_2" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_10_3" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_10_4" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_10_5" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_10_6" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_11_0" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_11_1" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_11_2" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_11_3" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_11_4" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_11_5" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_11_6" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_12_0" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_12_1" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_12_2" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_12_3" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_12_4" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_12_5" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_12_6" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_13_0" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_13_1" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_13_2" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_13_3" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_13_4" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_13_5" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_13_6" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_14_0" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_14_1" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_14_2" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_14_3" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_14_4" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_14_5" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_14_6" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_15_0" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_15_1" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_15_2" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_15_3" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_15_4" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_15_5" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_15_6" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_16_0" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_16_1" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_16_2" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_16_3" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_16_4" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_16_5" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_16_6" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_17_0" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_17_1" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_17_2" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_17_3" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_17_4" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_17_5" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_17_6" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_18_0" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_18_1" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_18_2" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_18_3" class="contrib-cell cell-w18" fill="#006d32" rx="2" ry="2" x="333.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_18_4" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_18_5" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_18_6" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_19_0" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_19_1" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_19_2" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_19_3" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_19_4" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_19_5" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_19_6" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_20_0" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_20_1" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_20_2" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_20_3" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_20_4" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_20_5" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_20_6" class="contrib-cell cell-w20" fill="#006d32" rx="2" ry="2" x="360.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_21_0" class="contrib-cell cell-w21" fill="#006d32" rx="2" ry="2" x="373.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_21_1" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_21_2" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_21_3" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_21_4" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_21_5" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_21_6" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_22_0" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_22_1" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_22_2" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_22_3" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_22_4" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_22_5" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_22_6" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_23_0" class="contrib-cell cell-w23" fill="#161b22" rx="2" ry="2" x="400.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_23_1" class="contrib-cell cell-w23" fill="#006d32" rx="2" ry="2" x="400.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_23_2" class="contrib-cell cell-w23" fill="#161b22" rx="2" ry="2" x="400.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_23_3" class="contrib-cell cell-w23" fill="#0e4429" rx="2" ry="2" x="400.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_23_4" class="contrib-cell cell-w23" fill="#161b22" rx="2" ry="2" x="400.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_23_5" class="contrib-cell cell-w23" fill="#0e4429" rx="2" ry="2" x="400.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_23_6" class="contrib-cell cell-w23" fill="#0e4429" rx="2" ry="2" x="400.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_24_0" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_24_1" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_24_2" class="contrib-cell cell-w24" fill="#0e4429" rx="2" ry="2" x="414.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_24_3" class="contrib-cell cell-w24" fill="#0e4429" rx="2" ry="2" x="414.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_24_4" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_24_5" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_24_6" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_25_0" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_25_1" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_25_2" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_25_3" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_25_4" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_25_5" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_25_6" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_26_0" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_26_1" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_26_2" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_26_3" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_26_4" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_26_5" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_26_6" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_27_0" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_27_1" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_27_2" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_27_3" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_27_4" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_27_5" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_27_6" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_28_0" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_28_1" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_28_2" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_28_3" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_28_4" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_28_5" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_28_6" class="contrib-cell cell-w28" fill="#0e4429" rx="2" ry="2" x="468.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_29_0" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_29_1" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_29_2" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_29_3" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_29_4" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_29_5" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_29_6" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_30_0" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_30_1" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_30_2" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_30_3" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_30_4" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_30_5" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_30_6" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_31_0" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_31_1" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_31_2" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_31_3" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_31_4" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_31_5" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_31_6" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_32_0" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_32_1" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_32_2" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_32_3" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_32_4" class="contrib-cell cell-w32" fill="#39d353" rx="2" ry="2" x="522.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_32_5" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_32_6" class="contrib-cell cell-w32" fill="#006d32" rx="2" ry="2" x="522.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_33_0" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_33_1" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_33_2" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_33_3" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_33_4" class="contrib-cell cell-w33" fill="#0e4429" rx="2" ry="2" x="535.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_33_5" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_33_6" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_34_0" class="contrib-cell cell-w34" fill="#0e4429" rx="2" ry="2" x="549.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_34_1" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_34_2" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_34_3" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_34_4" class="contrib-cell cell-w34" fill="#0e4429" rx="2" ry="2" x="549.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_34_5" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_34_6" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_35_0" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_35_1" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_35_2" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_35_3" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_35_4" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_35_5" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_35_6" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_36_0" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_36_1" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_36_2" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_36_3" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_36_4" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_36_5" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_36_6" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_37_0" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_37_1" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_37_2" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_37_3" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_37_4" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_37_5" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_37_6" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_38_0" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_38_1" class="contrib-cell cell-w38" fill="#0e4429" rx="2" ry="2" x="603.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_38_2" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_38_3" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_38_4" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_38_5" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_38_6" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_39_0" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_39_1" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_39_2" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_39_3" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_39_4" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_39_5" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_39_6" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_40_0" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_40_1" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_40_2" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_40_3" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_40_4" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_40_5" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_40_6" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_41_0" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_41_1" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_41_2" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_41_3" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_41_4" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_41_5" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_41_6" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_42_0" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_42_1" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_42_2" class="contrib-cell cell-w42" fill="#0e4429" rx="2" ry="2" x="657.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_42_3" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_42_4" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_42_5" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_42_6" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_43_0" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_43_1" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_43_2" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_43_3" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_43_4" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_43_5" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_43_6" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_44_0" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_44_1" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_44_2" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_44_3" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_44_4" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_44_5" class="contrib-cell cell-w44" fill="#0e4429" rx="2" ry="2" x="684.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_44_6" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_45_0" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_45_1" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_45_2" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_45_3" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_45_4" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_45_5" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_45_6" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_46_0" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_46_1" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_46_2" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_46_3" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_46_4" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_46_5" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_46_6" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_47_0" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_47_1" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_47_2" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_47_3" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_47_4" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_47_5" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_47_6" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_48_0" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_48_1" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_48_2" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_48_3" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_48_4" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_48_5" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_48_6" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_49_0" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_49_1" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_49_2" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_49_3" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_49_4" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_49_5" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_49_6" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_50_0" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_50_1" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_50_2" class="contrib-cell cell-w50" fill="#161b22" rx="2" ry="2" x="765.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_50_3" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_50_4" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_50_5" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_50_6" class="contrib-cell cell-w50" fill="#161b22" rx="2" ry="2" x="765.0" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_51_0" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_51_1" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_51_2" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_51_3" class="contrib-cell cell-w51" fill="#0e4429" rx="2" ry="2" x="778.5" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_51_4" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_51_5" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="182.5" width="10.5" height="10.5" />
-        <rect id="cell_51_6" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="195.0" width="10.5" height="10.5" />
-        <rect id="cell_52_0" class="contrib-cell cell-w52" fill="#161b22" rx="2" ry="2" x="792.0" y="120.0" width="10.5" height="10.5" />
-        <rect id="cell_52_1" class="contrib-cell cell-w52" fill="#0e4429" rx="2" ry="2" x="792.0" y="132.5" width="10.5" height="10.5" />
-        <rect id="cell_52_2" class="contrib-cell cell-w52" fill="#161b22" rx="2" ry="2" x="792.0" y="145.0" width="10.5" height="10.5" />
-        <rect id="cell_52_3" class="contrib-cell cell-w52" fill="#161b22" rx="2" ry="2" x="792.0" y="157.5" width="10.5" height="10.5" />
-        <rect id="cell_52_4" class="contrib-cell cell-w52" fill="#006d32" rx="2" ry="2" x="792.0" y="170.0" width="10.5" height="10.5" />
-        <rect id="cell_52_5" class="contrib-cell cell-w52" fill="#0e4429" rx="2" ry="2" x="792.0" y="182.5" width="10.5" height="10.5" />
+        <rect id="cell_0_0" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_0_1" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_0_2" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_0_3" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_0_4" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_0_5" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_0_6" class="contrib-cell cell-w0" fill="#161b22" rx="2" ry="2" x="90.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_1_0" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_1_1" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_1_2" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_1_3" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_1_4" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_1_5" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_1_6" class="contrib-cell cell-w1" fill="#161b22" rx="2" ry="2" x="103.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_2_0" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_2_1" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_2_2" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_2_3" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_2_4" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_2_5" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_2_6" class="contrib-cell cell-w2" fill="#161b22" rx="2" ry="2" x="117.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_3_0" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_3_1" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_3_2" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_3_3" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_3_4" class="contrib-cell cell-w3" fill="#0e4429" rx="2" ry="2" x="130.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_3_5" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_3_6" class="contrib-cell cell-w3" fill="#161b22" rx="2" ry="2" x="130.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_4_0" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_4_1" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_4_2" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_4_3" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_4_4" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_4_5" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_4_6" class="contrib-cell cell-w4" fill="#161b22" rx="2" ry="2" x="144.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_5_0" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_5_1" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_5_2" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_5_3" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_5_4" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_5_5" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_5_6" class="contrib-cell cell-w5" fill="#161b22" rx="2" ry="2" x="157.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_6_0" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_6_1" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_6_2" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_6_3" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_6_4" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_6_5" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_6_6" class="contrib-cell cell-w6" fill="#161b22" rx="2" ry="2" x="171.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_7_0" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_7_1" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_7_2" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_7_3" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_7_4" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_7_5" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_7_6" class="contrib-cell cell-w7" fill="#161b22" rx="2" ry="2" x="184.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_8_0" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_8_1" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_8_2" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_8_3" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_8_4" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_8_5" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_8_6" class="contrib-cell cell-w8" fill="#161b22" rx="2" ry="2" x="198.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_9_0" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_9_1" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_9_2" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_9_3" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_9_4" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_9_5" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_9_6" class="contrib-cell cell-w9" fill="#161b22" rx="2" ry="2" x="211.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_10_0" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_10_1" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_10_2" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_10_3" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_10_4" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_10_5" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_10_6" class="contrib-cell cell-w10" fill="#161b22" rx="2" ry="2" x="225.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_11_0" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_11_1" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_11_2" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_11_3" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_11_4" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_11_5" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_11_6" class="contrib-cell cell-w11" fill="#161b22" rx="2" ry="2" x="238.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_12_0" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_12_1" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_12_2" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_12_3" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_12_4" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_12_5" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_12_6" class="contrib-cell cell-w12" fill="#161b22" rx="2" ry="2" x="252.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_13_0" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_13_1" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_13_2" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_13_3" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_13_4" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_13_5" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_13_6" class="contrib-cell cell-w13" fill="#161b22" rx="2" ry="2" x="265.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_14_0" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_14_1" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_14_2" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_14_3" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_14_4" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_14_5" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_14_6" class="contrib-cell cell-w14" fill="#161b22" rx="2" ry="2" x="279.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_15_0" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_15_1" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_15_2" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_15_3" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_15_4" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_15_5" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_15_6" class="contrib-cell cell-w15" fill="#161b22" rx="2" ry="2" x="292.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_16_0" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_16_1" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_16_2" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_16_3" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_16_4" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_16_5" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_16_6" class="contrib-cell cell-w16" fill="#161b22" rx="2" ry="2" x="306.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_17_0" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_17_1" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_17_2" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_17_3" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_17_4" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_17_5" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_17_6" class="contrib-cell cell-w17" fill="#161b22" rx="2" ry="2" x="319.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_18_0" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_18_1" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_18_2" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_18_3" class="contrib-cell cell-w18" fill="#006d32" rx="2" ry="2" x="333.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_18_4" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_18_5" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_18_6" class="contrib-cell cell-w18" fill="#161b22" rx="2" ry="2" x="333.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_19_0" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_19_1" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_19_2" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_19_3" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_19_4" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_19_5" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_19_6" class="contrib-cell cell-w19" fill="#161b22" rx="2" ry="2" x="346.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_20_0" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_20_1" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_20_2" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_20_3" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_20_4" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_20_5" class="contrib-cell cell-w20" fill="#161b22" rx="2" ry="2" x="360.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_20_6" class="contrib-cell cell-w20" fill="#006d32" rx="2" ry="2" x="360.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_21_0" class="contrib-cell cell-w21" fill="#006d32" rx="2" ry="2" x="373.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_21_1" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_21_2" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_21_3" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_21_4" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_21_5" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_21_6" class="contrib-cell cell-w21" fill="#161b22" rx="2" ry="2" x="373.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_22_0" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_22_1" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_22_2" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_22_3" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_22_4" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_22_5" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_22_6" class="contrib-cell cell-w22" fill="#161b22" rx="2" ry="2" x="387.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_23_0" class="contrib-cell cell-w23" fill="#161b22" rx="2" ry="2" x="400.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_23_1" class="contrib-cell cell-w23" fill="#006d32" rx="2" ry="2" x="400.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_23_2" class="contrib-cell cell-w23" fill="#161b22" rx="2" ry="2" x="400.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_23_3" class="contrib-cell cell-w23" fill="#0e4429" rx="2" ry="2" x="400.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_23_4" class="contrib-cell cell-w23" fill="#161b22" rx="2" ry="2" x="400.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_23_5" class="contrib-cell cell-w23" fill="#0e4429" rx="2" ry="2" x="400.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_23_6" class="contrib-cell cell-w23" fill="#0e4429" rx="2" ry="2" x="400.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_24_0" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_24_1" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_24_2" class="contrib-cell cell-w24" fill="#0e4429" rx="2" ry="2" x="414.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_24_3" class="contrib-cell cell-w24" fill="#0e4429" rx="2" ry="2" x="414.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_24_4" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_24_5" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_24_6" class="contrib-cell cell-w24" fill="#161b22" rx="2" ry="2" x="414.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_25_0" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_25_1" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_25_2" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_25_3" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_25_4" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_25_5" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_25_6" class="contrib-cell cell-w25" fill="#161b22" rx="2" ry="2" x="427.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_26_0" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_26_1" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_26_2" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_26_3" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_26_4" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_26_5" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_26_6" class="contrib-cell cell-w26" fill="#161b22" rx="2" ry="2" x="441.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_27_0" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_27_1" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_27_2" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_27_3" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_27_4" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_27_5" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_27_6" class="contrib-cell cell-w27" fill="#161b22" rx="2" ry="2" x="454.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_28_0" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_28_1" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_28_2" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_28_3" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_28_4" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_28_5" class="contrib-cell cell-w28" fill="#161b22" rx="2" ry="2" x="468.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_28_6" class="contrib-cell cell-w28" fill="#0e4429" rx="2" ry="2" x="468.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_29_0" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_29_1" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_29_2" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_29_3" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_29_4" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_29_5" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_29_6" class="contrib-cell cell-w29" fill="#161b22" rx="2" ry="2" x="481.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_30_0" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_30_1" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_30_2" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_30_3" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_30_4" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_30_5" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_30_6" class="contrib-cell cell-w30" fill="#161b22" rx="2" ry="2" x="495.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_31_0" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_31_1" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_31_2" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_31_3" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_31_4" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_31_5" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_31_6" class="contrib-cell cell-w31" fill="#161b22" rx="2" ry="2" x="508.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_32_0" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_32_1" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_32_2" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_32_3" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_32_4" class="contrib-cell cell-w32" fill="#39d353" rx="2" ry="2" x="522.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_32_5" class="contrib-cell cell-w32" fill="#161b22" rx="2" ry="2" x="522.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_32_6" class="contrib-cell cell-w32" fill="#006d32" rx="2" ry="2" x="522.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_33_0" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_33_1" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_33_2" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_33_3" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_33_4" class="contrib-cell cell-w33" fill="#0e4429" rx="2" ry="2" x="535.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_33_5" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_33_6" class="contrib-cell cell-w33" fill="#161b22" rx="2" ry="2" x="535.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_34_0" class="contrib-cell cell-w34" fill="#0e4429" rx="2" ry="2" x="549.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_34_1" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_34_2" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_34_3" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_34_4" class="contrib-cell cell-w34" fill="#0e4429" rx="2" ry="2" x="549.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_34_5" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_34_6" class="contrib-cell cell-w34" fill="#161b22" rx="2" ry="2" x="549.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_35_0" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_35_1" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_35_2" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_35_3" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_35_4" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_35_5" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_35_6" class="contrib-cell cell-w35" fill="#161b22" rx="2" ry="2" x="562.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_36_0" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_36_1" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_36_2" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_36_3" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_36_4" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_36_5" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_36_6" class="contrib-cell cell-w36" fill="#161b22" rx="2" ry="2" x="576.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_37_0" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_37_1" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_37_2" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_37_3" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_37_4" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_37_5" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_37_6" class="contrib-cell cell-w37" fill="#161b22" rx="2" ry="2" x="589.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_38_0" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_38_1" class="contrib-cell cell-w38" fill="#0e4429" rx="2" ry="2" x="603.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_38_2" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_38_3" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_38_4" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_38_5" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_38_6" class="contrib-cell cell-w38" fill="#161b22" rx="2" ry="2" x="603.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_39_0" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_39_1" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_39_2" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_39_3" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_39_4" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_39_5" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_39_6" class="contrib-cell cell-w39" fill="#161b22" rx="2" ry="2" x="616.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_40_0" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_40_1" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_40_2" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_40_3" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_40_4" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_40_5" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_40_6" class="contrib-cell cell-w40" fill="#161b22" rx="2" ry="2" x="630.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_41_0" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_41_1" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_41_2" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_41_3" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_41_4" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_41_5" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_41_6" class="contrib-cell cell-w41" fill="#161b22" rx="2" ry="2" x="643.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_42_0" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_42_1" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_42_2" class="contrib-cell cell-w42" fill="#0e4429" rx="2" ry="2" x="657.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_42_3" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_42_4" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_42_5" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_42_6" class="contrib-cell cell-w42" fill="#161b22" rx="2" ry="2" x="657.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_43_0" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_43_1" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_43_2" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_43_3" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_43_4" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_43_5" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_43_6" class="contrib-cell cell-w43" fill="#161b22" rx="2" ry="2" x="670.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_44_0" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_44_1" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_44_2" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_44_3" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_44_4" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_44_5" class="contrib-cell cell-w44" fill="#0e4429" rx="2" ry="2" x="684.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_44_6" class="contrib-cell cell-w44" fill="#161b22" rx="2" ry="2" x="684.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_45_0" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_45_1" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_45_2" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_45_3" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_45_4" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_45_5" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_45_6" class="contrib-cell cell-w45" fill="#161b22" rx="2" ry="2" x="697.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_46_0" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_46_1" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_46_2" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_46_3" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_46_4" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_46_5" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_46_6" class="contrib-cell cell-w46" fill="#161b22" rx="2" ry="2" x="711.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_47_0" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_47_1" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_47_2" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_47_3" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_47_4" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_47_5" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_47_6" class="contrib-cell cell-w47" fill="#161b22" rx="2" ry="2" x="724.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_48_0" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_48_1" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_48_2" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_48_3" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_48_4" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_48_5" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_48_6" class="contrib-cell cell-w48" fill="#161b22" rx="2" ry="2" x="738.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_49_0" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_49_1" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_49_2" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_49_3" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_49_4" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_49_5" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_49_6" class="contrib-cell cell-w49" fill="#161b22" rx="2" ry="2" x="751.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_50_0" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_50_1" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_50_2" class="contrib-cell cell-w50" fill="#161b22" rx="2" ry="2" x="765.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_50_3" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_50_4" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_50_5" class="contrib-cell cell-w50" fill="#0e4429" rx="2" ry="2" x="765.0" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_50_6" class="contrib-cell cell-w50" fill="#161b22" rx="2" ry="2" x="765.0" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_51_0" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_51_1" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_51_2" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_51_3" class="contrib-cell cell-w51" fill="#0e4429" rx="2" ry="2" x="778.5" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_51_4" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_51_5" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="187.5" width="10.5" height="10.5" />
+        <rect id="cell_51_6" class="contrib-cell cell-w51" fill="#161b22" rx="2" ry="2" x="778.5" y="200.0" width="10.5" height="10.5" />
+        <rect id="cell_52_0" class="contrib-cell cell-w52" fill="#161b22" rx="2" ry="2" x="792.0" y="125.0" width="10.5" height="10.5" />
+        <rect id="cell_52_1" class="contrib-cell cell-w52" fill="#0e4429" rx="2" ry="2" x="792.0" y="137.5" width="10.5" height="10.5" />
+        <rect id="cell_52_2" class="contrib-cell cell-w52" fill="#161b22" rx="2" ry="2" x="792.0" y="150.0" width="10.5" height="10.5" />
+        <rect id="cell_52_3" class="contrib-cell cell-w52" fill="#161b22" rx="2" ry="2" x="792.0" y="162.5" width="10.5" height="10.5" />
+        <rect id="cell_52_4" class="contrib-cell cell-w52" fill="#006d32" rx="2" ry="2" x="792.0" y="175.0" width="10.5" height="10.5" />
+        <rect id="cell_52_5" class="contrib-cell cell-w52" fill="#0e4429" rx="2" ry="2" x="792.0" y="187.5" width="10.5" height="10.5" />
   </g>
 
-  <!-- LEFT WEB ANCHOR NODE (270, 15) -->
-  <g id="left-anchor" transform="translate(270, 15)">
-    <path d="M 0,0 L -10,-6 M 0,0 L 10,-6 M 0,0 L -12,3 M 0,0 L 12,3 M 0,0 L 0,-10 M 0,0 L 0,8" stroke="#ffffff" stroke-width="1.2" opacity="0.8" />
+  <!-- LEFT WEB ANCHOR NODE (260, 15) -->
+  <g id="left-anchor" transform="translate(260, 15)">
+    <path d="M 0,0 L -12,-8 M 0,0 L 12,-8 M 0,0 L -14,4 M 0,0 L 14,4 M 0,0 L 0,-12 M 0,0 L 0,10" stroke="#ffffff" stroke-width="1.2" opacity="0.8" />
     <circle cx="0" cy="0" r="3" fill="#ffffff" />
   </g>
 
-  <!-- RIGHT WEB ANCHOR NODE (630, 15) -->
-  <g id="right-anchor" transform="translate(630, 15)">
-    <path d="M 0,0 L -10,-6 M 0,0 L 10,-6 M 0,0 L -12,3 M 0,0 L 12,3 M 0,0 L 0,-10 M 0,0 L 0,8" stroke="#ffffff" stroke-width="1.2" opacity="0.8" />
+  <!-- RIGHT WEB ANCHOR NODE (640, 15) -->
+  <g id="right-anchor" transform="translate(640, 15)">
+    <path d="M 0,0 L -12,-8 M 0,0 L 12,-8 M 0,0 L -14,4 M 0,0 L 14,4 M 0,0 L 0,-12 M 0,0 L 0,10" stroke="#ffffff" stroke-width="1.2" opacity="0.8" />
     <circle cx="0" cy="0" r="3" fill="#ffffff" />
   </g>
 
   <!-- 
     DUAL CONTINUOUS CURVED WEB STRANDS
-    Left Web: Left Anchor (270, 15) -> Left Wrist (355, 62)
-    Right Web: Right Anchor (630, 15) -> Right Wrist (548, 65)
+    Left Web: Left Anchor (260, 15) -> Left Wrist (350, 52)
+    Right Web: Right Anchor (640, 15) -> Right Wrist (550, 55)
   -->
   <g id="dual-web-strands">
     <!-- Left Web Curve -->
-    <path class="thin-web-line" d="M 270,15 Q 310,38 355,62" />
-    <path d="M 270,15 Q 320,35 355,62" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.6" />
+    <path class="thin-web-line" d="M 260,15 Q 300,32 350,52" />
+    <path d="M 260,15 Q 310,30 350,52" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.6" />
     
     <!-- Right Web Curve -->
-    <path class="thin-web-line" d="M 630,15 Q 590,42 548,65" />
-    <path d="M 630,15 Q 580,38 548,65" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.6" />
+    <path class="thin-web-line" d="M 640,15 Q 600,35 550,55" />
+    <path d="M 640,15 Q 590,32 550,55" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.6" />
   </g>
 
   <!-- 
     ========================================================================
-    STATIC POSE BLUEPRINT — EXACT SECOND REFERENCE IMAGE RECREATION
-    EXACTLY ONE CHARACTER INSTANCE (Zero duplicates / zero stray artifacts)
+    MASTERWORK SPIDER-MAN CHARACTER (ATHLETIC HERO-SCALE RE-PROPORTIONED)
     ========================================================================
-    Pose Features:
-    - Left Arm: Extended up-left to Left Wrist (355, 62)
-    - Right Arm: Extended up-right with bent elbow to Right Wrist (548, 65)
-    - Torso: Leaning diagonally from (425, 95) to (460, 140)
-    - Left Leg: STRONGLY BENT KNEE sticking out sideways at (375, 155), calf folding back
-    - Right Leg: EXTENDED DOWNWARD/BACKWARD to Foot at (518, 220)
-    - Head: Centered facing 3-quarter forward at (450, 80)
+    - Broad Shoulders (415, 102) & (485, 102)
+    - 1.8x Longer Muscular Chest & Abdomen down to Hips at (450, 155)
+    - Both Arms extend UPWARD/OUTWARD forming a wide V-Shape to Wrists (350, 52) and (550, 55) well ABOVE shoulder line
+    - 1.3x Longer Muscular Legs:
+      - Left Leg: STRONGLY BENT KNEE at (360, 165) sticking out sideways/upward, calf folded back to (415, 205)
+      - Right Leg: POWERFUL EXTENDED LEG stretching down to Foot at (525, 242)
   -->
   <g id="spiderman">
 
-    <!-- 1. RIGHT EXTENDED LEG (Extending downward/backward) -->
-    <g id="right-leg">
+    <!-- 1. RIGHT EXTENDED LEG (Long, powerful muscle leg extending downward) -->
+    <g id="right-leg-extended">
       <!-- Thigh (Deep Blue) -->
-      <path d="M 460,140 C 474,152 488,172 496,192 C 486,196 472,182 456,160 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="1.8" stroke-linejoin="round" />
-      <path d="M 468,148 C 476,158 484,172 488,186" fill="none" stroke="#2196f3" stroke-width="2" opacity="0.45" />
-      <!-- Boot & Calf -->
-      <path d="M 496,192 C 502,206 512,224 508,236 C 498,240 488,230 484,214 C 484,204 488,194 496,192 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 465,155 C 480,168 496,190 504,212 C 492,216 476,200 460,175 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 474,164 C 484,176 492,192 496,206" fill="none" stroke="#2196f3" stroke-width="2.2" opacity="0.45" />
+      <!-- Boot & Calf (Red Suit) -->
+      <path d="M 504,212 C 512,226 524,246 520,258 C 508,262 496,250 490,232 C 490,220 496,212 504,212 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2" stroke-linejoin="round" />
       <!-- Boot Web Mesh -->
-      <path d="M 496,196 Q 502,208 505,226 M 492,208 Q 498,214 502,222 M 496,192 L 502,232" stroke="#111111" stroke-width="0.8" fill="none" opacity="0.7" />
+      <path d="M 504,216 Q 512,228 515,248 M 498,228 Q 506,234 510,242 M 504,212 L 512,254" stroke="#111111" stroke-width="0.9" fill="none" opacity="0.7" />
       <!-- Boot Sole -->
-      <path d="M 508,236 C 512,240 506,244 498,241 C 492,238 490,234 490,234 Z" fill="#8b0000" stroke="#000000" stroke-width="1.4" />
+      <path d="M 520,258 C 524,262 518,266 508,263 C 500,260 498,256 498,256 Z" fill="#8b0000" stroke="#000000" stroke-width="1.4" />
     </g>
 
     <!-- 
-      2. LEFT BENT KNEE LEG — PROMINENT BENT KNEE SILHOUETTE
-      Thigh extends sideways/upward to Knee at (375, 155), calf folds back to Foot at (425, 195)
+      2. LEFT BENT KNEE LEG — PROMINENT STRONGLY BENT KNEE SILHOUETTE
+      Thigh extends sideways/upward to Knee at (360, 165), calf folds back to Foot at (415, 205)
     -->
-    <g id="left-leg">
-      <!-- Thigh extending sideways/upward from Hip (440, 140) to Knee (375, 155) -->
-      <path d="M 440,140 C 420,143 400,148 375,155 C 385,164 405,158 424,149 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="2" stroke-linejoin="round" />
-      <path d="M 428,143 C 414,147 400,152 388,155" fill="none" stroke="#2196f3" stroke-width="2.5" opacity="0.5" />
+    <g id="left-leg-bent">
+      <!-- Thigh extending sideways/upward from Hip (435, 155) to Knee (360, 165) -->
+      <path d="M 435,155 C 412,158 388,160 360,165 C 372,176 396,170 418,160 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="2.2" stroke-linejoin="round" />
+      <path d="M 425,158 C 408,162 392,164 375,166" fill="none" stroke="#2196f3" stroke-width="2.6" opacity="0.5" />
       
-      <!-- Calf & Boot folded sharply BACKWARD/DOWNWARD from Knee (375, 155) to Foot (425, 195) -->
-      <path d="M 375,155 C 382,168 398,186 414,195 C 422,189 418,176 402,164 C 392,158 382,155 375,155 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2" stroke-linejoin="round" />
+      <!-- Calf & Boot folded sharply BACKWARD/DOWNWARD from Knee (360, 165) to Foot (415, 205) -->
+      <path d="M 360,165 C 368,178 386,198 404,208 C 414,202 410,188 392,175 C 380,168 368,165 360,165 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2.2" stroke-linejoin="round" />
       <!-- Boot Webbing -->
-      <path d="M 382,162 Q 396,174 408,186 M 388,168 Q 400,176 410,182 M 375,155 L 412,192" stroke="#111111" stroke-width="0.8" fill="none" opacity="0.75" />
+      <path d="M 368,172 Q 384,186 398,198 M 374,180 Q 388,188 398,194 M 360,165 L 402,204" stroke="#111111" stroke-width="0.9" fill="none" opacity="0.75" />
       <!-- Foot Pointing Outward -->
-      <path d="M 414,195 C 420,200 426,198 422,192 C 416,188 410,185 410,185 Z" fill="#8b0000" stroke="#000000" stroke-width="1.4" />
+      <path d="M 404,208 C 410,213 418,211 414,204 C 406,199 400,196 400,196 Z" fill="#8b0000" stroke="#000000" stroke-width="1.5" />
     </g>
 
-    <!-- 3. DIAGONAL STRETCHED TORSO (Shoulders wider than waist, angled chest) -->
-    <g id="torso">
+    <!-- 3. MUSCULAR LONGER TORSO (Broad Shoulders, 1.8x Chest Height, Rotated Hips) -->
+    <g id="torso-muscular">
       <!-- Shadow Base -->
-      <path d="M 420,92 C 408,108 412,134 424,146 C 438,152 460,146 470,128 C 476,108 470,90 454,82 Z" fill="#050505" />
+      <path d="M 412,98 C 398,118 402,148 418,162 C 434,170 460,162 474,142 C 484,118 476,96 458,88 Z" fill="#050505" />
       
       <!-- Deep Blue Suit Side Muscles -->
-      <path d="M 422,96 C 412,112 416,134 426,142 C 436,146 454,140 462,124 C 468,108 462,92 452,86 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="1.6" />
-      <path d="M 424,102 C 416,114 420,128 428,136 C 436,139 448,134 454,121" fill="none" stroke="#2196f3" stroke-width="2.5" opacity="0.45" />
+      <path d="M 415,102 C 404,120 408,146 422,156 C 434,160 454,154 464,136 C 472,118 466,98 454,92 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="1.8" />
+      <path d="M 418,108 C 408,124 412,140 424,150 C 432,153 446,147 454,132" fill="none" stroke="#2196f3" stroke-width="2.8" opacity="0.45" />
 
-      <!-- Vibrant Red Muscular Chest & Abdominal Plate -->
-      <path d="M 424,88 C 436,80 456,86 462,98 C 464,114 456,136 442,142 C 430,145 420,134 420,118 C 420,102 420,94 424,88 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2" />
+      <!-- Vibrant Red Muscular Chest & Abdominal Plate (1.8x Longer Height) -->
+      <path d="M 418,92 C 432,84 456,90 464,104 C 468,124 458,148 444,156 C 430,160 418,146 418,128 C 418,110 418,100 418,92 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2.2" />
       
-      <!-- Red Muscle Highlights -->
-      <path d="M 430,90 C 440,84 452,88 454,98 C 456,110 450,126 442,132 C 432,134 426,126 426,114 Z" fill="#ff4d4d" opacity="0.35" />
+      <!-- Muscle Highlights on Chest & Abs -->
+      <path d="M 426,94 C 438,88 450,92 454,104 C 456,118 448,138 440,146 C 430,148 424,138 424,124 Z" fill="#ff4d4d" opacity="0.35" />
 
-      <!-- Webbing Mesh Grid on Chest -->
-      <path d="M 442,83 L 442,140 M 424,98 Q 442,103 461,99 M 422,110 Q 442,115 460,111 M 423,122 Q 442,126 456,122 M 426,132 Q 442,135 452,133 M 432,84 L 428,136 M 452,84 L 454,134" stroke="#111111" stroke-width="0.9" fill="none" opacity="0.8" />
+      <!-- Webbing Mesh Grid across Red Chest -->
+      <path d="M 442,87 L 442,154 M 422,102 Q 442,107 463,103 M 420,116 Q 442,121 462,117 M 421,130 Q 442,134 458,131 M 424,142 Q 442,145 452,143 M 430,88 L 426,150 M 454,88 L 456,148" stroke="#111111" stroke-width="0.95" fill="none" opacity="0.8" />
     </g>
 
     <!-- 4. CHEST SPIDER EMBLEM (Classic Black Spider Logo) -->
-    <g id="chest-emblem" transform="translate(442, 112)">
-      <ellipse cx="0" cy="2" rx="3.2" ry="5" fill="#000000" />
-      <circle cx="0" cy="-3.5" r="2.4" fill="#000000" />
-      <path d="M 0,-3.5 Q -7,-11 -14,-13 M 0,-3.5 Q 7,-11 14,-13 M 0,-2 Q -9,-6 -15,-5 M 0,-2 Q 9,-6 15,-5" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" />
-      <path d="M 0,3 Q -9,8 -12,17 M 0,3 Q 9,8 12,17 M 0,4.5 Q -7,13 -9,21 M 0,4.5 Q 7,13 9,21" stroke="#000000" stroke-width="1.8" fill="none" stroke-linecap="round" />
+    <g id="chest-emblem-large" transform="translate(442, 120)">
+      <ellipse cx="0" cy="2" rx="3.5" ry="5.5" fill="#000000" />
+      <circle cx="0" cy="-4" r="2.6" fill="#000000" />
+      <path d="M 0,-4 Q -8,-12 -15,-15 M 0,-4 Q 8,-12 15,-15 M 0,-2 Q -10,-7 -17,-6 M 0,-2 Q 10,-7 17,-6" stroke="#000000" stroke-width="2" fill="none" stroke-linecap="round" />
+      <path d="M 0,3 Q -10,9 -14,19 M 0,3 Q 10,9 14,19 M 0,5 Q -8,14 -10,23 M 0,5 Q 8,14 10,23" stroke="#000000" stroke-width="2" fill="none" stroke-linecap="round" />
     </g>
 
-    <!-- 5. LEFT ARM — THICK, ANATOMICALLY DETAILED, EXTENDED UP-LEFT TO WRIST (355, 62) -->
-    <g id="left-arm">
-      <!-- Deltoid Shoulder (Red) -->
-      <path d="M 424,90 C 414,82 402,86 400,98 C 406,106 416,104 424,90 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="1.8" />
-      <!-- Bicep & Forearm extending UPWARD-LEFT to Wrist (355, 62) -->
-      <path d="M 408,90 C 398,82 388,74 378,66 C 372,70 380,80 392,90 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="1.8" />
-      <path d="M 384,76 C 376,70 368,64 355,62 C 352,68 360,76 370,82 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="1.8" />
-      <path d="M 398,86 L 355,62" stroke="#111111" stroke-width="0.9" fill="none" />
+    <!-- 5. LEFT ARM — THICKER & EXTENDED UPWARD-LEFT TO WRIST (350, 52) ABOVE SHOULDER LINE -->
+    <g id="left-arm-thick">
+      <!-- Deltoid Shoulder (Red) at (415, 102) -->
+      <path d="M 418,98 C 406,88 392,92 390,106 C 398,114 410,112 418,98 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2" />
+      <!-- Bicep & Forearm extending UPWARD-LEFT to Wrist (350, 52) -->
+      <path d="M 400,94 C 388,84 376,74 366,64 C 360,68 370,80 384,92 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="2" />
+      <path d="M 374,72 C 366,64 358,58 350,52 C 346,58 354,66 364,74 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2" />
+      <path d="M 392,86 L 350,52" stroke="#111111" stroke-width="1" fill="none" />
 
-      <!-- LEFT WRIST & HAND LOCK AT EXACT (355, 62) -->
-      <g id="left-hand" transform="translate(355, 62)">
-        <ellipse cx="0" cy="0" rx="5.5" ry="5" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="1.6" />
-        <path d="M -2,-4 L -8,-10" fill="none" stroke="url(#spideyRedGrad)" stroke-width="3.2" stroke-linecap="round" />
+      <!-- LEFT WRIST & HAND LOCK AT EXACT (350, 52) -->
+      <g id="left-wrist-lock" transform="translate(350, 52)">
+        <ellipse cx="0" cy="0" rx="6" ry="5.5" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="1.8" />
+        <path d="M -2,-4 L -8,-10" fill="none" stroke="url(#spideyRedGrad)" stroke-width="3.5" stroke-linecap="round" />
         <path d="M -2,-4 L -8,-10" fill="none" stroke="#000000" stroke-width="1.2" />
-        <path d="M -4,0 L -12,-3" fill="none" stroke="url(#spideyRedGrad)" stroke-width="3" stroke-linecap="round" />
+        <path d="M -4,0 L -12,-3" fill="none" stroke="url(#spideyRedGrad)" stroke-width="3.2" stroke-linecap="round" />
         <path d="M -4,0 L -12,-3" fill="none" stroke="#000000" stroke-width="1.2" />
-        <circle cx="1" cy="-2" r="2.4" fill="#8b0000" stroke="#000000" stroke-width="1.2" />
-        <circle cx="2" cy="1" r="2.4" fill="#8b0000" stroke="#000000" stroke-width="1.2" />
-        <circle cx="0" cy="0" r="2.8" fill="#ffffff" filter="url(#subtleWebGlow)" />
+        <circle cx="1" cy="-2" r="2.6" fill="#8b0000" stroke="#000000" stroke-width="1.2" />
+        <circle cx="2" cy="1" r="2.6" fill="#8b0000" stroke="#000000" stroke-width="1.2" />
+        <circle cx="0" cy="0" r="3" fill="#ffffff" filter="url(#subtleWebGlow)" />
       </g>
     </g>
 
-    <!-- 6. RIGHT ARM — THICK, ANATOMICALLY DETAILED WITH BENT ELBOW TO WRIST (548, 65) -->
-    <g id="right-arm">
-      <!-- Deltoid Shoulder (Red) -->
-      <path d="M 462,90 C 472,82 484,86 486,98 C 480,106 470,104 462,90 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="1.8" />
-      <!-- Upper Arm Bicep extending to Elbow at (515, 80) -->
-      <path d="M 472,90 C 484,84 498,78 515,80 C 518,86 504,94 488,96 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="1.8" />
-      <!-- Forearm extending from Elbow (515, 80) to Wrist (548, 65) -->
-      <path d="M 515,80 C 526,74 538,68 548,65 C 552,69 542,78 528,84 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="1.8" />
-      <path d="M 482,88 L 548,65" stroke="#111111" stroke-width="0.9" fill="none" />
+    <!-- 6. RIGHT ARM — THICKER WITH BENT ELBOW EXTENDED UPWARD-RIGHT TO WRIST (550, 55) ABOVE SHOULDER LINE -->
+    <g id="right-arm-thick">
+      <!-- Deltoid Shoulder (Red) at (485, 102) -->
+      <path d="M 466,98 C 478,88 492,92 494,106 C 486,114 474,112 466,98 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2" />
+      <!-- Bicep extending to Elbow at (512, 78) -->
+      <path d="M 478,94 C 488,86 498,80 512,78 C 516,84 502,94 490,98 Z" fill="url(#spideyBlueGrad)" stroke="#000000" stroke-width="2" />
+      <!-- Forearm extending from Elbow (512, 78) to Wrist (550, 55) -->
+      <path d="M 512,78 C 524,70 538,62 550,55 C 554,60 542,70 526,78 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2" />
+      <path d="M 488,90 L 550,55" stroke="#111111" stroke-width="1" fill="none" />
 
-      <!-- RIGHT WRIST & HAND LOCK AT EXACT (548, 65) -->
-      <g id="right-hand" transform="translate(548, 65)">
-        <ellipse cx="0" cy="0" rx="5.5" ry="5" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="1.6" />
-        <path d="M 2,-4 L 8,-10" fill="none" stroke="url(#spideyRedGrad)" stroke-width="3.2" stroke-linecap="round" />
+      <!-- RIGHT WRIST & HAND LOCK AT EXACT (550, 55) -->
+      <g id="right-wrist-lock" transform="translate(550, 55)">
+        <ellipse cx="0" cy="0" rx="6" ry="5.5" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="1.8" />
+        <path d="M 2,-4 L 8,-10" fill="none" stroke="url(#spideyRedGrad)" stroke-width="3.5" stroke-linecap="round" />
         <path d="M 2,-4 L 8,-10" fill="none" stroke="#000000" stroke-width="1.2" />
-        <path d="M 4,0 L 12,-3" fill="none" stroke="url(#spideyRedGrad)" stroke-width="3" stroke-linecap="round" />
+        <path d="M 4,0 L 12,-3" fill="none" stroke="url(#spideyRedGrad)" stroke-width="3.2" stroke-linecap="round" />
         <path d="M 4,0 L 12,-3" fill="none" stroke="#000000" stroke-width="1.2" />
-        <circle cx="-1" cy="-2" r="2.4" fill="#8b0000" stroke="#000000" stroke-width="1.2" />
-        <circle cx="-2" cy="1" r="2.4" fill="#8b0000" stroke="#000000" stroke-width="1.2" />
-        <circle cx="0" cy="0" r="2.8" fill="#ffffff" filter="url(#subtleWebGlow)" />
+        <circle cx="-1" cy="-2" r="2.6" fill="#8b0000" stroke="#000000" stroke-width="1.2" />
+        <circle cx="-2" cy="1" r="2.6" fill="#8b0000" stroke="#000000" stroke-width="1.2" />
+        <circle cx="0" cy="0" r="3" fill="#ffffff" filter="url(#subtleWebGlow)" />
       </g>
     </g>
 
-    <!-- 7. HEAD (Center-tilted facing 3-quarter forward at 450, 80) -->
-    <g id="head" transform="translate(450, 80)">
+    <!-- 7. HEAD (Centered between V-arms at 450, 82) -->
+    <g id="head-reference-pose" transform="translate(450, 82)">
       <!-- Red Mask Base Silhouette -->
-      <path d="M 0,-18 C -13,-18 -18,-7 -16,6 C -13,18 -4,24 0,24 C 4,24 13,18 16,6 C 18,-7 13,-18 0,-18 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 0,-19 C -14,-19 -19,-8 -17,7 C -14,19 -5,25 0,25 C 5,25 14,19 17,7 C 19,-8 14,-19 0,-19 Z" fill="url(#spideyRedGrad)" stroke="#000000" stroke-width="2" stroke-linejoin="round" />
       
       <!-- Red Mask Dome Highlight -->
-      <path d="M -3,-16 C -9,-16 -14,-7 -12,3 C -9,12 -3,18 0,18 C 3,18 4,13 3,4 C 2,-4 3,-13 -3,-16 Z" fill="#ff4d4d" opacity="0.4" />
+      <path d="M -3,-17 C -10,-17 -15,-8 -13,4 C -10,13 -4,19 0,19 C 3,19 4,14 3,5 C 2,-4 3,-14 -3,-17 Z" fill="#ff4d4d" opacity="0.4" />
 
       <!-- Mask Webbing Mesh -->
-      <path d="M 0,-18 L 0,24 M -16,6 L 16,6 M -13,-4 Q 0,-1 13,-4 M -11,14 Q 0,11 11,14 M -9,-12 Q 0,-8 9,-12 M -7,20 Q 0,18 7,20" stroke="#111111" stroke-width="0.85" fill="none" opacity="0.8" />
+      <path d="M 0,-19 L 0,25 M -17,7 L 17,7 M -14,-5 Q 0,-2 14,-5 M -12,15 Q 0,12 12,15 M -10,-13 Q 0,-9 10,-13 M -8,21 Q 0,19 8,21" stroke="#111111" stroke-width="0.85" fill="none" opacity="0.8" />
 
       <!-- ICONIC MARVEL SPIDER-MAN LENS EYES -->
       <!-- Left Lens Eye -->
-      <g id="left-eye">
+      <g id="left-eye-lens">
         <path d="M -2,2 C -6,-9 -15,-8 -16,1 C -17,10 -8,13 -2,2 Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round" />
         <path d="M -3.5,2 C -6.5,-7 -13,-6 -14,1 C -15,8 -8,10.5 -3.5,2 Z" fill="#ffffff" />
         <path d="M -5,2 C -8,-4 -11,-4 -12,1" fill="none" stroke="#e0f7fa" stroke-width="1.2" opacity="0.85" />
       </g>
 
       <!-- Right Lens Eye -->
-      <g id="right-eye">
+      <g id="right-eye-lens">
         <path d="M 2,2 C 6,-9 15,-8 16,1 C 17,10 8,13 2,2 Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round" />
         <path d="M 3.5,2 C 6.5,-7 13,-6 14,1 C 15,8 8,10.5 3.5,2 Z" fill="#ffffff" />
         <path d="M 5,2 C 8,-4 11,-4 12,1" fill="none" stroke="#e0f7fa" stroke-width="1.2" opacity="0.85" />
