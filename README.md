@@ -63,14 +63,14 @@ I am a Computer Science student and software engineer focusing on building scala
 ## Analytics & Activity
 
 <div align="center">
-  <!-- Spiderman Swinging contribution graph -->
-  <img src="spidey_contribution.svg" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 800px;" />
+  <!-- Spiderman Swinging contribution graph with CDN cache-buster tag -->
+  <img src="spidey_contribution.svg?v=20260807_2" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 800px;" />
 </div>
 
 <br />
 
 <div align="center">
-  <!-- Spider-Man Themed Live GitHub Streak Stats (Guaranteed 200 OK) -->
+  <!-- Spider-Man Themed Live GitHub Streak Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Midhun-M-git&theme=dark&background=0F172A&border=E53E3E&stroke=E53E3E&ring=E53E3E&fire=E53E3E&currStreakLabel=E53E3E" alt="Midhun's GitHub Streak Stats" width="80%" style="max-width: 600px;" />
 </div>
 
