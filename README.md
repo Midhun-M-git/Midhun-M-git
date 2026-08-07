@@ -20,7 +20,7 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="Rainbow line" />
 </div>
 
-## 🌌 About Me
+## About Me
 
 I am a Computer Science student and software engineer focusing on building scalable systems, AI/ML integrations, and cybersecurity. 
 
@@ -31,7 +31,7 @@ I am a Computer Science student and software engineer focusing on building scala
 
 ---
 
-## 🕸️ Leadership & Impact
+## Leadership & Impact
 
 *   **Tech Lead** @ IEDC ASET (2025-26) — Driving student innovation and tech projects.
 *   **General Secretary** @ College Union (2025-26) — Representing student interest and organizing college events.
@@ -39,7 +39,7 @@ I am a Computer Science student and software engineer focusing on building scala
 
 ---
 
-## 🛠️ Technical Stack & Tools
+## Technical Stack & Tools
 
 ### Programming Languages & Frameworks
 <p align="left">
@@ -50,21 +50,17 @@ I am a Computer Science student and software engineer focusing on building scala
 
 ---
 
-## 🕸️ Elite Projects Overview
-
-As a founder and developer, my most complex work—including proprietary startup algorithms and medical deep learning models—is housed in private repositories for IP protection. I am always open to discussing architectural decisions and system designs during technical interviews.
+## Projects Overview
 
 | Project Name | Technical Description | Tech Stack | Status |
 | :--- | :--- | :--- | :--- |
-| **[NovusTech Core Platform](https://novustech.in)** | Enterprise architecture powering the entire NovusTech ecosystem | `Next.js` `Python` `Cloud` | 🔒 *(Private)* |
-| **[Hybrid Fracture Detection](#)** | Medical AI using YOLOv5 (localization) & ResNet50 (classification) | `Python` `PyTorch` | 🔒 *(Private)* |
 | **[WebApp Security Analyzer](https://github.com/Midhun-M-git/webapp-security-analyzer)** | Custom GUI tool for vulnerability scanning and threat detection | `Python` `Tkinter` | 🌐 Public |
 | **[Asthra](https://github.com/Midhun-M-git/asthra)** | AI-driven mobile app automating technical documentation generation | `Flutter` `AI Backend` | 🌐 Public |
 | **[Breach Checker Engine](https://github.com/Midhun-M-git/breach-checker-app)** | Secure credential validation engine querying global breach data | `Python` `REST APIs` | 🌐 Public |
 
 ---
 
-## 📊 Analytics & Activity
+## Analytics & Activity
 
 <div align="center">
   <img src="spidey_contribution.svg" alt="Spider-Man Contribution Graph" width="100%" style="max-width: 800px;" />
@@ -73,16 +69,9 @@ As a founder and developer, my most complex work—including proprietary startup
 <br />
 
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" style="border: none;">
-    <tr style="border: none;">
-      <td style="border: none; padding: 10px;">
-        <img src="https://github-readme-stats.vercel.app/api?username=Midhun-M-git&show_icons=true&theme=radical&hide_border=true&title_color=e53e3e&text_color=e2e8f0&icon_color=e53e3e&bg_color=0f172a" alt="Midhun's GitHub Stats" height="150" />
-      </td>
-      <td style="border: none; padding: 10px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Midhun-M-git&layout=compact&theme=radical&hide_border=true&title_color=e53e3e&text_color=e2e8f0&bg_color=0f172a" alt="Top Languages" height="150" />
-      </td>
-    </tr>
-  </table>
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=Midhun-M-git&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false" width="48%" alt="GitHub Stats" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Midhun-M-git&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Languages" />
+  <br clear="all" />
 </div>
 
 <br />
