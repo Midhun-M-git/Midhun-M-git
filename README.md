@@ -63,8 +63,8 @@ I am a Computer Science student and software engineer focusing on building scala
 ## Analytics & Activity
 
 <div align="center">
-  <!-- Spiderman Swinging contribution graph (Asymmetric 3-Quarter Swinging Pose) -->
-  <img src="spidey_contribution.svg?v=20260807_PERFECT_3QUARTER" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 900px;" />
+  <!-- Spiderman Swinging contribution graph (Dual-Web V-Pose Reference Match) -->
+  <img src="spidey_contribution.svg?v=20260807_DUAL_WEB_V_POSE" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 900px;" />
 </div>
 
 <br />
