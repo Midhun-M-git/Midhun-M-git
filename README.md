@@ -62,17 +62,18 @@ I am a Computer Science student and software engineer focusing on building scala
 
 ## Analytics & Activity
 
-### GitHub Contribution Activity
-Here is the real-time activity graph reflecting actual contributions on GitHub:
-
-![Midhun's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Midhun-M-git&theme=radical&bg_color=0f172a&color=e53e3e&line=e53e3e&point=ffffff&area=true&hide_border=true)
+<div align="center">
+  <!-- Spiderman Swinging contribution graph -->
+  <img src="spidey_contribution.svg" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 800px;" />
+</div>
 
 <br />
 
-### Account Statistics
-![Midhun's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Midhun-M-git&show_icons=true&theme=radical&hide_border=true&title_color=e53e3e&text_color=e2e8f0&icon_color=e53e3e&bg_color=0f172a)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Midhun-M-git&layout=compact&theme=radical&hide_border=true&title_color=e53e3e&text_color=e2e8f0&bg_color=0f172a)
+<div align="center">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=Midhun-M-git&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false" width="48%" alt="GitHub Stats" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Midhun-M-git&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Languages" />
+  <br clear="all" />
+</div>
 
 <br />
 
