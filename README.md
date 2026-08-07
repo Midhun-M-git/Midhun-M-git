@@ -1,6 +1,6 @@
 <div align="center">
   
-  <!-- Custom Header Banner (Spider-Man / Spider Theme) -->
+  <!-- Custom Header Banner (Spider-Man Theme) -->
   <img src="welcome_spider.svg" alt="Welcome to My Digital Workspace" width="100%" style="max-width: 800px;" />
   
   <br/>
@@ -10,7 +10,7 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=E53E3E&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Midhun+M;Founder+%40+NovusTech.in;AI%2FML+%26+Cybersecurity+Engineer;Building+Scalable+Software+Solutions" alt="Typing SVG" />
   </a>
 
-  <!-- Elegant text-based social navigation -->
+  <!-- Text-based social navigation -->
   <p align="center">
     <a href="https://portfolio-omega-eosin-56.vercel.app" target="_blank">Portfolio</a> •
     <a href="https://novustech.in" target="_blank">NovusTech.in</a> •
@@ -27,7 +27,7 @@ I am a Computer Science student and software engineer focusing on building scala
 *   **Education:** Pursuing a Degree in Computer Science
 *   **Experience:** Software Intern at **ZENDALONA**
 *   **Focus Areas:** Software Development, Software Testing, and Automation
-*   **Philosophy:** *"Building solutions that scale beyond code."*
+*   **Motto:** *"With great power comes great code."*
 
 ---
 
@@ -70,9 +70,8 @@ I am a Computer Science student and software engineer focusing on building scala
 <br />
 
 <div align="center">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=Midhun-M-git&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false" width="48%" alt="GitHub Stats" />
-  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Midhun-M-git&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Languages" />
-  <br clear="all" />
+  <!-- Spider-Man Themed Live GitHub Streak Stats (Guaranteed 200 OK) -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Midhun-M-git&theme=dark&background=0F172A&border=E53E3E&stroke=E53E3E&ring=E53E3E&fire=E53E3E&currStreakLabel=E53E3E" alt="Midhun's GitHub Streak Stats" width="80%" style="max-width: 600px;" />
 </div>
 
 <br />
