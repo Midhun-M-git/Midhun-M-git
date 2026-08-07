@@ -64,7 +64,7 @@ I am a Computer Science student and software engineer focusing on building scala
 
 <div align="center">
   <!-- Spiderman Swinging contribution graph -->
-  <img src="spiderman/spiderman-activity.svg?v=20260807_PRO" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 880px;" />
+  <img src="spiderman/spiderman-activity.svg?v=20260807_FIX" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 880px;" />
 </div>
 
 <br />

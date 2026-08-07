@@ -30,7 +30,7 @@
   <style>
     .bg { fill: transparent; }
     
-    /* Grid cell styling & pulse glow */
+    /* Grid cell styling and pulse glow */
     .contrib-cell {
       transition: fill 0.3s ease;
     }
@@ -61,15 +61,15 @@
 
     @keyframes spidey-pendulum-swing {
       0%   { transform: translate(-40px, 30px); }
-      15%  { transform: translate(120px, 50px); }      /* Maximum kinetic drop */
-      35%  { transform: translate(360px, -25px); }     /* Apex release right */
-      50%  { transform: translate(780px, 30px); }      /* Far right turnaround */
-      65%  { transform: translate(440px, 45px); }      /* Return drop */
-      85%  { transform: translate(160px, -20px); }     /* Apex release left */
+      15%  { transform: translate(120px, 50px); }
+      35%  { transform: translate(360px, -25px); }
+      50%  { transform: translate(780px, 30px); }
+      65%  { transform: translate(440px, 45px); }
+      85%  { transform: translate(160px, -20px); }
       100% { transform: translate(-40px, 30px); }
     }
 
-    /* Body Dynamic Rotation & Momentum Posing */
+    /* Body Dynamic Rotation and Momentum Posing */
     #spiderman {
       animation: spidey-body-angle 7s infinite ease-in-out;
       transform-origin: 0px 0px;
@@ -77,11 +77,11 @@
 
     @keyframes spidey-body-angle {
       0%   { transform: rotate(35deg) scale(0.95); }
-      15%  { transform: rotate(12deg) scale(1.05); }      /* Stretch on speed */
-      35%  { transform: rotate(-38deg) scale(0.98); }     /* Lean at apex */
-      50%  { transform: rotate(-45deg) scale(0.95); }     /* Turnaround flip */
-      65%  { transform: rotate(-15deg) scale(1.05); }     /* Return stretch */
-      85%  { transform: rotate(30deg) scale(0.98); }      /* Return apex */
+      15%  { transform: rotate(12deg) scale(1.05); }
+      35%  { transform: rotate(-38deg) scale(0.98); }
+      50%  { transform: rotate(-45deg) scale(0.95); }
+      65%  { transform: rotate(-15deg) scale(1.05); }
+      85%  { transform: rotate(30deg) scale(0.98); }
       100% { transform: rotate(35deg) scale(0.95); }
     }
 
@@ -107,9 +107,9 @@
 
     @keyframes arm-web-pull {
       0%, 100% { transform: rotate(-15deg); }
-      20%      { transform: rotate(-65deg); }     /* Pulling web line tight */
-      40%      { transform: rotate(20deg); }      /* Releasing web */
-      60%      { transform: rotate(-60deg); }     /* Catching return web */
+      20%      { transform: rotate(-65deg); }
+      40%      { transform: rotate(20deg); }
+      60%      { transform: rotate(-60deg); }
       80%      { transform: rotate(15deg); }
     }
 
@@ -140,7 +140,7 @@
 
     @keyframes leg-left-motion {
       0%, 100% { transform: rotate(-10deg); }
-      20%      { transform: rotate(35deg); }     /* Tuck knee during dive */
+      20%      { transform: rotate(35deg); }
       40%      { transform: rotate(-25deg); }
       60%      { transform: rotate(30deg); }
       80%      { transform: rotate(-15deg); }
@@ -148,7 +148,7 @@
 
     @keyframes leg-right-motion {
       0%, 100% { transform: rotate(20deg); }
-      20%      { transform: rotate(-45deg); }    /* Leg extended forward */
+      20%      { transform: rotate(-45deg); }
       40%      { transform: rotate(30deg); }
       60%      { transform: rotate(-40deg); }
       80%      { transform: rotate(25deg); }
@@ -570,7 +570,6 @@
     <!-- Web Anchor #1 Impact Node at Top Center (X=380, Y=-95) -->
     <g id="web-anchor-1" transform="translate(380, -95)">
       <circle cx="0" cy="0" r="14" fill="url(#webGlow)" class="web-impact" />
-      <!-- Web Attachment Splatter Mesh -->
       <path d="M 0,0 L -12,-8 M 0,0 L 12,-8 M 0,0 L -14,4 M 0,0 L 14,4 M 0,0 L 0,-14 M 0,0 L 0,12" stroke="#ffffff" stroke-width="1.2" opacity="0.9" class="web-impact" />
       <circle cx="0" cy="0" r="3" fill="#ffffff" />
     </g>
@@ -580,144 +579,95 @@
       
       <!-- Realistic Dynamic Curved Web Strand Shooting from Wrist to Top Anchor -->
       <g id="web-group">
-        <!-- Main Flexible Web Line with Natural Tension Curve -->
         <path id="web-line-1" class="main-web-strand" d="M 0,-12 Q 120,-60 380,-95" fill="none" />
-        <!-- Secondary Spiral Web Wrapping Detail -->
         <path d="M 0,-12 Q 40,-25 80,-40" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 4" opacity="0.7" />
         <path d="M 120,-50 Q 200,-70 280,-82" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="6 3" opacity="0.6" />
       </g>
 
-      <!-- 
-        HIGH-DETAIL HAND-CRAFTED MARVEL SPIDER-MAN VECTOR CHARACTER 
-        Anatomically complete with 10+ modular SVG groups
-      -->
+      <!-- HIGH-DETAIL HAND-CRAFTED MARVEL SPIDER-MAN VECTOR CHARACTER -->
       <g id="spiderman">
         
-        <!-- 1. LEFT LEG (Thigh, Calf, Muscle Contours, Boot) -->
+        <!-- 1. LEFT LEG -->
         <g id="left-leg">
-          <!-- Deep Blue Suit Thigh -->
           <path d="M 6,18 C 14,24 24,34 28,48 C 22,50 14,42 6,28 Z" fill="url(#blueSuitGrad)" stroke="#000000" stroke-width="1.2" stroke-linejoin="round" />
           <path d="M 10,22 C 16,28 22,36 24,45" fill="none" stroke="#2196f3" stroke-width="1.5" opacity="0.4" />
-          <!-- Red Suit Boot & Calf -->
           <path d="M 28,48 C 32,56 38,68 36,78 C 30,82 24,76 22,64 C 22,56 24,50 28,48 Z" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.2" stroke-linejoin="round" />
-          <!-- Boot Web Mesh -->
           <path d="M 28,52 Q 33,60 35,72 M 25,60 Q 30,64 34,68 M 27,49 L 35,76" stroke="#111111" stroke-width="0.6" fill="none" opacity="0.65" />
-          <!-- Sole Outline -->
           <path d="M 36,78 C 38,82 34,85 28,83 C 24,80 24,76 24,76 Z" fill="#8b0000" stroke="#000000" stroke-width="1" />
         </g>
 
-        <!-- 2. RIGHT LEG (Foreground Dynamic Bent Acrobat Knee) -->
+        <!-- 2. RIGHT LEG -->
         <g id="right-leg">
-          <!-- Deep Blue Thigh with Muscle Highlights -->
           <path d="M -6,18 C -14,26 -26,38 -32,52 C -24,56 -12,48 -4,30 Z" fill="url(#blueSuitGrad)" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" />
           <path d="M -10,22 C -16,28 -24,38 -26,48" fill="none" stroke="#2196f3" stroke-width="1.8" opacity="0.5" />
-          <!-- Red Suit Boot & Foot -->
           <path d="M -32,52 C -38,62 -46,76 -42,86 C -34,88 -28,80 -26,68 C -26,58 -28,52 -32,52 Z" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" />
-          <!-- Boot Webbing -->
           <path d="M -32,56 Q -38,66 -40,78 M -30,64 Q -35,70 -38,76 M -32,52 L -41,83" stroke="#111111" stroke-width="0.6" fill="none" opacity="0.65" />
         </g>
 
-        <!-- 3. TORSO (Muscular Chest, Blue Sides, Abdomen) -->
+        <!-- 3. TORSO -->
         <g id="torso">
-          <!-- Deep Comic Black Base Shadow -->
           <path d="M -14,-10 C -20,4 -18,22 -8,28 C 0,32 12,28 18,18 C 22,4 18,-8 10,-14 Z" fill="#050505" />
-          
-          <!-- Deep Blue Suit Lat & Waist Muscles -->
           <path d="M -12,-8 C -18,4 -16,20 -6,24 C 0,26 8,24 14,16 C 18,4 14,-6 8,-12 Z" fill="url(#blueSuitGrad)" stroke="#000000" stroke-width="1.2" />
           <path d="M -10,-4 C -14,4 -13,16 -4,20 C 0,21 6,19 10,12" fill="none" stroke="#2196f3" stroke-width="2" opacity="0.4" />
-
-          <!-- Vibrant Red Muscular Chest & Abdominal Plate -->
           <path d="M -10,-14 C -2,-18 10,-14 14,-6 C 16,4 10,18 2,22 C -6,24 -12,18 -12,8 C -12,-2 -12,-8 -10,-14 Z" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.4" />
-          
-          <!-- Muscle Highlights on Red Suit -->
           <path d="M -6,-12 C 0,-15 8,-12 10,-5 C 12,3 8,14 2,17 C -4,18 -8,14 -8,6 Z" fill="#ff4d4d" opacity="0.3" />
-
-          <!-- High-Precision Webbing Lines on Chest -->
           <path d="M 2,-16 L 2,22 M -10,-8 Q 2,-4 14,-6 M -11,0 Q 2,4 13,2 M -10,8 Q 2,11 11,9 M -8,15 Q 2,17 7,16 M -4,-15 L -6,18 M 8,-15 L 8,16" stroke="#111111" stroke-width="0.75" fill="none" opacity="0.75" />
         </g>
 
-        <!-- 4. CHEST SPIDER EMBLEM (Classic Marvel Black Spider) -->
+        <!-- 4. CHEST SPIDER EMBLEM -->
         <g id="chest-emblem" transform="translate(1, 0)">
-          <!-- Spider Abdomen & Head Body -->
           <ellipse cx="0" cy="1" rx="2.2" ry="3.5" fill="#000000" />
           <circle cx="0" cy="-3" r="1.6" fill="#000000" />
-          <!-- Upper Spider Legs -->
           <path d="M 0,-3 Q -5,-9 -9,-11 M 0,-3 Q 5,-9 9,-11 M 0,-2 Q -6,-5 -11,-4 M 0,-2 Q 6,-5 11,-4" stroke="#000000" stroke-width="1.3" fill="none" stroke-linecap="round" />
-          <!-- Lower Spider Legs -->
           <path d="M 0,2 Q -6,6 -8,12 M 0,2 Q 6,6 8,12 M 0,3 Q -4,9 -5,15 M 0,3 Q 4,9 5,15" stroke="#000000" stroke-width="1.3" fill="none" stroke-linecap="round" />
         </g>
 
-        <!-- 5. RIGHT ARM (Trailing Balance Arm with Muscle Contours) -->
+        <!-- 5. RIGHT ARM -->
         <g id="right-arm">
-          <!-- Shoulder Deltoid -->
           <path d="M -12,-10 C -18,-14 -24,-8 -22,0 C -18,4 -14,2 -12,-10 Z" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.2" />
-          <!-- Bicep & Forearm extending back -->
           <path d="M -20,-4 C -28,-2 -36,4 -42,12 C -40,18 -32,16 -24,8 Z" fill="url(#blueSuitGrad)" stroke="#000000" stroke-width="1.2" />
           <path d="M -36,8 C -42,14 -48,22 -52,30 C -48,34 -40,28 -34,18 Z" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.2" />
-          <!-- Right Hand Fist -->
           <circle cx="-52" cy="32" r="4.5" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.2" />
         </g>
 
-        <!-- 6. WEB-SHOOTING ARM (Left Arm Extended to Web in 🤟 Web Gesture) -->
+        <!-- 6. WEB-SHOOTING ARM -->
         <g id="web-shooting-arm">
-          <!-- Shoulder Red Muscle -->
           <path d="M 10,-12 C 16,-16 22,-10 20,-2 C 16,2 12,0 10,-12 Z" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.2" />
-          <!-- Bicep / Forearm Path Extended Upward to Web -->
           <path d="M 16,-8 C 18,-18 16,-28 10,-38 C 4,-36 4,-26 8,-14 Z" fill="url(#blueSuitGrad)" stroke="#000000" stroke-width="1.2" />
           <path d="M 10,-34 C 8,-44 4,-54 0,-62 C -6,-58 -3,-48 4,-38 Z" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" />
-          <!-- Arm Webbing lines -->
           <path d="M 8,-36 L 2,-60 M 6,-42 Q 2,-44 -2,-42 M 4,-50 Q 0,-52 -4,-50" stroke="#111111" stroke-width="0.6" fill="none" opacity="0.7" />
           
-          <!-- 🤟 ICONIC MARVEL WEB-SHOOTER HAND AT ORIGIN (0,-12) -->
           <g id="left-hand" transform="translate(0, -64)">
-            <!-- Palm Base -->
             <ellipse cx="0" cy="0" rx="4.5" ry="4" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.2" />
-            <!-- Extended Thumb -->
             <path d="M -3,-1 Q -8,-4 -9,-1" fill="none" stroke="url(#redSuitGrad)" stroke-width="2.5" stroke-linecap="round" />
             <path d="M -3,-1 Q -8,-4 -9,-1" fill="none" stroke="#000000" stroke-width="0.8" />
-            <!-- Extended Index Finger (Pointing to Web) -->
             <path d="M -1,-4 L 0,-11" fill="none" stroke="url(#redSuitGrad)" stroke-width="2.5" stroke-linecap="round" />
             <path d="M -1,-4 L 0,-11" fill="none" stroke="#000000" stroke-width="0.8" />
-            <!-- Curled Middle & Ring Fingers -->
             <circle cx="1" cy="-2" r="2" fill="#8b0000" stroke="#000000" stroke-width="0.8" />
             <circle cx="2" cy="1" r="2" fill="#8b0000" stroke="#000000" stroke-width="0.8" />
-            <!-- Extended Pinky Finger -->
             <path d="M 3,0 Q 8,1 9,-3" fill="none" stroke="url(#redSuitGrad)" stroke-width="2.2" stroke-linecap="round" />
             <path d="M 3,0 Q 8,1 9,-3" fill="none" stroke="#000000" stroke-width="0.8" />
-            <!-- Web Trigger Wrist Nozzle Flash -->
             <circle cx="0" cy="2" r="2.5" fill="#ffffff" filter="url(#glow)" />
           </g>
         </g>
 
-        <!-- 7. HEAD (High-Detail Spider-Man Mask & Iconic Lenses) -->
+        <!-- 7. HEAD -->
         <g id="head" transform="translate(2, -18)">
-          <!-- Mask Red Base Silhouette -->
           <path d="M 0,-16 C -11,-16 -16,-6 -14,6 C -12,16 -4,22 0,22 C 4,22 12,16 14,6 C 16,-6 11,-16 0,-16 Z" fill="url(#redSuitGrad)" stroke="#000000" stroke-width="1.6" stroke-linejoin="round" />
-          
-          <!-- Highlight on Mask Dome -->
           <path d="M -2,-14 C -8,-14 -12,-6 -10,3 C -8,10 -3,16 0,16 C 2,16 3,12 2,4 C 1,-4 2,-12 -2,-14 Z" fill="#ff4d4d" opacity="0.35" />
-
-          <!-- Mask Webbing Mesh Radial Center -->
           <path d="M 0,-16 L 0,22 M -14,6 L 14,6 M -12,-4 Q 0,-1 12,-4 M -10,13 Q 0,10 10,13 M -8,-11 Q 0,-8 8,-11 M -6,18 Q 0,16 6,18" stroke="#111111" stroke-width="0.7" fill="none" opacity="0.75" />
 
-          <!-- ICONIC MARVEL SPIDER-MAN LENS EYES (Angular Frame + Reflective White) -->
-          <!-- Left Lens Eye -->
+          <!-- Left Eye -->
           <g id="left-eye">
-            <!-- Outer Thick Black Frame -->
             <path d="M -2,2 C -5,-7 -12,-6 -13,1 C -14,8 -7,10 -2,2 Z" fill="#000000" stroke="#000000" stroke-width="1.2" stroke-linejoin="round" />
-            <!-- Inner Crisp White Lens -->
             <path d="M -3,2 C -5,-5 -10,-4 -11,1 C -12,6 -7,8 -3,2 Z" fill="#ffffff" />
-            <!-- Lens Inner Soft Glow Rim -->
             <path d="M -4,2 C -6,-3 -9,-3 -10,1" fill="none" stroke="#e0f7fa" stroke-width="1" opacity="0.8" />
           </g>
 
-          <!-- Right Lens Eye -->
+          <!-- Right Eye -->
           <g id="right-eye">
-            <!-- Outer Thick Black Frame -->
             <path d="M 2,2 C 5,-7 12,-6 13,1 C 14,8 7,10 2,2 Z" fill="#000000" stroke="#000000" stroke-width="1.2" stroke-linejoin="round" />
-            <!-- Inner Crisp White Lens -->
             <path d="M 3,2 C 5,-5 10,-4 11,1 C 12,6 7,8 3,2 Z" fill="#ffffff" />
-            <!-- Lens Inner Soft Glow Rim -->
             <path d="M 4,2 C 6,-3 9,-3 10,1" fill="none" stroke="#e0f7fa" stroke-width="1" opacity="0.8" />
           </g>
         </g>
