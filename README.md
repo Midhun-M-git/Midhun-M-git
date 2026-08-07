@@ -63,8 +63,8 @@ I am a Computer Science student and software engineer focusing on building scala
 ## Analytics & Activity
 
 <div align="center">
-  <!-- Spiderman Swinging contribution graph with high-res image -->
-  <img src="spidey_contribution.svg?v=20260807_3" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 800px;" />
+  <!-- Spiderman Swinging contribution graph with EXACT uploaded artwork -->
+  <img src="spidey_contribution.svg?v=20260807_EXACT" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 800px;" />
 </div>
 
 <br />
@@ -77,5 +77,5 @@ I am a Computer Science student and software engineer focusing on building scala
 <br />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/rainbow.png" width="100%" alt="Rainbow Line" />
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="Rainbow Line" />
 </div>
