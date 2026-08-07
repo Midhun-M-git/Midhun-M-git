@@ -63,8 +63,8 @@ I am a Computer Science student and software engineer focusing on building scala
 ## Analytics & Activity
 
 <div align="center">
-  <!-- Spiderman Swinging contribution graph with 100% pure SVG vector character -->
-  <img src="spidey_contribution.svg?v=20260807_VECTOR" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 800px;" />
+  <!-- Spiderman Swinging contribution graph with 100% complete unbroken SVG XML -->
+  <img src="spidey_contribution.svg?v=20260807_FULL" alt="Spider-Man swinging contribution calendar" width="100%" style="max-width: 800px;" />
 </div>
 
 <br />
