@@ -3,6 +3,7 @@ import json
 import urllib.request
 import re
 import html
+from datetime import datetime
 
 FONT = "-apple-system, BlinkMacSystemFont, 'Fira Code', 'Courier New', monospace"
 
@@ -31,10 +32,9 @@ def build_svg(repos):
         ]
         
     total_repos = len(repos)
-    print(f"Building authentic multi-line terminal session for {total_repos} repositories...")
+    print(f"Building timeless authentic terminal session for {total_repos} repositories...")
     
     # Calculate SVG height based on number of repositories
-    # Top header = 100px, Each repo = 28px line, Bottom prompt = 40px
     svg_height = 100 + (total_repos * 28) + 50
     
     duration = max(30, total_repos * 1.5)
@@ -63,7 +63,6 @@ def build_svg(repos):
         start_p = max(0, min(100, start_p))
         done_p = max(0, min(100, done_p))
         
-        # Line typewriter reveal animation
         clip_kf = f"""
         .{cls_clip} {{ animation: l_kf_{i} {duration}s infinite steps(25); -webkit-animation: l_kf_{i} {duration}s infinite steps(25); }}
         @keyframes l_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {done_p}%, 100% {{ width: 770px; }} }}
@@ -72,7 +71,6 @@ def build_svg(repos):
         css_rules.append(clip_kf)
         clip_defs.append(f'<clipPath id="{clip_id}"><rect x="20" y="{y_pos - 18}" width="0" height="26" class="{cls_clip}"/></clipPath>')
 
-        # Format clean terminal line
         num_str = f"{i+1:02d}"
         
         line_elm = f'''<!-- [{num_str}] {r_name} -->
@@ -86,7 +84,6 @@ def build_svg(repos):
 </g>'''
         repo_lines.append(line_elm)
 
-    # Header animation (cmd typed at start)
     header_clip_kf = f"""
     .clip-header {{ animation: h_kf {duration}s infinite steps(30); -webkit-animation: h_kf {duration}s infinite steps(30); }}
     @keyframes h_kf {{ 0% {{ width: 0px; }} 12%, 100% {{ width: 770px; }} }}
@@ -177,9 +174,9 @@ def build_svg(repos):
   <path d="M 0 0 L 50 0 M 0 0 L 40 18 M 0 0 L 20 32" stroke="#0099ff" stroke-width="1.5" fill="none" opacity="0.6"/>
 </g>
 
-<!-- TERMINAL STARTUP SESSION HEADER -->
+<!-- TERMINAL SYSTEM STARTUP BANNER -->
 <g clip-path="url(#c_header)">
-  <text x="25" y="56" class="term-text" fill="#8b949e">Last login: Sat Aug 8 16:14:00 on ttys000</text>
+  <text x="25" y="56" class="term-text" fill="#8b949e">SpideyOS v4.2.0 (x86_64-apple-darwin) — System initialized</text>
   <text x="25" y="80" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">./fetch_repositories.sh --user=Midhun-M-git --all</tspan></text>
 </g>
 
@@ -195,7 +192,7 @@ def build_svg(repos):
         with open(path, 'w', encoding='utf-8') as f:
             f.write(svg_content)
         
-    print(f"Successfully generated Authentic Terminal Session SVG for ALL {total_repos} repositories!")
+    print(f"Successfully generated timeless authentic terminal SVG for ALL {total_repos} repositories!")
 
 if __name__ == '__main__':
     repos = fetch_repos()

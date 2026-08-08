@@ -203,9 +203,9 @@
   <path d="M 0 0 L 50 0 M 0 0 L 40 18 M 0 0 L 20 32" stroke="#0099ff" stroke-width="1.5" fill="none" opacity="0.6"/>
 </g>
 
-<!-- TERMINAL STARTUP SESSION HEADER -->
+<!-- TERMINAL SYSTEM STARTUP BANNER -->
 <g clip-path="url(#c_header)">
-  <text x="25" y="56" class="term-text" fill="#8b949e">Last login: Sat Aug 8 16:14:00 on ttys000</text>
+  <text x="25" y="56" class="term-text" fill="#8b949e">SpideyOS v4.2.0 (x86_64-apple-darwin) — System initialized</text>
   <text x="25" y="80" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">./fetch_repositories.sh --user=Midhun-M-git --all</tspan></text>
 </g>
 
