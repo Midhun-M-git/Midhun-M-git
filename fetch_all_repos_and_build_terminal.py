@@ -18,8 +18,9 @@ def fetch_repos():
         return []
 
 def build_svg(repos):
-    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_all_repos_terminal.svg"
-    output_legacy = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_projects_terminal.svg"
+    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_repos_terminal.svg"
+    output_all = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_all_repos_terminal.svg"
+    output_typewriter = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_typewriter_terminal.svg"
     
     if not repos:
         repos = [
@@ -30,13 +31,14 @@ def build_svg(repos):
         ]
         
     total_repos = len(repos)
-    print(f"Building terminal for {total_repos} repositories with integer keyframe percentages...")
+    print(f"Building true letter-by-letter typewriter terminal for {total_repos} repositories...")
     
-    # 4 seconds per repo
-    duration = max(30, total_repos * 4)
+    # 4.5 seconds per repo
+    duration = max(35, total_repos * 4.5)
     pct_per_repo = 100.0 / total_repos
     
-    css_keyframes = []
+    css_rules = []
+    clip_defs = []
     repo_groups = []
     
     for i, repo in enumerate(repos):
@@ -48,52 +50,71 @@ def build_svg(repos):
         r_lang = html.escape(str(repo.get("language") or "Code"))
         r_url = html.escape(str(repo.get("html_url") or f"https://github.com/Midhun-M-git/{r_name}"))
         
-        cls_name = f"proj-{i}"
+        cls_g = f"g-repo-{i}"
+        cls_clip = f"clip-rect-{i}"
+        clip_id = f"c_{i}"
         
-        # Calculate clean INTEGER keyframe percentages (GitHub Camo safe!)
+        # Calculate timing percentages
         start_p = int(round(i * pct_per_repo))
-        active_p = int(round(start_p + (pct_per_repo * 0.88)))
+        type_done_p = int(round(start_p + (pct_per_repo * 0.35)))
+        active_p = int(round(start_p + (pct_per_repo * 0.90)))
         end_p = int(round((i + 1) * pct_per_repo))
         
-        # Ensure bounds
+        # Clamp percentages 0..100
         start_p = max(0, min(100, start_p))
+        type_done_p = max(0, min(100, type_done_p))
         active_p = max(0, min(100, active_p))
         end_p = max(0, min(100, end_p))
         
+        # CSS rule for repo group visibility
         if i == 0:
-            kf = f"""
-            .{cls_name} {{ animation: kf_{i} {duration}s infinite; -webkit-animation: kf_{i} {duration}s infinite; }}
-            @keyframes kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
-            @-webkit-keyframes kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
+            g_kf = f"""
+            .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; }}
+            @keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
+            @-webkit-keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
         elif i == total_repos - 1:
-            kf = f"""
-            .{cls_name} {{ animation: kf_{i} {duration}s infinite; -webkit-animation: kf_{i} {duration}s infinite; opacity: 0; }}
-            @keyframes kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
-            @-webkit-keyframes kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}"""
+            g_kf = f"""
+            .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; opacity: 0; }}
+            @keyframes g_kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}"""
         else:
-            kf = f"""
-            .{cls_name} {{ animation: kf_{i} {duration}s infinite; -webkit-animation: kf_{i} {duration}s infinite; opacity: 0; }}
-            @keyframes kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
-            @-webkit-keyframes kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
-            
-        css_keyframes.append(kf)
+            g_kf = f"""
+            .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; opacity: 0; }}
+            @keyframes g_kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
+            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
+
+        # CSS rule for true letter-by-letter typewriter clip-path reveal
+        clip_kf = f"""
+        .{cls_clip} {{ animation: clp_kf_{i} {duration}s infinite steps(35); -webkit-animation: clp_kf_{i} {duration}s infinite steps(35); }}
+        @keyframes clp_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {type_done_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}
+        @-webkit-keyframes clp_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {type_done_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}"""
+
+        css_rules.append(g_kf + "\n" + clip_kf)
         
+        # ClipPath definition
+        clip_defs.append(f'<clipPath id="{clip_id}"><rect x="20" y="45" width="0" height="155" class="{cls_clip}"/></clipPath>')
+
+        # Group with clip-path applied for letter-by-letter typing reveal!
         g_elm = f'''<!-- [{i+1}/{total_repos}] {r_name} -->
-<g class="{cls_name}" style="opacity: 0;">
-  <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat {r_name}.json</tspan></text>
-  <a href="{r_url}" target="_blank">
-    <text x="25" y="105" class="proj-title">📂 [{i+1}/{total_repos}] {r_name}</text>
-  </a>
-  <text x="25" y="132" class="term-text proj-desc">├─ Description: {r_desc}</text>
-  <text x="25" y="156" class="term-text">└─ Tech: <tspan class="tech-tag">{r_lang}</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  <text x="25" y="188" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cursor">█</tspan></text>
+<g class="{cls_g}" style="opacity: 0;">
+  <g clip-path="url(#{clip_id})">
+    <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat {r_name}.json</tspan></text>
+    <a href="{r_url}" target="_blank">
+      <text x="25" y="105" class="proj-title">📂 [{i+1}/{total_repos}] {r_name}</text>
+    </a>
+    <text x="25" y="132" class="term-text proj-desc">├─ Description: {r_desc}</text>
+    <text x="25" y="156" class="term-text">└─ Tech: <tspan class="tech-tag">{r_lang}</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
+    <text x="25" y="188" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cursor">█</tspan></text>
+  </g>
 </g>'''
         repo_groups.append(g_elm)
 
-    full_css = "\n".join(css_keyframes)
+    full_css = "\n".join(css_rules)
+    full_clips = "\n".join(clip_defs)
     
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="100%" height="auto">
 <defs>
+{full_clips}
   <style>
     .term-text {{
       font-family: Consolas, Monaco, monospace, sans-serif;
@@ -165,18 +186,16 @@ def build_svg(repos):
   <path d="M 0 0 L 50 0 M 0 0 L 40 18 M 0 0 L 20 32" stroke="#0099ff" stroke-width="1.5" fill="none" opacity="0.6"/>
 </g>
 
-<!-- ALL REPOSITORY GROUPS -->
+<!-- ALL REPOSITORY GROUPS WITH TYPEWRITER CLIP PATHS -->
 {''.join(repo_groups)}
 
 </svg>'''
 
-    with open(output_svg, 'w', encoding='utf-8') as f:
-        f.write(svg_content)
+    for path in [output_svg, output_all, output_typewriter]:
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(svg_content)
         
-    with open(output_legacy, 'w', encoding='utf-8') as f:
-        f.write(svg_content)
-        
-    print(f"Successfully generated GitHub Camo safe SVG with ALL {total_repos} repositories!")
+    print(f"Successfully generated true typewriter SVG with ALL {total_repos} repositories!")
 
 if __name__ == '__main__':
     repos = fetch_repos()
