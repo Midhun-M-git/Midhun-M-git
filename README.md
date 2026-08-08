@@ -5,9 +5,9 @@
   
   <br/>
   
-  <!-- Animated Spidey Cyber Terminal Writing SVG -->
+  <!-- Typing Animation Title (Spider Red) -->
   <a href="https://novustech.in">
-    <img src="spidey_terminal.svg?v=1" alt="Spidey Terminal" width="100%" style="max-width: 800px;" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=E53E3E&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Midhun+M;Founder+%40+NovusTech.in;AI%2FML+%26+Cybersecurity+Engineer;Building+Scalable+Software+Solutions" alt="Typing SVG" />
   </a>
 
   <!-- Text-based social navigation -->
@@ -53,11 +53,9 @@ I am a Computer Science student and software engineer focusing on building scala
 
 ## Projects Overview
 
-| Project Name | Technical Description | Tech Stack | Status |
-| :--- | :--- | :--- | :--- |
-| **[WebApp Security Analyzer](https://github.com/Midhun-M-git/webapp-security-analyzer)** | Custom GUI tool for vulnerability scanning and threat detection | `Python` `Tkinter` | 🌐 Public |
-| **[Asthra](https://github.com/Midhun-M-git/asthra)** | AI-driven mobile app automating technical documentation generation | `Flutter` `AI Backend` | 🌐 Public |
-| **[Breach Checker Engine](https://github.com/Midhun-M-git/breach-checker-app)** | Secure credential validation engine querying global breach data | `Python` `REST APIs` | 🌐 Public |
+<div align="center">
+  <img src="spidey_projects_terminal.svg?v=1" alt="Spidey Projects Terminal" width="100%" style="max-width: 800px;" />
+</div>
 
 ---
 
