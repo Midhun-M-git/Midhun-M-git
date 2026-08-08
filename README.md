@@ -63,8 +63,8 @@ I am a Computer Science student and software engineer focusing on building scala
   <!-- Transparent Animated Spider-Man (Adapts to Light & Dark Mode) -->
   <img src="spidey_swinging.svg?v=5" alt="Spider-Man" width="100%" style="max-width: 800px;" />
 
-  <!-- Transparent Real Live GitHub Activity Overview Graph (Adapts to Light & Dark Mode) -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Midhun-M-git&theme=react-dark&bg_color=00000000&color=e74c3c&line=39d353&point=39d353&area=true&hide_border=true" alt="Midhun-M-git's Real Contribution Graph" width="100%" style="max-width: 800px;" />
+  <!-- 100% Accurate Real GitHub Activity Overview Graph (With Exact Daily Numbers) -->
+  <img src="spidey_activity_graph.svg?v=1" alt="Midhun-M-git's Accurate Contribution Graph" width="100%" style="max-width: 800px;" />
 
   <!-- Transparent Real Live GitHub Streak Stats (Demolab Host) -->
   <img src="https://streak-stats.demolab.com/?user=Midhun-M-git&theme=dark&background=00000000&border=00000000&stroke=e74c3c&ring=e74c3c&fire=e74c3c&hide_border=true" alt="Midhun-M-git's Real GitHub Streak Stats" width="100%" style="max-width: 800px;" />

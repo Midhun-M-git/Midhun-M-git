@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="auto">
+<defs>
+  <linearGradient id="polyGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#39d353" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#39d353" stop-opacity="0.0"/>
+  </linearGradient>
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; font-weight: 700; fill: #e74c3c; }
+    .grid-line { stroke: #30363d; stroke-width: 1; stroke-dasharray: 3 3; }
+  </style>
+</defs>
+
+<!-- BACKGROUND CONTAINER -->
+<rect width="800" height="220" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+
+<!-- TITLE -->
+<text x="400.0" y="25" class="title" text-anchor="middle">🕷️ Midhun M's Real GitHub Daily Contributions (Last 14 Days)</text>
+
+<!-- GRID LINES -->
+<line x1="50" y1="180" x2="750" y2="180" stroke="#30363d" stroke-width="1"/>
+<line x1="50" y1="40" x2="750" y2="40" class="grid-line"/>
+
+<!-- AREA SHADE & LINE -->
+<path d="M 50.0 180.0 L 103.8 180.0 L 157.7 180.0 L 211.5 180.0 L 265.4 180.0 L 319.2 180.0 L 373.1 180.0 L 426.9 180.0 L 480.8 180.0 L 534.6 180.0 L 588.5 180.0 L 642.3 180.0 L 696.2 40.0 L 750.0 65.5 L 750.0 180 L 50.0 180 Z" fill="url(#polyGrad)"/>
+<path d="M 50.0 180.0 L 103.8 180.0 L 157.7 180.0 L 211.5 180.0 L 265.4 180.0 L 319.2 180.0 L 373.1 180.0 L 426.9 180.0 L 480.8 180.0 L 534.6 180.0 L 588.5 180.0 L 642.3 180.0 L 696.2 40.0 L 750.0 65.5" fill="none" stroke="#39d353" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+<!-- DATA POINTS & LABELS -->
+<circle cx="50.0" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-07-26: 0 contributions</title></circle><circle cx="103.8" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-07-27: 0 contributions</title></circle><circle cx="157.7" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-07-28: 0 contributions</title></circle><circle cx="211.5" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-07-29: 0 contributions</title></circle><circle cx="265.4" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-07-30: 0 contributions</title></circle><circle cx="319.2" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-07-31: 0 contributions</title></circle><circle cx="373.1" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-08-01: 0 contributions</title></circle><circle cx="426.9" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-08-02: 0 contributions</title></circle><circle cx="480.8" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-08-03: 0 contributions</title></circle><circle cx="534.6" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-08-04: 0 contributions</title></circle><circle cx="588.5" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-08-05: 0 contributions</title></circle><circle cx="642.3" cy="180.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-08-06: 0 contributions</title></circle><circle cx="696.2" cy="40.0" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-08-07: 55 contributions</title></circle><text x="696.2" y="30.0" fill="#e74c3c" font-size="11" font-family="monospace" text-anchor="middle" font-weight="700">55</text><circle cx="750.0" cy="65.5" r="4" fill="#39d353" stroke="#161b22" stroke-width="2"><title>2026-08-08: 45 contributions</title></circle><text x="750.0" y="55.5" fill="#e74c3c" font-size="11" font-family="monospace" text-anchor="middle" font-weight="700">45</text>
+<text x="50.0" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">26</text><text x="103.8" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">27</text><text x="157.7" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">28</text><text x="211.5" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">29</text><text x="265.4" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">30</text><text x="319.2" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">31</text><text x="373.1" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">01</text><text x="426.9" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">02</text><text x="480.8" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">03</text><text x="534.6" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">04</text><text x="588.5" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">05</text><text x="642.3" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">06</text><text x="696.2" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">07</text><text x="750.0" y="205" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">08</text>
+
+</svg>
