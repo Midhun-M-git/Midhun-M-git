@@ -42,11 +42,11 @@ I am a Computer Science student and software engineer focusing on building scala
 ## Technical Stack & Tools
 
 ### Programming Languages & Frameworks
-<p align="left">
+<p>
+  <img src="spidey_tech.svg?v=3" alt="Spider-Man" align="right" height="110" />
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,java,py,flutter&theme=dark" alt="Skills" style="vertical-align: middle;" />
+    <img src="https://skillicons.dev/icons?i=c,java,py,flutter&theme=dark" alt="Skills" />
   </a>
-  <img src="spidey_tech.svg?v=2" alt="Spider-Man" height="48" style="vertical-align: middle; margin-left: 12px;" />
 </p>
 
 ---
