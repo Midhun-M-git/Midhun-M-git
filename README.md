@@ -62,7 +62,7 @@ I am a Computer Science student and software engineer focusing on building scala
 ---
 
 <div align="center">
-  <img src="github-contribution-graph.svg" alt="Analytics & Activity" width="100%" style="max-width: 800px;" />
+  <img src="spiderman-github-stats.svg?v=7" alt="Analytics & Activity" width="100%" style="max-width: 800px;" />
 </div>
 
 <br />
