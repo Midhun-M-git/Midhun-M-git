@@ -18,9 +18,9 @@ def fetch_repos():
         return []
 
 def build_svg(repos):
-    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_typewriter_terminal.svg"
-    output_repos = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_repos_terminal.svg"
-    output_all = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_all_repos_terminal.svg"
+    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_scroll_terminal.svg"
+    output_v2 = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_terminal_typewriter_v2.svg"
+    output_typewriter = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_typewriter_terminal.svg"
     
     if not repos:
         repos = [
@@ -31,15 +31,19 @@ def build_svg(repos):
         ]
         
     total_repos = len(repos)
-    print(f"Building REAL step-by-step terminal typewriter for {total_repos} repositories...")
+    print(f"Building Real Vertical Scroll-Up Terminal for {total_repos} repositories...")
     
-    # 5 seconds per repo
-    duration = max(40, total_repos * 5.0)
+    # Each repo occupies 160px vertical height block
+    block_height = 160
+    viewport_height = 240
+    
+    duration = max(40, total_repos * 4.5)
     pct_per_repo = 100.0 / total_repos
     
     css_rules = []
     clip_defs = []
-    repo_groups = []
+    repo_blocks = []
+    scroll_keyframes = []
     
     for i, repo in enumerate(repos):
         r_name = html.escape(str(repo.get("name", "repository")))
@@ -50,85 +54,84 @@ def build_svg(repos):
         r_lang = html.escape(str(repo.get("language") or "Code"))
         r_url = html.escape(str(repo.get("html_url") or f"https://github.com/Midhun-M-git/{r_name}"))
         
-        cls_g = f"g-repo-{i}"
+        y_offset = i * block_height
         cls_cmd_clip = f"clip-cmd-{i}"
         cls_out_clip = f"clip-out-{i}"
         cmd_clip_id = f"cmd_c_{i}"
         out_clip_id = f"out_c_{i}"
         
-        # Calculate keyframe timings for Step 1 (typing command) and Step 2 (printing output)
+        # Calculate keyframe timings for Step 1 (command type) and Step 2 (output print)
         start_p = int(round(i * pct_per_repo))
-        cmd_typed_p = int(round(start_p + (pct_per_repo * 0.28)))
-        out_typed_p = int(round(start_p + (pct_per_repo * 0.50)))
-        active_p = int(round(start_p + (pct_per_repo * 0.96)))
+        cmd_typed_p = int(round(start_p + (pct_per_repo * 0.35)))
+        out_typed_p = int(round(start_p + (pct_per_repo * 0.65)))
         end_p = int(round((i + 1) * pct_per_repo))
         
-        # Clamp percentages 0..100
         start_p = max(0, min(100, start_p))
         cmd_typed_p = max(0, min(100, cmd_typed_p))
         out_typed_p = max(0, min(100, out_typed_p))
-        active_p = max(0, min(100, active_p))
         end_p = max(0, min(100, end_p))
         
-        # Group visibility animation
-        if i == 0:
-            g_kf = f"""
-            .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; }}
-            @keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
-            @-webkit-keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
-        elif i == total_repos - 1:
-            g_kf = f"""
-            .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; opacity: 0; }}
-            @keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; }} {start_p}%, 100% {{ opacity: 1; }} }}
-            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; }} {start_p}%, 100% {{ opacity: 1; }} }}"""
-        else:
-            g_kf = f"""
-            .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; opacity: 0; }}
-            @keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; }} {start_p}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
-            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; }} {start_p}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
-
-        # Step 1: Command line types out character-by-character
+        # Command line typing clip animation
         cmd_kf = f"""
         .{cls_cmd_clip} {{ animation: cmd_kf_{i} {duration}s infinite steps(25); -webkit-animation: cmd_kf_{i} {duration}s infinite steps(25); }}
-        @keyframes cmd_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {cmd_typed_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}
-        @-webkit-keyframes cmd_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {cmd_typed_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}"""
+        @keyframes cmd_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {cmd_typed_p}%, 100% {{ width: 770px; }} }}
+        @-webkit-keyframes cmd_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {cmd_typed_p}%, 100% {{ width: 770px; }} }}"""
 
-        # Step 2: Output lines appear AFTER command finishes typing!
+        # Output lines typing clip animation
         out_kf = f"""
         .{cls_out_clip} {{ animation: out_kf_{i} {duration}s infinite steps(30); -webkit-animation: out_kf_{i} {duration}s infinite steps(30); }}
-        @keyframes out_kf_{i} {{ 0%, {cmd_typed_p}% {{ width: 0px; }} {out_typed_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}
-        @-webkit-keyframes out_kf_{i} {{ 0%, {cmd_typed_p}% {{ width: 0px; }} {out_typed_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}"""
+        @keyframes out_kf_{i} {{ 0%, {cmd_typed_p}% {{ width: 0px; }} {out_typed_p}%, 100% {{ width: 770px; }} }}
+        @-webkit-keyframes out_kf_{i} {{ 0%, {cmd_typed_p}% {{ width: 0px; }} {out_typed_p}%, 100% {{ width: 770px; }} }}"""
 
-        css_rules.append(g_kf + "\n" + cmd_kf + "\n" + out_kf)
+        css_rules.append(cmd_kf + "\n" + out_kf)
         
-        # ClipPath definitions
-        clip_defs.append(f'<clipPath id="{cmd_clip_id}"><rect x="20" y="45" width="0" height="35" class="{cls_cmd_clip}"/></clipPath>')
-        clip_defs.append(f'<clipPath id="{out_clip_id}"><rect x="20" y="80" width="0" height="120" class="{cls_out_clip}"/></clipPath>')
+        clip_defs.append(f'<clipPath id="{cmd_clip_id}"><rect x="20" y="{y_offset + 10}" width="0" height="30" class="{cls_cmd_clip}"/></clipPath>')
+        clip_defs.append(f'<clipPath id="{out_clip_id}"><rect x="20" y="{y_offset + 40}" width="0" height="110" class="{cls_out_clip}"/></clipPath>')
 
-        # Group structure matching real terminal: Line 1 (Command) -> Line 2,3,4 (Output) -> Line 5 (Prompt)
-        g_elm = f'''<!-- [{i+1}/{total_repos}] {r_name} -->
-<g class="{cls_g}" style="opacity: 0;">
-  <!-- STEP 1: Command typed out letter-by-letter -->
+        # Build repository block inside vertical stream
+        block = f'''<!-- [{i+1}/{total_repos}] {r_name} -->
+<g transform="translate(0, {y_offset})">
+  <!-- Line 1: Command typed -->
   <g clip-path="url(#{cmd_clip_id})">
-    <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat {r_name}.json</tspan></text>
+    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat {r_name}.json</tspan></text>
   </g>
   
-  <!-- STEP 2: Output details appear after command enters -->
+  <!-- Line 2,3,4: Output printed -->
   <g clip-path="url(#{out_clip_id})">
     <a href="{r_url}" target="_blank">
-      <text x="25" y="105" class="proj-title">📂 [{i+1}/{total_repos}] {r_name}</text>
+      <text x="25" y="62" class="proj-title">📂 [{i+1}/{total_repos}] {r_name}</text>
     </a>
-    <text x="25" y="132" class="term-text proj-desc">├─ Description: {r_desc}</text>
-    <text x="25" y="156" class="term-text">└─ Tech: <tspan class="tech-tag">{r_lang}</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-    <text x="25" y="188" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cursor">█</tspan></text>
+    <text x="25" y="86" class="term-text proj-desc">├─ Description: {r_desc}</text>
+    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">{r_lang}</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
   </g>
 </g>'''
-        repo_groups.append(g_elm)
+        repo_blocks.append(block)
 
-    full_css = "\n".join(css_rules)
+        # Build vertical scroll keyframe step
+        y_scroll = -i * block_height
+        if i == 0:
+            scroll_keyframes.append(f"0%, {end_p - 1}% {{ transform: translateY(0px); -webkit-transform: translateY(0px); }}")
+        elif i == total_repos - 1:
+            scroll_keyframes.append(f"{start_p}%, 100% {{ transform: translateY({y_scroll}px); -webkit-transform: translateY({y_scroll}px); }}")
+        else:
+            scroll_keyframes.append(f"{start_p}%, {end_p - 1}% {{ transform: translateY({y_scroll}px); -webkit-transform: translateY({y_scroll}px); }}")
+
+    scroll_css = f"""
+    .scroll-stream {{
+      animation: term_scroll {duration}s infinite cubic-bezier(0.25, 1, 0.5, 1);
+      -webkit-animation: term_scroll {duration}s infinite cubic-bezier(0.25, 1, 0.5, 1);
+    }}
+    @keyframes term_scroll {{
+      {chr(10).join(scroll_keyframes)}
+    }}
+    @-webkit-keyframes term_scroll {{
+      {chr(10).join(scroll_keyframes)}
+    }}"""
+
+    full_css = "\n".join(css_rules) + "\n" + scroll_css
     full_clips = "\n".join(clip_defs)
     
-    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="100%" height="auto">
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="auto">
 <defs>
 {full_clips}
   <style>
@@ -180,10 +183,15 @@ def build_svg(repos):
 
 {full_css}
   </style>
+
+  <!-- CLIP VIEWPORT TO PREVENT OVERFLOW -->
+  <clipPath id="viewport_clip">
+    <rect x="0" y="32" width="800" height="208" />
+  </clipPath>
 </defs>
 
 <!-- TERMINAL WINDOW CONTAINER -->
-<rect width="800" height="210" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+<rect width="800" height="240" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
 
 <!-- TERMINAL HEADER BAR -->
 <path d="M0 10 Q0 0 10 0 L790 0 Q800 0 800 10 L800 32 L0 32 Z" fill="#21262d"/>
@@ -202,16 +210,28 @@ def build_svg(repos):
   <path d="M 0 0 L 50 0 M 0 0 L 40 18 M 0 0 L 20 32" stroke="#0099ff" stroke-width="1.5" fill="none" opacity="0.6"/>
 </g>
 
-<!-- ALL REPOSITORY GROUPS WITH TWO-STEP TERMINAL TYPEWRITER -->
-{''.join(repo_groups)}
+<!-- TERMINAL VIEWPORT CONTAINER -->
+<g clip-path="url(#viewport_clip)">
+  <!-- VERTICAL SCROLL STREAM -->
+  <g class="scroll-stream" transform="translate(0, 32)">
+    {''.join(repo_blocks)}
+  </g>
+</g>
+
+<!-- FIXED BOTTOM PROMPT WITH BLINKING CURSOR (ALWAYS VISIBLE) -->
+<g transform="translate(0, 202)">
+  <rect x="0" y="-12" width="800" height="50" fill="#161b22" opacity="0.95"/>
+  <line x1="0" y1="-12" x2="800" y2="-12" stroke="#21262d" stroke-width="1"/>
+  <text x="25" y="10" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cursor">█</tspan></text>
+</g>
 
 </svg>'''
 
-    for path in [output_svg, output_repos, output_all]:
+    for path in [output_svg, output_v2, output_typewriter]:
         with open(path, 'w', encoding='utf-8') as f:
             f.write(svg_content)
         
-    print(f"Successfully generated 2-step real terminal typewriter SVG for ALL {total_repos} repositories!")
+    print(f"Successfully generated Real Vertical Scroll-Up Terminal for ALL {total_repos} repositories!")
 
 if __name__ == '__main__':
     repos = fetch_repos()
