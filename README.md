@@ -5,9 +5,9 @@
   
   <br/>
   
-  <!-- Typing Animation Title (Spider Red) -->
+  <!-- Animated Spidey Cyber Terminal Writing SVG -->
   <a href="https://novustech.in">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=E53E3E&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Midhun+M;Founder+%40+NovusTech.in;AI%2FML+%26+Cybersecurity+Engineer;Building+Scalable+Software+Solutions" alt="Typing SVG" />
+    <img src="spidey_terminal.svg?v=1" alt="Spidey Terminal" width="100%" style="max-width: 800px;" />
   </a>
 
   <!-- Text-based social navigation -->

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="100%" height="auto">
+<defs>
+  <style>
+    .term-text {
+      font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+      font-size: 18px;
+      font-weight: 600;
+      fill: #f0f6fc;
+    }
+    .prompt {
+      fill: #e74c3c;
+      font-weight: 700;
+    }
+    .path {
+      fill: #38bdf8;
+    }
+    .cursor {
+      animation: blink 0.8s infinite;
+      fill: #e74c3c;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    
+    /* Typewriter animation cycle for 5 lines */
+    .line-1 { animation: type1 15s infinite; }
+    .line-2 { animation: type2 15s infinite; }
+    .line-3 { animation: type3 15s infinite; }
+    .line-4 { animation: type4 15s infinite; }
+    .line-5 { animation: type5 15s infinite; }
+    
+    @keyframes type1 { 0%, 18% { opacity: 1; } 20%, 100% { opacity: 0; } }
+    @keyframes type2 { 0%, 19% { opacity: 0; } 20%, 38% { opacity: 1; } 40%, 100% { opacity: 0; } }
+    @keyframes type3 { 0%, 39% { opacity: 0; } 40%, 58% { opacity: 1; } 60%, 100% { opacity: 0; } }
+    @keyframes type4 { 0%, 59% { opacity: 0; } 60%, 78% { opacity: 1; } 80%, 100% { opacity: 0; } }
+    @keyframes type5 { 0%, 79% { opacity: 0; } 80%, 98% { opacity: 1; } 100% { opacity: 0; } }
+  </style>
+</defs>
+
+<!-- TERMINAL WINDOW CONTAINER -->
+<rect width="800" height="160" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+
+<!-- TERMINAL HEADER BAR -->
+<path d="M0 10 Q0 0 10 0 L790 0 Q800 0 800 10 L800 32 L0 32 Z" fill="#21262d"/>
+<line x1="0" y1="32" x2="800" y2="32" stroke="#30363d" stroke-width="1"/>
+
+<!-- TERMINAL DOTS -->
+<circle cx="20" cy="16" r="6" fill="#ff5f56"/>
+<circle cx="38" cy="16" r="6" fill="#ffbd2e"/>
+<circle cx="56" cy="16" r="6" fill="#27c93f"/>
+
+<!-- TERMINAL TITLE -->
+<text x="400" y="21" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Fira Code', 'Courier New', monospace" font-size="12" text-anchor="middle" font-weight="600">🕷️ midhun@spidey-terminal: ~ (zsh)</text>
+
+<!-- SPIDER WEB ACCENT IN TOP RIGHT OF TERMINAL -->
+<g transform="translate(800, 0) scale(-1, 1)">
+  <path d="M 0 0 L 50 0 M 0 0 L 40 18 M 0 0 L 20 32" stroke="#0099ff" stroke-width="1.5" fill="none" opacity="0.6"/>
+</g>
+
+<!-- TERMINAL CONTENT LINE 1 -->
+<g class="line-1">
+  <text x="25" y="72" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~</tspan>$ whoami</text>
+  <text x="25" y="112" class="term-text" fill="#39d353">⚡ Hi, I'm Midhun M <tspan class="cursor">█</tspan></text>
+</g>
+
+<!-- TERMINAL CONTENT LINE 2 -->
+<g class="line-2" style="opacity: 0;">
+  <text x="25" y="72" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~</tspan>$ cat role.txt</text>
+  <text x="25" y="112" class="term-text" fill="#38bdf8">🚀 Founder @ NovusTech.in <tspan class="cursor">█</tspan></text>
+</g>
+
+<!-- TERMINAL CONTENT LINE 3 -->
+<g class="line-3" style="opacity: 0;">
+  <text x="25" y="72" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~</tspan>$ cat domain.txt</text>
+  <text x="25" y="112" class="term-text" fill="#e74c3c">🛡️ AI/ML &amp; Cybersecurity Engineer <tspan class="cursor">█</tspan></text>
+</g>
+
+<!-- TERMINAL CONTENT LINE 4 -->
+<g class="line-4" style="opacity: 0;">
+  <text x="25" y="72" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~</tspan>$ cat mission.txt</text>
+  <text x="25" y="112" class="term-text" fill="#f1c40f">💻 Building Scalable Software Solutions <tspan class="cursor">█</tspan></text>
+</g>
+
+<!-- TERMINAL CONTENT LINE 5 -->
+<g class="line-5" style="opacity: 0;">
+  <text x="25" y="72" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~</tspan>$ cat motto.txt</text>
+  <text x="25" y="112" class="term-text" fill="#e74c3c">🕸️ "With great power comes great code." <tspan class="cursor">█</tspan></text>
+</g>
+
+</svg>
