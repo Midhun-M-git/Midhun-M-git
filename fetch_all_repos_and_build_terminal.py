@@ -3,6 +3,7 @@ import json
 import urllib.request
 import re
 import math
+import html
 
 FONT = "-apple-system, BlinkMacSystemFont, 'Fira Code', 'Courier New', monospace"
 
@@ -18,10 +19,10 @@ def fetch_repos():
         return []
 
 def build_svg(repos):
-    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_projects_terminal.svg"
+    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_all_repos_terminal.svg"
+    output_legacy = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_projects_terminal.svg"
     
     if not repos:
-        # Fallback if API rate limited
         repos = [
             {"name": "webapp-security-analyzer", "description": "Custom GUI tool for vulnerability scanning & threat detection", "language": "Python", "html_url": "https://github.com/Midhun-M-git/webapp-security-analyzer"},
             {"name": "asthra", "description": "AI-driven mobile app automating technical documentation generation", "language": "Flutter", "html_url": "https://github.com/Midhun-M-git/asthra"},
@@ -32,25 +33,23 @@ def build_svg(repos):
     total_repos = len(repos)
     print(f"Building terminal for {total_repos} repositories...")
     
-    # Total animation duration: 3.5s per repository
     duration = max(30, total_repos * 3.5)
     pct_per_repo = 100.0 / total_repos
     
-    # Build CSS Keyframes dynamically for N repos
     css_keyframes = []
     repo_groups = []
     
     for i, repo in enumerate(repos):
-        r_name = repo.get("name", "repository")
-        r_desc = repo.get("description") or "Open source software project repository"
-        if len(r_desc) > 75:
-            r_desc = r_desc[:72] + "..."
-        r_lang = repo.get("language") or "Code"
-        r_url = repo.get("html_url") or f"https://github.com/Midhun-M-git/{r_name}"
+        r_name = html.escape(str(repo.get("name", "repository")))
+        raw_desc = str(repo.get("description") or "Open source software project repository")
+        if len(raw_desc) > 75:
+            raw_desc = raw_desc[:72] + "..."
+        r_desc = html.escape(raw_desc)
+        r_lang = html.escape(str(repo.get("language") or "Code"))
+        r_url = html.escape(str(repo.get("html_url") or f"https://github.com/Midhun-M-git/{r_name}"))
         
         cls_name = f"proj-{i}"
         
-        # Calculate keyframe timings
         start_pct = i * pct_per_repo
         active_pct = start_pct + (pct_per_repo * 0.92)
         end_pct = (i + 1) * pct_per_repo
@@ -81,7 +80,6 @@ def build_svg(repos):
             
         css_keyframes.append(kf)
         
-        # Build SVG group for repo
         g_elm = f'''<!-- [{i+1}/{total_repos}] {r_name} -->
 <g class="{cls_name}" style="opacity: 0;">
   <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat {r_name}.json</tspan></text>
@@ -172,7 +170,10 @@ def build_svg(repos):
     with open(output_svg, 'w', encoding='utf-8') as f:
         f.write(svg_content)
         
-    print(f"Successfully generated Spidey Projects Terminal with ALL {total_repos} repositories!")
+    with open(output_legacy, 'w', encoding='utf-8') as f:
+        f.write(svg_content)
+        
+    print(f"Successfully generated Spidey Projects Terminal with ALL {total_repos} XML-escaped repositories!")
 
 if __name__ == '__main__':
     repos = fetch_repos()

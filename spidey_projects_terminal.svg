@@ -354,7 +354,7 @@
   <a href="https://github.com/Midhun-M-git/Resort_app" target="_blank">
     <text x="25" y="105" class="proj-title">📂 [13/25] Resort_app</text>
   </a>
-  <text x="25" y="132" class="term-text proj-desc">├─ Description:  A full-featured resort room booking app built with Flutter & Supabase —...</text>
+  <text x="25" y="132" class="term-text proj-desc">├─ Description:  A full-featured resort room booking app built with Flutter &amp; Supabase —...</text>
   <text x="25" y="156" class="term-text">└─ Tech: <tspan class="tech-tag">Dart</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
   <text x="25" y="188" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cursor">█</tspan></text>
 </g><!-- [14/25] webapp-security-analyzer -->
