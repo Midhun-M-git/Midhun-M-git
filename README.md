@@ -62,23 +62,14 @@ I am a Computer Science student and software engineer focusing on building scala
 ---
 
 <div align="center">
-  <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; background: #0d1117; width: 100%; max-width: 800px; border-radius: 12px; overflow: hidden;">
-    <tr>
-      <td style="padding: 0; margin: 0; border: none; line-height: 0;">
-        <img src="spidey_swinging.svg?v=3" width="100%" style="display: block; border: none; margin: 0; padding: 0;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 0; margin: 0; border: none; line-height: 0;">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Midhun-M-git&theme=github-dark&bg_color=0d1117&color=e74c3c&line=39d353&point=39d353&area=true&hide_border=true" width="100%" style="display: block; border: none; margin: 0; padding: 0;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 0; margin: 0; border: none; line-height: 0;">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Midhun-M-git&theme=dark&background=0d1117&border=0d1117&stroke=e74c3c&ring=e74c3c&fire=e74c3c&hide_border=true" width="100%" style="display: block; border: none; margin: 0; padding: 0;" />
-      </td>
-    </tr>
-  </table>
+  <!-- Transparent Animated Spider-Man (Adapts to Light & Dark Mode) -->
+  <img src="spidey_swinging.svg?v=4" alt="Spider-Man" width="100%" style="max-width: 800px;" />
+
+  <!-- Transparent Real Live GitHub Activity Overview Graph (Adapts to Light & Dark Mode) -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Midhun-M-git&theme=react-dark&bg_color=00000000&color=e74c3c&line=39d353&point=39d353&area=true&hide_border=true" alt="Midhun-M-git's Real Contribution Graph" width="100%" style="max-width: 800px;" />
+
+  <!-- Transparent Real Live GitHub Streak Stats (Adapts to Light & Dark Mode) -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Midhun-M-git&theme=dark&background=00000000&border=00000000&stroke=e74c3c&ring=e74c3c&fire=e74c3c&hide_border=true" alt="Midhun-M-git's Real GitHub Streak Stats" width="100%" style="max-width: 800px;" />
 </div>
 
 <br />

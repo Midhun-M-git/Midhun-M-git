@@ -63,10 +63,7 @@
   </style>
 </defs>
 
-<!-- BACKGROUND -->
-<rect width="100%" height="100%" fill="#0d1117"/>
-
-<!-- BLUE SPIDER WEBS AT TOP CORNERS (stroke="#0099ff") -->
+<!-- BLUE SPIDER WEBS AT TOP CORNERS (stroke="#0099ff" - Visible on White & Dark!) -->
 <g transform="translate(0, 0)">
     <path d="M 0 0 L 120 0 M 0 0 L 100 40 M 0 0 L 60 80 M 0 0 L 20 110 M 0 0 L 0 120" stroke="#0099ff" stroke-width="2.5" fill="none" stroke-linecap="round" />
     <path d="M 40 0 Q 35 15 10 30 M 70 0 Q 60 25 20 60 M 100 0 Q 80 40 30 90 M 120 0 Q 90 60 0 110" stroke="#0099ff" stroke-width="2.5" fill="none" stroke-linecap="round" />
