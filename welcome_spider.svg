@@ -11,19 +11,19 @@
         font-weight: 800;
     }
     .web-line {
-        stroke: #38bdf8;
-        stroke-width: 1.8;
+        stroke: #0284c7;
+        stroke-width: 2.5;
         fill: none;
         stroke-linecap: round;
-        opacity: 0.85;
+        opacity: 1;
     }
     .spider {
         animation: crawl 8s infinite ease-in-out;
         transform-origin: 0 0;
     }
     .spider-string {
-        stroke: #38bdf8;
-        stroke-width: 1.8;
+        stroke: #0284c7;
+        stroke-width: 2.5;
         animation: string-extend 8s infinite ease-in-out;
         transform-origin: 0 0;
     }
