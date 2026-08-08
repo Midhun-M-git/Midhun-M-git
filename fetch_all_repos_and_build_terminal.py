@@ -2,10 +2,9 @@
 import json
 import urllib.request
 import re
-import math
 import html
 
-FONT = "-apple-system, BlinkMacSystemFont, 'Fira Code', 'Courier New', monospace"
+FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
 
 def fetch_repos():
     url = "https://api.github.com/users/Midhun-M-git/repos?per_page=100&sort=updated"
@@ -31,9 +30,10 @@ def build_svg(repos):
         ]
         
     total_repos = len(repos)
-    print(f"Building terminal for {total_repos} repositories...")
+    print(f"Building terminal for {total_repos} repositories with integer keyframe percentages...")
     
-    duration = max(30, total_repos * 3.5)
+    # 4 seconds per repo
+    duration = max(30, total_repos * 4)
     pct_per_repo = 100.0 / total_repos
     
     css_keyframes = []
@@ -50,33 +50,31 @@ def build_svg(repos):
         
         cls_name = f"proj-{i}"
         
-        start_pct = i * pct_per_repo
-        active_pct = start_pct + (pct_per_repo * 0.92)
-        end_pct = (i + 1) * pct_per_repo
+        # Calculate clean INTEGER keyframe percentages (GitHub Camo safe!)
+        start_p = int(round(i * pct_per_repo))
+        active_p = int(round(start_p + (pct_per_repo * 0.88)))
+        end_p = int(round((i + 1) * pct_per_repo))
+        
+        # Ensure bounds
+        start_p = max(0, min(100, start_p))
+        active_p = max(0, min(100, active_p))
+        end_p = max(0, min(100, end_p))
         
         if i == 0:
             kf = f"""
-            .{cls_name} {{ animation: kf_{i} {duration:.1f}s infinite; }}
-            @keyframes kf_{i} {{
-                0%, {active_pct:.2f}% {{ opacity: 1; }}
-                {end_pct:.2f}%, 100% {{ opacity: 0; }}
-            }}"""
+            .{cls_name} {{ animation: kf_{i} {duration}s infinite; -webkit-animation: kf_{i} {duration}s infinite; }}
+            @keyframes kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
+            @-webkit-keyframes kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
         elif i == total_repos - 1:
             kf = f"""
-            .{cls_name} {{ animation: kf_{i} {duration:.1f}s infinite; opacity: 0; }}
-            @keyframes kf_{i} {{
-                0%, {start_pct - 0.1:.2f}% {{ opacity: 0; }}
-                {start_pct:.2f}%, {active_pct:.2f}% {{ opacity: 1; }}
-                100% {{ opacity: 0; }}
-            }}"""
+            .{cls_name} {{ animation: kf_{i} {duration}s infinite; -webkit-animation: kf_{i} {duration}s infinite; opacity: 0; }}
+            @keyframes kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+            @-webkit-keyframes kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}"""
         else:
             kf = f"""
-            .{cls_name} {{ animation: kf_{i} {duration:.1f}s infinite; opacity: 0; }}
-            @keyframes kf_{i} {{
-                0%, {start_pct - 0.1:.2f}% {{ opacity: 0; }}
-                {start_pct:.2f}%, {active_pct:.2f}% {{ opacity: 1; }}
-                {end_pct:.2f}%, 100% {{ opacity: 0; }}
-            }}"""
+            .{cls_name} {{ animation: kf_{i} {duration}s infinite; -webkit-animation: kf_{i} {duration}s infinite; opacity: 0; }}
+            @keyframes kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
+            @-webkit-keyframes kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
             
         css_keyframes.append(kf)
         
@@ -98,8 +96,8 @@ def build_svg(repos):
 <defs>
   <style>
     .term-text {{
-      font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-      font-size: 14.5px;
+      font-family: Consolas, Monaco, monospace, sans-serif;
+      font-size: 14px;
       fill: #c9d1d9;
     }}
     .prompt {{
@@ -120,7 +118,7 @@ def build_svg(repos):
     }}
     .proj-desc {{
       fill: #8b949e;
-      font-size: 13.5px;
+      font-size: 13px;
     }}
     .tech-tag {{
       fill: #2ea043;
@@ -131,9 +129,14 @@ def build_svg(repos):
     }}
     .cursor {{
       animation: blink 0.8s infinite;
+      -webkit-animation: blink 0.8s infinite;
       fill: #e74c3c;
     }}
     @keyframes blink {{
+      0%, 100% {{ opacity: 1; }}
+      50% {{ opacity: 0; }}
+    }}
+    @-webkit-keyframes blink {{
       0%, 100% {{ opacity: 1; }}
       50% {{ opacity: 0; }}
     }}
@@ -173,7 +176,7 @@ def build_svg(repos):
     with open(output_legacy, 'w', encoding='utf-8') as f:
         f.write(svg_content)
         
-    print(f"Successfully generated Spidey Projects Terminal with ALL {total_repos} XML-escaped repositories!")
+    print(f"Successfully generated GitHub Camo safe SVG with ALL {total_repos} repositories!")
 
 if __name__ == '__main__':
     repos = fetch_repos()
