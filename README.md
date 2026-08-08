@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Custom Header Banner (Spider-Man Theme) -->
-  <img src="welcome_spider.svg?v=2" alt="Welcome to My Digital Workspace" width="100%" style="max-width: 800px;" />
+  <img src="welcome_spider.svg?v=3" alt="Welcome to My Digital Workspace" width="100%" style="max-width: 800px;" />
   
   <br/>
   

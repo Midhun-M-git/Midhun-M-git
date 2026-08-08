@@ -1,29 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">\n<defs>\n
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+<defs>
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#58a6ff" />
         <stop offset="50%" stop-color="#79c0ff" />
         <stop offset="100%" stop-color="#c9d1d9" />
     </linearGradient>
-\n</defs>\n<style>\n
+</defs>
+<style>
     .title {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
         font-size: 28px;
         font-weight: 800;
-    }
-    .web-line {
-        stroke: #0284c7;
-        stroke-width: 2.5;
-        fill: none;
-        stroke-linecap: round;
-        opacity: 1;
     }
     .spider {
         animation: crawl 8s infinite ease-in-out;
         transform-origin: 0 0;
     }
     .spider-string {
-        stroke: #0284c7;
-        stroke-width: 2.5;
         animation: string-extend 8s infinite ease-in-out;
         transform-origin: 0 0;
     }
@@ -45,20 +38,26 @@
         0% { transform: rotate(-3deg); }
         100% { transform: rotate(3deg); }
     }
-\n</style>\n<text x="400" y="65" text-anchor="middle" alignment-baseline="middle" class="title" fill="#ff3b30">🕷️ Welcome to My Digital Workspace</text>\n
-<g class="web-line">
-    <path d="M 0 0 L 120 0 M 0 0 L 100 40 M 0 0 L 60 80 M 0 0 L 20 110 M 0 0 L 0 120" />
-    <path d="M 40 0 Q 35 15 10 30 M 70 0 Q 60 25 20 60 M 100 0 Q 80 40 30 90 M 120 0 Q 90 60 0 110" />
+</style>
+
+<text x="400" y="65" text-anchor="middle" alignment-baseline="middle" class="title" fill="#ff3b30">🕷️ Welcome to My Digital Workspace</text>
+
+<!-- Left Web Corner (Bright Cyan/Blue #0099ff) -->
+<g transform="translate(0, 0)">
+    <path d="M 0 0 L 120 0 M 0 0 L 100 40 M 0 0 L 60 80 M 0 0 L 20 110 M 0 0 L 0 120" stroke="#0099ff" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 40 0 Q 35 15 10 30 M 70 0 Q 60 25 20 60 M 100 0 Q 80 40 30 90 M 120 0 Q 90 60 0 110" stroke="#0099ff" stroke-width="2.5" fill="none" stroke-linecap="round" />
 </g>
-\n
-<g class="web-line" transform="translate(800, 0) scale(-1, 1)">
-    <path d="M 0 0 L 120 0 M 0 0 L 100 40 M 0 0 L 60 80 M 0 0 L 20 110 M 0 0 L 0 120" />
-    <path d="M 40 0 Q 35 15 10 30 M 70 0 Q 60 25 20 60 M 100 0 Q 80 40 30 90 M 120 0 Q 90 60 0 110" />
+
+<!-- Right Web Corner (Bright Cyan/Blue #0099ff) -->
+<g transform="translate(800, 0) scale(-1, 1)">
+    <path d="M 0 0 L 120 0 M 0 0 L 100 40 M 0 0 L 60 80 M 0 0 L 20 110 M 0 0 L 0 120" stroke="#0099ff" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 40 0 Q 35 15 10 30 M 70 0 Q 60 25 20 60 M 100 0 Q 80 40 30 90 M 120 0 Q 90 60 0 110" stroke="#0099ff" stroke-width="2.5" fill="none" stroke-linecap="round" />
 </g>
-\n
+
+<!-- Drop-down Spider & Web String -->
 <g transform="translate(720, 0)">
-    <!-- String -->
-    <line x1="0" y1="0" x2="0" y2="60" class="spider-string" />
+    <!-- Spider Web String (Explicit bright #0099ff blue stroke) -->
+    <line x1="0" y1="0" x2="0" y2="60" class="spider-string" stroke="#0099ff" stroke-width="2.5" stroke-linecap="round" />
     
     <!-- Spider Body -->
     <g class="spider">
@@ -84,4 +83,4 @@
         <line x1="0" y1="70" x2="0" y2="78" stroke="black" stroke-width="1.5" />
     </g>
 </g>
-\n</svg>
+</svg>
