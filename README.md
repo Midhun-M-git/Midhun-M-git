@@ -63,7 +63,7 @@ I am a Computer Science student and software engineer focusing on building scala
 
 <div align="center">
   <!-- Transparent Animated Spider-Man (Adapts to Light & Dark Mode) -->
-  <img src="spidey_swinging.svg?v=4" alt="Spider-Man" width="100%" style="max-width: 800px;" />
+  <img src="spidey_swinging.svg?v=5" alt="Spider-Man" width="100%" style="max-width: 800px;" />
 
   <!-- Transparent Real Live GitHub Activity Overview Graph (Adapts to Light & Dark Mode) -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Midhun-M-git&theme=react-dark&bg_color=00000000&color=e74c3c&line=39d353&point=39d353&area=true&hide_border=true" alt="Midhun-M-git's Real Contribution Graph" width="100%" style="max-width: 800px;" />
