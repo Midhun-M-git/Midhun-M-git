@@ -8,12 +8,17 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   update-terminal:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/python-version@v4
@@ -26,9 +31,7 @@ jobs:
           python generate_accurate_contribution_graph.py
 
       - name: Commit and Push Updated Terminal & Graph SVGs
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add spidey_repos_terminal.svg spidey_all_repos_terminal.svg spidey_typewriter_terminal.svg spidey_real_terminal.svg spidey_activity_graph.svg
-          git diff-index --quiet HEAD || git commit -m "Auto-update Spidey Terminal & Contribution Graph SVGs [skip ci]"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Auto-update Spidey Terminal & Contribution Graph SVGs [skip ci]"
+          file_pattern: "*.svg"
