@@ -31,10 +31,10 @@ def build_svg(repos):
         ]
         
     total_repos = len(repos)
-    print(f"Building zero-blink typewriter terminal for {total_repos} repositories...")
+    print(f"Building REAL step-by-step terminal typewriter for {total_repos} repositories...")
     
-    # 4.5 seconds per repo
-    duration = max(35, total_repos * 4.5)
+    # 5 seconds per repo
+    duration = max(40, total_repos * 5.0)
     pct_per_repo = 100.0 / total_repos
     
     css_rules = []
@@ -51,51 +51,70 @@ def build_svg(repos):
         r_url = html.escape(str(repo.get("html_url") or f"https://github.com/Midhun-M-git/{r_name}"))
         
         cls_g = f"g-repo-{i}"
-        cls_clip = f"clip-rect-{i}"
-        clip_id = f"c_{i}"
+        cls_cmd_clip = f"clip-cmd-{i}"
+        cls_out_clip = f"clip-out-{i}"
+        cmd_clip_id = f"cmd_c_{i}"
+        out_clip_id = f"out_c_{i}"
         
-        # Calculate timing percentages
+        # Calculate keyframe timings for Step 1 (typing command) and Step 2 (printing output)
         start_p = int(round(i * pct_per_repo))
-        type_done_p = int(round(start_p + (pct_per_repo * 0.35)))
-        active_p = int(round(start_p + (pct_per_repo * 0.98)))
+        cmd_typed_p = int(round(start_p + (pct_per_repo * 0.28)))
+        out_typed_p = int(round(start_p + (pct_per_repo * 0.50)))
+        active_p = int(round(start_p + (pct_per_repo * 0.96)))
         end_p = int(round((i + 1) * pct_per_repo))
         
+        # Clamp percentages 0..100
         start_p = max(0, min(100, start_p))
-        type_done_p = max(0, min(100, type_done_p))
+        cmd_typed_p = max(0, min(100, cmd_typed_p))
+        out_typed_p = max(0, min(100, out_typed_p))
         active_p = max(0, min(100, active_p))
         end_p = max(0, min(100, end_p))
         
-        # Zero-blink CSS rule for repo group visibility
+        # Group visibility animation
         if i == 0:
             g_kf = f"""
             .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; }}
-            @keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; display: block; }} {active_p + 1}%, 100% {{ opacity: 0; display: none; }} }}
-            @-webkit-keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; display: block; }} {active_p + 1}%, 100% {{ opacity: 0; display: none; }} }}"""
+            @keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
+            @-webkit-keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
         elif i == total_repos - 1:
             g_kf = f"""
             .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; opacity: 0; }}
-            @keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; display: none; }} {start_p}%, 100% {{ opacity: 1; display: block; }} }}
-            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; display: none; }} {start_p}%, 100% {{ opacity: 1; display: block; }} }}"""
+            @keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; }} {start_p}%, 100% {{ opacity: 1; }} }}
+            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; }} {start_p}%, 100% {{ opacity: 1; }} }}"""
         else:
             g_kf = f"""
             .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; opacity: 0; }}
-            @keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; display: none; }} {start_p}%, {active_p}% {{ opacity: 1; display: block; }} {active_p + 1}%, 100% {{ opacity: 0; display: none; }} }}
-            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; display: none; }} {start_p}%, {active_p}% {{ opacity: 1; display: block; }} {active_p + 1}%, 100% {{ opacity: 0; display: none; }} }}"""
+            @keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; }} {start_p}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
+            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; }} {start_p}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
 
-        # True letter-by-letter typewriter clip-path reveal
-        clip_kf = f"""
-        .{cls_clip} {{ animation: clp_kf_{i} {duration}s infinite steps(40); -webkit-animation: clp_kf_{i} {duration}s infinite steps(40); }}
-        @keyframes clp_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {type_done_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}
-        @-webkit-keyframes clp_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {type_done_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}"""
+        # Step 1: Command line types out character-by-character
+        cmd_kf = f"""
+        .{cls_cmd_clip} {{ animation: cmd_kf_{i} {duration}s infinite steps(25); -webkit-animation: cmd_kf_{i} {duration}s infinite steps(25); }}
+        @keyframes cmd_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {cmd_typed_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}
+        @-webkit-keyframes cmd_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {cmd_typed_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}"""
 
-        css_rules.append(g_kf + "\n" + clip_kf)
+        # Step 2: Output lines appear AFTER command finishes typing!
+        out_kf = f"""
+        .{cls_out_clip} {{ animation: out_kf_{i} {duration}s infinite steps(30); -webkit-animation: out_kf_{i} {duration}s infinite steps(30); }}
+        @keyframes out_kf_{i} {{ 0%, {cmd_typed_p}% {{ width: 0px; }} {out_typed_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}
+        @-webkit-keyframes out_kf_{i} {{ 0%, {cmd_typed_p}% {{ width: 0px; }} {out_typed_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}"""
+
+        css_rules.append(g_kf + "\n" + cmd_kf + "\n" + out_kf)
         
-        clip_defs.append(f'<clipPath id="{clip_id}"><rect x="20" y="45" width="0" height="155" class="{cls_clip}"/></clipPath>')
+        # ClipPath definitions
+        clip_defs.append(f'<clipPath id="{cmd_clip_id}"><rect x="20" y="45" width="0" height="35" class="{cls_cmd_clip}"/></clipPath>')
+        clip_defs.append(f'<clipPath id="{out_clip_id}"><rect x="20" y="80" width="0" height="120" class="{cls_out_clip}"/></clipPath>')
 
+        # Group structure matching real terminal: Line 1 (Command) -> Line 2,3,4 (Output) -> Line 5 (Prompt)
         g_elm = f'''<!-- [{i+1}/{total_repos}] {r_name} -->
 <g class="{cls_g}" style="opacity: 0;">
-  <g clip-path="url(#{clip_id})">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#{cmd_clip_id})">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat {r_name}.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#{out_clip_id})">
     <a href="{r_url}" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [{i+1}/{total_repos}] {r_name}</text>
     </a>
@@ -183,7 +202,7 @@ def build_svg(repos):
   <path d="M 0 0 L 50 0 M 0 0 L 40 18 M 0 0 L 20 32" stroke="#0099ff" stroke-width="1.5" fill="none" opacity="0.6"/>
 </g>
 
-<!-- ALL REPOSITORY GROUPS WITH TYPEWRITER CLIP PATHS -->
+<!-- ALL REPOSITORY GROUPS WITH TWO-STEP TERMINAL TYPEWRITER -->
 {''.join(repo_groups)}
 
 </svg>'''
@@ -192,7 +211,7 @@ def build_svg(repos):
         with open(path, 'w', encoding='utf-8') as f:
             f.write(svg_content)
         
-    print(f"Successfully generated zero-blink typewriter SVG for ALL {total_repos} repositories!")
+    print(f"Successfully generated 2-step real terminal typewriter SVG for ALL {total_repos} repositories!")
 
 if __name__ == '__main__':
     repos = fetch_repos()

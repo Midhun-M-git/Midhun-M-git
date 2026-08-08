@@ -1,30 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="100%" height="auto">
 <defs>
-<clipPath id="c_0"><rect x="20" y="45" width="0" height="155" class="clip-rect-0"/></clipPath>
-<clipPath id="c_1"><rect x="20" y="45" width="0" height="155" class="clip-rect-1"/></clipPath>
-<clipPath id="c_2"><rect x="20" y="45" width="0" height="155" class="clip-rect-2"/></clipPath>
-<clipPath id="c_3"><rect x="20" y="45" width="0" height="155" class="clip-rect-3"/></clipPath>
-<clipPath id="c_4"><rect x="20" y="45" width="0" height="155" class="clip-rect-4"/></clipPath>
-<clipPath id="c_5"><rect x="20" y="45" width="0" height="155" class="clip-rect-5"/></clipPath>
-<clipPath id="c_6"><rect x="20" y="45" width="0" height="155" class="clip-rect-6"/></clipPath>
-<clipPath id="c_7"><rect x="20" y="45" width="0" height="155" class="clip-rect-7"/></clipPath>
-<clipPath id="c_8"><rect x="20" y="45" width="0" height="155" class="clip-rect-8"/></clipPath>
-<clipPath id="c_9"><rect x="20" y="45" width="0" height="155" class="clip-rect-9"/></clipPath>
-<clipPath id="c_10"><rect x="20" y="45" width="0" height="155" class="clip-rect-10"/></clipPath>
-<clipPath id="c_11"><rect x="20" y="45" width="0" height="155" class="clip-rect-11"/></clipPath>
-<clipPath id="c_12"><rect x="20" y="45" width="0" height="155" class="clip-rect-12"/></clipPath>
-<clipPath id="c_13"><rect x="20" y="45" width="0" height="155" class="clip-rect-13"/></clipPath>
-<clipPath id="c_14"><rect x="20" y="45" width="0" height="155" class="clip-rect-14"/></clipPath>
-<clipPath id="c_15"><rect x="20" y="45" width="0" height="155" class="clip-rect-15"/></clipPath>
-<clipPath id="c_16"><rect x="20" y="45" width="0" height="155" class="clip-rect-16"/></clipPath>
-<clipPath id="c_17"><rect x="20" y="45" width="0" height="155" class="clip-rect-17"/></clipPath>
-<clipPath id="c_18"><rect x="20" y="45" width="0" height="155" class="clip-rect-18"/></clipPath>
-<clipPath id="c_19"><rect x="20" y="45" width="0" height="155" class="clip-rect-19"/></clipPath>
-<clipPath id="c_20"><rect x="20" y="45" width="0" height="155" class="clip-rect-20"/></clipPath>
-<clipPath id="c_21"><rect x="20" y="45" width="0" height="155" class="clip-rect-21"/></clipPath>
-<clipPath id="c_22"><rect x="20" y="45" width="0" height="155" class="clip-rect-22"/></clipPath>
-<clipPath id="c_23"><rect x="20" y="45" width="0" height="155" class="clip-rect-23"/></clipPath>
-<clipPath id="c_24"><rect x="20" y="45" width="0" height="155" class="clip-rect-24"/></clipPath>
+<clipPath id="cmd_c_0"><rect x="20" y="45" width="0" height="35" class="clip-cmd-0"/></clipPath>
+<clipPath id="out_c_0"><rect x="20" y="80" width="0" height="120" class="clip-out-0"/></clipPath>
+<clipPath id="cmd_c_1"><rect x="20" y="45" width="0" height="35" class="clip-cmd-1"/></clipPath>
+<clipPath id="out_c_1"><rect x="20" y="80" width="0" height="120" class="clip-out-1"/></clipPath>
+<clipPath id="cmd_c_2"><rect x="20" y="45" width="0" height="35" class="clip-cmd-2"/></clipPath>
+<clipPath id="out_c_2"><rect x="20" y="80" width="0" height="120" class="clip-out-2"/></clipPath>
+<clipPath id="cmd_c_3"><rect x="20" y="45" width="0" height="35" class="clip-cmd-3"/></clipPath>
+<clipPath id="out_c_3"><rect x="20" y="80" width="0" height="120" class="clip-out-3"/></clipPath>
+<clipPath id="cmd_c_4"><rect x="20" y="45" width="0" height="35" class="clip-cmd-4"/></clipPath>
+<clipPath id="out_c_4"><rect x="20" y="80" width="0" height="120" class="clip-out-4"/></clipPath>
+<clipPath id="cmd_c_5"><rect x="20" y="45" width="0" height="35" class="clip-cmd-5"/></clipPath>
+<clipPath id="out_c_5"><rect x="20" y="80" width="0" height="120" class="clip-out-5"/></clipPath>
+<clipPath id="cmd_c_6"><rect x="20" y="45" width="0" height="35" class="clip-cmd-6"/></clipPath>
+<clipPath id="out_c_6"><rect x="20" y="80" width="0" height="120" class="clip-out-6"/></clipPath>
+<clipPath id="cmd_c_7"><rect x="20" y="45" width="0" height="35" class="clip-cmd-7"/></clipPath>
+<clipPath id="out_c_7"><rect x="20" y="80" width="0" height="120" class="clip-out-7"/></clipPath>
+<clipPath id="cmd_c_8"><rect x="20" y="45" width="0" height="35" class="clip-cmd-8"/></clipPath>
+<clipPath id="out_c_8"><rect x="20" y="80" width="0" height="120" class="clip-out-8"/></clipPath>
+<clipPath id="cmd_c_9"><rect x="20" y="45" width="0" height="35" class="clip-cmd-9"/></clipPath>
+<clipPath id="out_c_9"><rect x="20" y="80" width="0" height="120" class="clip-out-9"/></clipPath>
+<clipPath id="cmd_c_10"><rect x="20" y="45" width="0" height="35" class="clip-cmd-10"/></clipPath>
+<clipPath id="out_c_10"><rect x="20" y="80" width="0" height="120" class="clip-out-10"/></clipPath>
+<clipPath id="cmd_c_11"><rect x="20" y="45" width="0" height="35" class="clip-cmd-11"/></clipPath>
+<clipPath id="out_c_11"><rect x="20" y="80" width="0" height="120" class="clip-out-11"/></clipPath>
+<clipPath id="cmd_c_12"><rect x="20" y="45" width="0" height="35" class="clip-cmd-12"/></clipPath>
+<clipPath id="out_c_12"><rect x="20" y="80" width="0" height="120" class="clip-out-12"/></clipPath>
+<clipPath id="cmd_c_13"><rect x="20" y="45" width="0" height="35" class="clip-cmd-13"/></clipPath>
+<clipPath id="out_c_13"><rect x="20" y="80" width="0" height="120" class="clip-out-13"/></clipPath>
+<clipPath id="cmd_c_14"><rect x="20" y="45" width="0" height="35" class="clip-cmd-14"/></clipPath>
+<clipPath id="out_c_14"><rect x="20" y="80" width="0" height="120" class="clip-out-14"/></clipPath>
+<clipPath id="cmd_c_15"><rect x="20" y="45" width="0" height="35" class="clip-cmd-15"/></clipPath>
+<clipPath id="out_c_15"><rect x="20" y="80" width="0" height="120" class="clip-out-15"/></clipPath>
+<clipPath id="cmd_c_16"><rect x="20" y="45" width="0" height="35" class="clip-cmd-16"/></clipPath>
+<clipPath id="out_c_16"><rect x="20" y="80" width="0" height="120" class="clip-out-16"/></clipPath>
+<clipPath id="cmd_c_17"><rect x="20" y="45" width="0" height="35" class="clip-cmd-17"/></clipPath>
+<clipPath id="out_c_17"><rect x="20" y="80" width="0" height="120" class="clip-out-17"/></clipPath>
+<clipPath id="cmd_c_18"><rect x="20" y="45" width="0" height="35" class="clip-cmd-18"/></clipPath>
+<clipPath id="out_c_18"><rect x="20" y="80" width="0" height="120" class="clip-out-18"/></clipPath>
+<clipPath id="cmd_c_19"><rect x="20" y="45" width="0" height="35" class="clip-cmd-19"/></clipPath>
+<clipPath id="out_c_19"><rect x="20" y="80" width="0" height="120" class="clip-out-19"/></clipPath>
+<clipPath id="cmd_c_20"><rect x="20" y="45" width="0" height="35" class="clip-cmd-20"/></clipPath>
+<clipPath id="out_c_20"><rect x="20" y="80" width="0" height="120" class="clip-out-20"/></clipPath>
+<clipPath id="cmd_c_21"><rect x="20" y="45" width="0" height="35" class="clip-cmd-21"/></clipPath>
+<clipPath id="out_c_21"><rect x="20" y="80" width="0" height="120" class="clip-out-21"/></clipPath>
+<clipPath id="cmd_c_22"><rect x="20" y="45" width="0" height="35" class="clip-cmd-22"/></clipPath>
+<clipPath id="out_c_22"><rect x="20" y="80" width="0" height="120" class="clip-out-22"/></clipPath>
+<clipPath id="cmd_c_23"><rect x="20" y="45" width="0" height="35" class="clip-cmd-23"/></clipPath>
+<clipPath id="out_c_23"><rect x="20" y="80" width="0" height="120" class="clip-out-23"/></clipPath>
+<clipPath id="cmd_c_24"><rect x="20" y="45" width="0" height="35" class="clip-cmd-24"/></clipPath>
+<clipPath id="out_c_24"><rect x="20" y="80" width="0" height="120" class="clip-out-24"/></clipPath>
   <style>
     .term-text {
       font-family: Consolas, Monaco, monospace, sans-serif;
@@ -73,205 +98,305 @@
     }
 
 
-            .g-repo-0 { animation: g_kf_0 112.5s infinite; -webkit-animation: g_kf_0 112.5s infinite; }
-            @keyframes g_kf_0 { 0%, 4% { opacity: 1; display: block; } 5%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_0 { 0%, 4% { opacity: 1; display: block; } 5%, 100% { opacity: 0; display: none; } }
+            .g-repo-0 { animation: g_kf_0 125.0s infinite; -webkit-animation: g_kf_0 125.0s infinite; }
+            @keyframes g_kf_0 { 0%, 4% { opacity: 1; } 4%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_0 { 0%, 4% { opacity: 1; } 4%, 100% { opacity: 0; } }
 
-        .clip-rect-0 { animation: clp_kf_0 112.5s infinite steps(40); -webkit-animation: clp_kf_0 112.5s infinite steps(40); }
-        @keyframes clp_kf_0 { 0%, 0% { width: 0px; } 1%, 4% { width: 770px; } 4%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_0 { 0%, 0% { width: 0px; } 1%, 4% { width: 770px; } 4%, 100% { width: 0px; } }
+        .clip-cmd-0 { animation: cmd_kf_0 125.0s infinite steps(25); -webkit-animation: cmd_kf_0 125.0s infinite steps(25); }
+        @keyframes cmd_kf_0 { 0%, 0% { width: 0px; } 1%, 4% { width: 770px; } 4%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_0 { 0%, 0% { width: 0px; } 1%, 4% { width: 770px; } 4%, 100% { width: 0px; } }
 
-            .g-repo-1 { animation: g_kf_1 112.5s infinite; -webkit-animation: g_kf_1 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_1 { 0%, 3% { opacity: 0; display: none; } 4%, 8% { opacity: 1; display: block; } 9%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_1 { 0%, 3% { opacity: 0; display: none; } 4%, 8% { opacity: 1; display: block; } 9%, 100% { opacity: 0; display: none; } }
+        .clip-out-0 { animation: out_kf_0 125.0s infinite steps(30); -webkit-animation: out_kf_0 125.0s infinite steps(30); }
+        @keyframes out_kf_0 { 0%, 1% { width: 0px; } 2%, 4% { width: 770px; } 4%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_0 { 0%, 1% { width: 0px; } 2%, 4% { width: 770px; } 4%, 100% { width: 0px; } }
 
-        .clip-rect-1 { animation: clp_kf_1 112.5s infinite steps(40); -webkit-animation: clp_kf_1 112.5s infinite steps(40); }
-        @keyframes clp_kf_1 { 0%, 4% { width: 0px; } 5%, 8% { width: 770px; } 8%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_1 { 0%, 4% { width: 0px; } 5%, 8% { width: 770px; } 8%, 100% { width: 0px; } }
+            .g-repo-1 { animation: g_kf_1 125.0s infinite; -webkit-animation: g_kf_1 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_1 { 0%, 3% { opacity: 0; } 4%, 8% { opacity: 1; } 8%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_1 { 0%, 3% { opacity: 0; } 4%, 8% { opacity: 1; } 8%, 100% { opacity: 0; } }
 
-            .g-repo-2 { animation: g_kf_2 112.5s infinite; -webkit-animation: g_kf_2 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_2 { 0%, 7% { opacity: 0; display: none; } 8%, 12% { opacity: 1; display: block; } 13%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_2 { 0%, 7% { opacity: 0; display: none; } 8%, 12% { opacity: 1; display: block; } 13%, 100% { opacity: 0; display: none; } }
+        .clip-cmd-1 { animation: cmd_kf_1 125.0s infinite steps(25); -webkit-animation: cmd_kf_1 125.0s infinite steps(25); }
+        @keyframes cmd_kf_1 { 0%, 4% { width: 0px; } 5%, 8% { width: 770px; } 8%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_1 { 0%, 4% { width: 0px; } 5%, 8% { width: 770px; } 8%, 100% { width: 0px; } }
 
-        .clip-rect-2 { animation: clp_kf_2 112.5s infinite steps(40); -webkit-animation: clp_kf_2 112.5s infinite steps(40); }
-        @keyframes clp_kf_2 { 0%, 8% { width: 0px; } 9%, 12% { width: 770px; } 12%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_2 { 0%, 8% { width: 0px; } 9%, 12% { width: 770px; } 12%, 100% { width: 0px; } }
+        .clip-out-1 { animation: out_kf_1 125.0s infinite steps(30); -webkit-animation: out_kf_1 125.0s infinite steps(30); }
+        @keyframes out_kf_1 { 0%, 5% { width: 0px; } 6%, 8% { width: 770px; } 8%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_1 { 0%, 5% { width: 0px; } 6%, 8% { width: 770px; } 8%, 100% { width: 0px; } }
 
-            .g-repo-3 { animation: g_kf_3 112.5s infinite; -webkit-animation: g_kf_3 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_3 { 0%, 11% { opacity: 0; display: none; } 12%, 16% { opacity: 1; display: block; } 17%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_3 { 0%, 11% { opacity: 0; display: none; } 12%, 16% { opacity: 1; display: block; } 17%, 100% { opacity: 0; display: none; } }
+            .g-repo-2 { animation: g_kf_2 125.0s infinite; -webkit-animation: g_kf_2 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_2 { 0%, 7% { opacity: 0; } 8%, 12% { opacity: 1; } 12%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_2 { 0%, 7% { opacity: 0; } 8%, 12% { opacity: 1; } 12%, 100% { opacity: 0; } }
 
-        .clip-rect-3 { animation: clp_kf_3 112.5s infinite steps(40); -webkit-animation: clp_kf_3 112.5s infinite steps(40); }
-        @keyframes clp_kf_3 { 0%, 12% { width: 0px; } 13%, 16% { width: 770px; } 16%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_3 { 0%, 12% { width: 0px; } 13%, 16% { width: 770px; } 16%, 100% { width: 0px; } }
+        .clip-cmd-2 { animation: cmd_kf_2 125.0s infinite steps(25); -webkit-animation: cmd_kf_2 125.0s infinite steps(25); }
+        @keyframes cmd_kf_2 { 0%, 8% { width: 0px; } 9%, 12% { width: 770px; } 12%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_2 { 0%, 8% { width: 0px; } 9%, 12% { width: 770px; } 12%, 100% { width: 0px; } }
 
-            .g-repo-4 { animation: g_kf_4 112.5s infinite; -webkit-animation: g_kf_4 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_4 { 0%, 15% { opacity: 0; display: none; } 16%, 20% { opacity: 1; display: block; } 21%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_4 { 0%, 15% { opacity: 0; display: none; } 16%, 20% { opacity: 1; display: block; } 21%, 100% { opacity: 0; display: none; } }
+        .clip-out-2 { animation: out_kf_2 125.0s infinite steps(30); -webkit-animation: out_kf_2 125.0s infinite steps(30); }
+        @keyframes out_kf_2 { 0%, 9% { width: 0px; } 10%, 12% { width: 770px; } 12%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_2 { 0%, 9% { width: 0px; } 10%, 12% { width: 770px; } 12%, 100% { width: 0px; } }
 
-        .clip-rect-4 { animation: clp_kf_4 112.5s infinite steps(40); -webkit-animation: clp_kf_4 112.5s infinite steps(40); }
-        @keyframes clp_kf_4 { 0%, 16% { width: 0px; } 17%, 20% { width: 770px; } 20%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_4 { 0%, 16% { width: 0px; } 17%, 20% { width: 770px; } 20%, 100% { width: 0px; } }
+            .g-repo-3 { animation: g_kf_3 125.0s infinite; -webkit-animation: g_kf_3 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_3 { 0%, 11% { opacity: 0; } 12%, 16% { opacity: 1; } 16%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_3 { 0%, 11% { opacity: 0; } 12%, 16% { opacity: 1; } 16%, 100% { opacity: 0; } }
 
-            .g-repo-5 { animation: g_kf_5 112.5s infinite; -webkit-animation: g_kf_5 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_5 { 0%, 19% { opacity: 0; display: none; } 20%, 24% { opacity: 1; display: block; } 25%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_5 { 0%, 19% { opacity: 0; display: none; } 20%, 24% { opacity: 1; display: block; } 25%, 100% { opacity: 0; display: none; } }
+        .clip-cmd-3 { animation: cmd_kf_3 125.0s infinite steps(25); -webkit-animation: cmd_kf_3 125.0s infinite steps(25); }
+        @keyframes cmd_kf_3 { 0%, 12% { width: 0px; } 13%, 16% { width: 770px; } 16%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_3 { 0%, 12% { width: 0px; } 13%, 16% { width: 770px; } 16%, 100% { width: 0px; } }
 
-        .clip-rect-5 { animation: clp_kf_5 112.5s infinite steps(40); -webkit-animation: clp_kf_5 112.5s infinite steps(40); }
-        @keyframes clp_kf_5 { 0%, 20% { width: 0px; } 21%, 24% { width: 770px; } 24%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_5 { 0%, 20% { width: 0px; } 21%, 24% { width: 770px; } 24%, 100% { width: 0px; } }
+        .clip-out-3 { animation: out_kf_3 125.0s infinite steps(30); -webkit-animation: out_kf_3 125.0s infinite steps(30); }
+        @keyframes out_kf_3 { 0%, 13% { width: 0px; } 14%, 16% { width: 770px; } 16%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_3 { 0%, 13% { width: 0px; } 14%, 16% { width: 770px; } 16%, 100% { width: 0px; } }
 
-            .g-repo-6 { animation: g_kf_6 112.5s infinite; -webkit-animation: g_kf_6 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_6 { 0%, 23% { opacity: 0; display: none; } 24%, 28% { opacity: 1; display: block; } 29%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_6 { 0%, 23% { opacity: 0; display: none; } 24%, 28% { opacity: 1; display: block; } 29%, 100% { opacity: 0; display: none; } }
+            .g-repo-4 { animation: g_kf_4 125.0s infinite; -webkit-animation: g_kf_4 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_4 { 0%, 15% { opacity: 0; } 16%, 20% { opacity: 1; } 20%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_4 { 0%, 15% { opacity: 0; } 16%, 20% { opacity: 1; } 20%, 100% { opacity: 0; } }
 
-        .clip-rect-6 { animation: clp_kf_6 112.5s infinite steps(40); -webkit-animation: clp_kf_6 112.5s infinite steps(40); }
-        @keyframes clp_kf_6 { 0%, 24% { width: 0px; } 25%, 28% { width: 770px; } 28%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_6 { 0%, 24% { width: 0px; } 25%, 28% { width: 770px; } 28%, 100% { width: 0px; } }
+        .clip-cmd-4 { animation: cmd_kf_4 125.0s infinite steps(25); -webkit-animation: cmd_kf_4 125.0s infinite steps(25); }
+        @keyframes cmd_kf_4 { 0%, 16% { width: 0px; } 17%, 20% { width: 770px; } 20%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_4 { 0%, 16% { width: 0px; } 17%, 20% { width: 770px; } 20%, 100% { width: 0px; } }
 
-            .g-repo-7 { animation: g_kf_7 112.5s infinite; -webkit-animation: g_kf_7 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_7 { 0%, 27% { opacity: 0; display: none; } 28%, 32% { opacity: 1; display: block; } 33%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_7 { 0%, 27% { opacity: 0; display: none; } 28%, 32% { opacity: 1; display: block; } 33%, 100% { opacity: 0; display: none; } }
+        .clip-out-4 { animation: out_kf_4 125.0s infinite steps(30); -webkit-animation: out_kf_4 125.0s infinite steps(30); }
+        @keyframes out_kf_4 { 0%, 17% { width: 0px; } 18%, 20% { width: 770px; } 20%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_4 { 0%, 17% { width: 0px; } 18%, 20% { width: 770px; } 20%, 100% { width: 0px; } }
 
-        .clip-rect-7 { animation: clp_kf_7 112.5s infinite steps(40); -webkit-animation: clp_kf_7 112.5s infinite steps(40); }
-        @keyframes clp_kf_7 { 0%, 28% { width: 0px; } 29%, 32% { width: 770px; } 32%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_7 { 0%, 28% { width: 0px; } 29%, 32% { width: 770px; } 32%, 100% { width: 0px; } }
+            .g-repo-5 { animation: g_kf_5 125.0s infinite; -webkit-animation: g_kf_5 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_5 { 0%, 19% { opacity: 0; } 20%, 24% { opacity: 1; } 24%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_5 { 0%, 19% { opacity: 0; } 20%, 24% { opacity: 1; } 24%, 100% { opacity: 0; } }
 
-            .g-repo-8 { animation: g_kf_8 112.5s infinite; -webkit-animation: g_kf_8 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_8 { 0%, 31% { opacity: 0; display: none; } 32%, 36% { opacity: 1; display: block; } 37%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_8 { 0%, 31% { opacity: 0; display: none; } 32%, 36% { opacity: 1; display: block; } 37%, 100% { opacity: 0; display: none; } }
+        .clip-cmd-5 { animation: cmd_kf_5 125.0s infinite steps(25); -webkit-animation: cmd_kf_5 125.0s infinite steps(25); }
+        @keyframes cmd_kf_5 { 0%, 20% { width: 0px; } 21%, 24% { width: 770px; } 24%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_5 { 0%, 20% { width: 0px; } 21%, 24% { width: 770px; } 24%, 100% { width: 0px; } }
 
-        .clip-rect-8 { animation: clp_kf_8 112.5s infinite steps(40); -webkit-animation: clp_kf_8 112.5s infinite steps(40); }
-        @keyframes clp_kf_8 { 0%, 32% { width: 0px; } 33%, 36% { width: 770px; } 36%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_8 { 0%, 32% { width: 0px; } 33%, 36% { width: 770px; } 36%, 100% { width: 0px; } }
+        .clip-out-5 { animation: out_kf_5 125.0s infinite steps(30); -webkit-animation: out_kf_5 125.0s infinite steps(30); }
+        @keyframes out_kf_5 { 0%, 21% { width: 0px; } 22%, 24% { width: 770px; } 24%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_5 { 0%, 21% { width: 0px; } 22%, 24% { width: 770px; } 24%, 100% { width: 0px; } }
 
-            .g-repo-9 { animation: g_kf_9 112.5s infinite; -webkit-animation: g_kf_9 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_9 { 0%, 35% { opacity: 0; display: none; } 36%, 40% { opacity: 1; display: block; } 41%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_9 { 0%, 35% { opacity: 0; display: none; } 36%, 40% { opacity: 1; display: block; } 41%, 100% { opacity: 0; display: none; } }
+            .g-repo-6 { animation: g_kf_6 125.0s infinite; -webkit-animation: g_kf_6 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_6 { 0%, 23% { opacity: 0; } 24%, 28% { opacity: 1; } 28%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_6 { 0%, 23% { opacity: 0; } 24%, 28% { opacity: 1; } 28%, 100% { opacity: 0; } }
 
-        .clip-rect-9 { animation: clp_kf_9 112.5s infinite steps(40); -webkit-animation: clp_kf_9 112.5s infinite steps(40); }
-        @keyframes clp_kf_9 { 0%, 36% { width: 0px; } 37%, 40% { width: 770px; } 40%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_9 { 0%, 36% { width: 0px; } 37%, 40% { width: 770px; } 40%, 100% { width: 0px; } }
+        .clip-cmd-6 { animation: cmd_kf_6 125.0s infinite steps(25); -webkit-animation: cmd_kf_6 125.0s infinite steps(25); }
+        @keyframes cmd_kf_6 { 0%, 24% { width: 0px; } 25%, 28% { width: 770px; } 28%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_6 { 0%, 24% { width: 0px; } 25%, 28% { width: 770px; } 28%, 100% { width: 0px; } }
 
-            .g-repo-10 { animation: g_kf_10 112.5s infinite; -webkit-animation: g_kf_10 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_10 { 0%, 39% { opacity: 0; display: none; } 40%, 44% { opacity: 1; display: block; } 45%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_10 { 0%, 39% { opacity: 0; display: none; } 40%, 44% { opacity: 1; display: block; } 45%, 100% { opacity: 0; display: none; } }
+        .clip-out-6 { animation: out_kf_6 125.0s infinite steps(30); -webkit-animation: out_kf_6 125.0s infinite steps(30); }
+        @keyframes out_kf_6 { 0%, 25% { width: 0px; } 26%, 28% { width: 770px; } 28%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_6 { 0%, 25% { width: 0px; } 26%, 28% { width: 770px; } 28%, 100% { width: 0px; } }
 
-        .clip-rect-10 { animation: clp_kf_10 112.5s infinite steps(40); -webkit-animation: clp_kf_10 112.5s infinite steps(40); }
-        @keyframes clp_kf_10 { 0%, 40% { width: 0px; } 41%, 44% { width: 770px; } 44%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_10 { 0%, 40% { width: 0px; } 41%, 44% { width: 770px; } 44%, 100% { width: 0px; } }
+            .g-repo-7 { animation: g_kf_7 125.0s infinite; -webkit-animation: g_kf_7 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_7 { 0%, 27% { opacity: 0; } 28%, 32% { opacity: 1; } 32%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_7 { 0%, 27% { opacity: 0; } 28%, 32% { opacity: 1; } 32%, 100% { opacity: 0; } }
 
-            .g-repo-11 { animation: g_kf_11 112.5s infinite; -webkit-animation: g_kf_11 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_11 { 0%, 43% { opacity: 0; display: none; } 44%, 48% { opacity: 1; display: block; } 49%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_11 { 0%, 43% { opacity: 0; display: none; } 44%, 48% { opacity: 1; display: block; } 49%, 100% { opacity: 0; display: none; } }
+        .clip-cmd-7 { animation: cmd_kf_7 125.0s infinite steps(25); -webkit-animation: cmd_kf_7 125.0s infinite steps(25); }
+        @keyframes cmd_kf_7 { 0%, 28% { width: 0px; } 29%, 32% { width: 770px; } 32%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_7 { 0%, 28% { width: 0px; } 29%, 32% { width: 770px; } 32%, 100% { width: 0px; } }
 
-        .clip-rect-11 { animation: clp_kf_11 112.5s infinite steps(40); -webkit-animation: clp_kf_11 112.5s infinite steps(40); }
-        @keyframes clp_kf_11 { 0%, 44% { width: 0px; } 45%, 48% { width: 770px; } 48%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_11 { 0%, 44% { width: 0px; } 45%, 48% { width: 770px; } 48%, 100% { width: 0px; } }
+        .clip-out-7 { animation: out_kf_7 125.0s infinite steps(30); -webkit-animation: out_kf_7 125.0s infinite steps(30); }
+        @keyframes out_kf_7 { 0%, 29% { width: 0px; } 30%, 32% { width: 770px; } 32%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_7 { 0%, 29% { width: 0px; } 30%, 32% { width: 770px; } 32%, 100% { width: 0px; } }
 
-            .g-repo-12 { animation: g_kf_12 112.5s infinite; -webkit-animation: g_kf_12 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_12 { 0%, 47% { opacity: 0; display: none; } 48%, 52% { opacity: 1; display: block; } 53%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_12 { 0%, 47% { opacity: 0; display: none; } 48%, 52% { opacity: 1; display: block; } 53%, 100% { opacity: 0; display: none; } }
+            .g-repo-8 { animation: g_kf_8 125.0s infinite; -webkit-animation: g_kf_8 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_8 { 0%, 31% { opacity: 0; } 32%, 36% { opacity: 1; } 36%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_8 { 0%, 31% { opacity: 0; } 32%, 36% { opacity: 1; } 36%, 100% { opacity: 0; } }
 
-        .clip-rect-12 { animation: clp_kf_12 112.5s infinite steps(40); -webkit-animation: clp_kf_12 112.5s infinite steps(40); }
-        @keyframes clp_kf_12 { 0%, 48% { width: 0px; } 49%, 52% { width: 770px; } 52%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_12 { 0%, 48% { width: 0px; } 49%, 52% { width: 770px; } 52%, 100% { width: 0px; } }
+        .clip-cmd-8 { animation: cmd_kf_8 125.0s infinite steps(25); -webkit-animation: cmd_kf_8 125.0s infinite steps(25); }
+        @keyframes cmd_kf_8 { 0%, 32% { width: 0px; } 33%, 36% { width: 770px; } 36%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_8 { 0%, 32% { width: 0px; } 33%, 36% { width: 770px; } 36%, 100% { width: 0px; } }
 
-            .g-repo-13 { animation: g_kf_13 112.5s infinite; -webkit-animation: g_kf_13 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_13 { 0%, 51% { opacity: 0; display: none; } 52%, 56% { opacity: 1; display: block; } 57%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_13 { 0%, 51% { opacity: 0; display: none; } 52%, 56% { opacity: 1; display: block; } 57%, 100% { opacity: 0; display: none; } }
+        .clip-out-8 { animation: out_kf_8 125.0s infinite steps(30); -webkit-animation: out_kf_8 125.0s infinite steps(30); }
+        @keyframes out_kf_8 { 0%, 33% { width: 0px; } 34%, 36% { width: 770px; } 36%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_8 { 0%, 33% { width: 0px; } 34%, 36% { width: 770px; } 36%, 100% { width: 0px; } }
 
-        .clip-rect-13 { animation: clp_kf_13 112.5s infinite steps(40); -webkit-animation: clp_kf_13 112.5s infinite steps(40); }
-        @keyframes clp_kf_13 { 0%, 52% { width: 0px; } 53%, 56% { width: 770px; } 56%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_13 { 0%, 52% { width: 0px; } 53%, 56% { width: 770px; } 56%, 100% { width: 0px; } }
+            .g-repo-9 { animation: g_kf_9 125.0s infinite; -webkit-animation: g_kf_9 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_9 { 0%, 35% { opacity: 0; } 36%, 40% { opacity: 1; } 40%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_9 { 0%, 35% { opacity: 0; } 36%, 40% { opacity: 1; } 40%, 100% { opacity: 0; } }
 
-            .g-repo-14 { animation: g_kf_14 112.5s infinite; -webkit-animation: g_kf_14 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_14 { 0%, 55% { opacity: 0; display: none; } 56%, 60% { opacity: 1; display: block; } 61%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_14 { 0%, 55% { opacity: 0; display: none; } 56%, 60% { opacity: 1; display: block; } 61%, 100% { opacity: 0; display: none; } }
+        .clip-cmd-9 { animation: cmd_kf_9 125.0s infinite steps(25); -webkit-animation: cmd_kf_9 125.0s infinite steps(25); }
+        @keyframes cmd_kf_9 { 0%, 36% { width: 0px; } 37%, 40% { width: 770px; } 40%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_9 { 0%, 36% { width: 0px; } 37%, 40% { width: 770px; } 40%, 100% { width: 0px; } }
 
-        .clip-rect-14 { animation: clp_kf_14 112.5s infinite steps(40); -webkit-animation: clp_kf_14 112.5s infinite steps(40); }
-        @keyframes clp_kf_14 { 0%, 56% { width: 0px; } 57%, 60% { width: 770px; } 60%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_14 { 0%, 56% { width: 0px; } 57%, 60% { width: 770px; } 60%, 100% { width: 0px; } }
+        .clip-out-9 { animation: out_kf_9 125.0s infinite steps(30); -webkit-animation: out_kf_9 125.0s infinite steps(30); }
+        @keyframes out_kf_9 { 0%, 37% { width: 0px; } 38%, 40% { width: 770px; } 40%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_9 { 0%, 37% { width: 0px; } 38%, 40% { width: 770px; } 40%, 100% { width: 0px; } }
 
-            .g-repo-15 { animation: g_kf_15 112.5s infinite; -webkit-animation: g_kf_15 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_15 { 0%, 59% { opacity: 0; display: none; } 60%, 64% { opacity: 1; display: block; } 65%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_15 { 0%, 59% { opacity: 0; display: none; } 60%, 64% { opacity: 1; display: block; } 65%, 100% { opacity: 0; display: none; } }
+            .g-repo-10 { animation: g_kf_10 125.0s infinite; -webkit-animation: g_kf_10 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_10 { 0%, 39% { opacity: 0; } 40%, 44% { opacity: 1; } 44%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_10 { 0%, 39% { opacity: 0; } 40%, 44% { opacity: 1; } 44%, 100% { opacity: 0; } }
 
-        .clip-rect-15 { animation: clp_kf_15 112.5s infinite steps(40); -webkit-animation: clp_kf_15 112.5s infinite steps(40); }
-        @keyframes clp_kf_15 { 0%, 60% { width: 0px; } 61%, 64% { width: 770px; } 64%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_15 { 0%, 60% { width: 0px; } 61%, 64% { width: 770px; } 64%, 100% { width: 0px; } }
+        .clip-cmd-10 { animation: cmd_kf_10 125.0s infinite steps(25); -webkit-animation: cmd_kf_10 125.0s infinite steps(25); }
+        @keyframes cmd_kf_10 { 0%, 40% { width: 0px; } 41%, 44% { width: 770px; } 44%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_10 { 0%, 40% { width: 0px; } 41%, 44% { width: 770px; } 44%, 100% { width: 0px; } }
 
-            .g-repo-16 { animation: g_kf_16 112.5s infinite; -webkit-animation: g_kf_16 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_16 { 0%, 63% { opacity: 0; display: none; } 64%, 68% { opacity: 1; display: block; } 69%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_16 { 0%, 63% { opacity: 0; display: none; } 64%, 68% { opacity: 1; display: block; } 69%, 100% { opacity: 0; display: none; } }
+        .clip-out-10 { animation: out_kf_10 125.0s infinite steps(30); -webkit-animation: out_kf_10 125.0s infinite steps(30); }
+        @keyframes out_kf_10 { 0%, 41% { width: 0px; } 42%, 44% { width: 770px; } 44%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_10 { 0%, 41% { width: 0px; } 42%, 44% { width: 770px; } 44%, 100% { width: 0px; } }
 
-        .clip-rect-16 { animation: clp_kf_16 112.5s infinite steps(40); -webkit-animation: clp_kf_16 112.5s infinite steps(40); }
-        @keyframes clp_kf_16 { 0%, 64% { width: 0px; } 65%, 68% { width: 770px; } 68%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_16 { 0%, 64% { width: 0px; } 65%, 68% { width: 770px; } 68%, 100% { width: 0px; } }
+            .g-repo-11 { animation: g_kf_11 125.0s infinite; -webkit-animation: g_kf_11 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_11 { 0%, 43% { opacity: 0; } 44%, 48% { opacity: 1; } 48%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_11 { 0%, 43% { opacity: 0; } 44%, 48% { opacity: 1; } 48%, 100% { opacity: 0; } }
 
-            .g-repo-17 { animation: g_kf_17 112.5s infinite; -webkit-animation: g_kf_17 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_17 { 0%, 67% { opacity: 0; display: none; } 68%, 72% { opacity: 1; display: block; } 73%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_17 { 0%, 67% { opacity: 0; display: none; } 68%, 72% { opacity: 1; display: block; } 73%, 100% { opacity: 0; display: none; } }
+        .clip-cmd-11 { animation: cmd_kf_11 125.0s infinite steps(25); -webkit-animation: cmd_kf_11 125.0s infinite steps(25); }
+        @keyframes cmd_kf_11 { 0%, 44% { width: 0px; } 45%, 48% { width: 770px; } 48%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_11 { 0%, 44% { width: 0px; } 45%, 48% { width: 770px; } 48%, 100% { width: 0px; } }
 
-        .clip-rect-17 { animation: clp_kf_17 112.5s infinite steps(40); -webkit-animation: clp_kf_17 112.5s infinite steps(40); }
-        @keyframes clp_kf_17 { 0%, 68% { width: 0px; } 69%, 72% { width: 770px; } 72%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_17 { 0%, 68% { width: 0px; } 69%, 72% { width: 770px; } 72%, 100% { width: 0px; } }
+        .clip-out-11 { animation: out_kf_11 125.0s infinite steps(30); -webkit-animation: out_kf_11 125.0s infinite steps(30); }
+        @keyframes out_kf_11 { 0%, 45% { width: 0px; } 46%, 48% { width: 770px; } 48%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_11 { 0%, 45% { width: 0px; } 46%, 48% { width: 770px; } 48%, 100% { width: 0px; } }
 
-            .g-repo-18 { animation: g_kf_18 112.5s infinite; -webkit-animation: g_kf_18 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_18 { 0%, 71% { opacity: 0; display: none; } 72%, 76% { opacity: 1; display: block; } 77%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_18 { 0%, 71% { opacity: 0; display: none; } 72%, 76% { opacity: 1; display: block; } 77%, 100% { opacity: 0; display: none; } }
+            .g-repo-12 { animation: g_kf_12 125.0s infinite; -webkit-animation: g_kf_12 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_12 { 0%, 47% { opacity: 0; } 48%, 52% { opacity: 1; } 52%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_12 { 0%, 47% { opacity: 0; } 48%, 52% { opacity: 1; } 52%, 100% { opacity: 0; } }
 
-        .clip-rect-18 { animation: clp_kf_18 112.5s infinite steps(40); -webkit-animation: clp_kf_18 112.5s infinite steps(40); }
-        @keyframes clp_kf_18 { 0%, 72% { width: 0px; } 73%, 76% { width: 770px; } 76%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_18 { 0%, 72% { width: 0px; } 73%, 76% { width: 770px; } 76%, 100% { width: 0px; } }
+        .clip-cmd-12 { animation: cmd_kf_12 125.0s infinite steps(25); -webkit-animation: cmd_kf_12 125.0s infinite steps(25); }
+        @keyframes cmd_kf_12 { 0%, 48% { width: 0px; } 49%, 52% { width: 770px; } 52%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_12 { 0%, 48% { width: 0px; } 49%, 52% { width: 770px; } 52%, 100% { width: 0px; } }
 
-            .g-repo-19 { animation: g_kf_19 112.5s infinite; -webkit-animation: g_kf_19 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_19 { 0%, 75% { opacity: 0; display: none; } 76%, 80% { opacity: 1; display: block; } 81%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_19 { 0%, 75% { opacity: 0; display: none; } 76%, 80% { opacity: 1; display: block; } 81%, 100% { opacity: 0; display: none; } }
+        .clip-out-12 { animation: out_kf_12 125.0s infinite steps(30); -webkit-animation: out_kf_12 125.0s infinite steps(30); }
+        @keyframes out_kf_12 { 0%, 49% { width: 0px; } 50%, 52% { width: 770px; } 52%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_12 { 0%, 49% { width: 0px; } 50%, 52% { width: 770px; } 52%, 100% { width: 0px; } }
 
-        .clip-rect-19 { animation: clp_kf_19 112.5s infinite steps(40); -webkit-animation: clp_kf_19 112.5s infinite steps(40); }
-        @keyframes clp_kf_19 { 0%, 76% { width: 0px; } 77%, 80% { width: 770px; } 80%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_19 { 0%, 76% { width: 0px; } 77%, 80% { width: 770px; } 80%, 100% { width: 0px; } }
+            .g-repo-13 { animation: g_kf_13 125.0s infinite; -webkit-animation: g_kf_13 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_13 { 0%, 51% { opacity: 0; } 52%, 56% { opacity: 1; } 56%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_13 { 0%, 51% { opacity: 0; } 52%, 56% { opacity: 1; } 56%, 100% { opacity: 0; } }
 
-            .g-repo-20 { animation: g_kf_20 112.5s infinite; -webkit-animation: g_kf_20 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_20 { 0%, 79% { opacity: 0; display: none; } 80%, 84% { opacity: 1; display: block; } 85%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_20 { 0%, 79% { opacity: 0; display: none; } 80%, 84% { opacity: 1; display: block; } 85%, 100% { opacity: 0; display: none; } }
+        .clip-cmd-13 { animation: cmd_kf_13 125.0s infinite steps(25); -webkit-animation: cmd_kf_13 125.0s infinite steps(25); }
+        @keyframes cmd_kf_13 { 0%, 52% { width: 0px; } 53%, 56% { width: 770px; } 56%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_13 { 0%, 52% { width: 0px; } 53%, 56% { width: 770px; } 56%, 100% { width: 0px; } }
 
-        .clip-rect-20 { animation: clp_kf_20 112.5s infinite steps(40); -webkit-animation: clp_kf_20 112.5s infinite steps(40); }
-        @keyframes clp_kf_20 { 0%, 80% { width: 0px; } 81%, 84% { width: 770px; } 84%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_20 { 0%, 80% { width: 0px; } 81%, 84% { width: 770px; } 84%, 100% { width: 0px; } }
+        .clip-out-13 { animation: out_kf_13 125.0s infinite steps(30); -webkit-animation: out_kf_13 125.0s infinite steps(30); }
+        @keyframes out_kf_13 { 0%, 53% { width: 0px; } 54%, 56% { width: 770px; } 56%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_13 { 0%, 53% { width: 0px; } 54%, 56% { width: 770px; } 56%, 100% { width: 0px; } }
 
-            .g-repo-21 { animation: g_kf_21 112.5s infinite; -webkit-animation: g_kf_21 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_21 { 0%, 83% { opacity: 0; display: none; } 84%, 88% { opacity: 1; display: block; } 89%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_21 { 0%, 83% { opacity: 0; display: none; } 84%, 88% { opacity: 1; display: block; } 89%, 100% { opacity: 0; display: none; } }
+            .g-repo-14 { animation: g_kf_14 125.0s infinite; -webkit-animation: g_kf_14 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_14 { 0%, 55% { opacity: 0; } 56%, 60% { opacity: 1; } 60%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_14 { 0%, 55% { opacity: 0; } 56%, 60% { opacity: 1; } 60%, 100% { opacity: 0; } }
 
-        .clip-rect-21 { animation: clp_kf_21 112.5s infinite steps(40); -webkit-animation: clp_kf_21 112.5s infinite steps(40); }
-        @keyframes clp_kf_21 { 0%, 84% { width: 0px; } 85%, 88% { width: 770px; } 88%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_21 { 0%, 84% { width: 0px; } 85%, 88% { width: 770px; } 88%, 100% { width: 0px; } }
+        .clip-cmd-14 { animation: cmd_kf_14 125.0s infinite steps(25); -webkit-animation: cmd_kf_14 125.0s infinite steps(25); }
+        @keyframes cmd_kf_14 { 0%, 56% { width: 0px; } 57%, 60% { width: 770px; } 60%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_14 { 0%, 56% { width: 0px; } 57%, 60% { width: 770px; } 60%, 100% { width: 0px; } }
 
-            .g-repo-22 { animation: g_kf_22 112.5s infinite; -webkit-animation: g_kf_22 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_22 { 0%, 87% { opacity: 0; display: none; } 88%, 92% { opacity: 1; display: block; } 93%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_22 { 0%, 87% { opacity: 0; display: none; } 88%, 92% { opacity: 1; display: block; } 93%, 100% { opacity: 0; display: none; } }
+        .clip-out-14 { animation: out_kf_14 125.0s infinite steps(30); -webkit-animation: out_kf_14 125.0s infinite steps(30); }
+        @keyframes out_kf_14 { 0%, 57% { width: 0px; } 58%, 60% { width: 770px; } 60%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_14 { 0%, 57% { width: 0px; } 58%, 60% { width: 770px; } 60%, 100% { width: 0px; } }
 
-        .clip-rect-22 { animation: clp_kf_22 112.5s infinite steps(40); -webkit-animation: clp_kf_22 112.5s infinite steps(40); }
-        @keyframes clp_kf_22 { 0%, 88% { width: 0px; } 89%, 92% { width: 770px; } 92%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_22 { 0%, 88% { width: 0px; } 89%, 92% { width: 770px; } 92%, 100% { width: 0px; } }
+            .g-repo-15 { animation: g_kf_15 125.0s infinite; -webkit-animation: g_kf_15 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_15 { 0%, 59% { opacity: 0; } 60%, 64% { opacity: 1; } 64%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_15 { 0%, 59% { opacity: 0; } 60%, 64% { opacity: 1; } 64%, 100% { opacity: 0; } }
 
-            .g-repo-23 { animation: g_kf_23 112.5s infinite; -webkit-animation: g_kf_23 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_23 { 0%, 91% { opacity: 0; display: none; } 92%, 96% { opacity: 1; display: block; } 97%, 100% { opacity: 0; display: none; } }
-            @-webkit-keyframes g_kf_23 { 0%, 91% { opacity: 0; display: none; } 92%, 96% { opacity: 1; display: block; } 97%, 100% { opacity: 0; display: none; } }
+        .clip-cmd-15 { animation: cmd_kf_15 125.0s infinite steps(25); -webkit-animation: cmd_kf_15 125.0s infinite steps(25); }
+        @keyframes cmd_kf_15 { 0%, 60% { width: 0px; } 61%, 64% { width: 770px; } 64%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_15 { 0%, 60% { width: 0px; } 61%, 64% { width: 770px; } 64%, 100% { width: 0px; } }
 
-        .clip-rect-23 { animation: clp_kf_23 112.5s infinite steps(40); -webkit-animation: clp_kf_23 112.5s infinite steps(40); }
-        @keyframes clp_kf_23 { 0%, 92% { width: 0px; } 93%, 96% { width: 770px; } 96%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_23 { 0%, 92% { width: 0px; } 93%, 96% { width: 770px; } 96%, 100% { width: 0px; } }
+        .clip-out-15 { animation: out_kf_15 125.0s infinite steps(30); -webkit-animation: out_kf_15 125.0s infinite steps(30); }
+        @keyframes out_kf_15 { 0%, 61% { width: 0px; } 62%, 64% { width: 770px; } 64%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_15 { 0%, 61% { width: 0px; } 62%, 64% { width: 770px; } 64%, 100% { width: 0px; } }
 
-            .g-repo-24 { animation: g_kf_24 112.5s infinite; -webkit-animation: g_kf_24 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_24 { 0%, 95% { opacity: 0; display: none; } 96%, 100% { opacity: 1; display: block; } }
-            @-webkit-keyframes g_kf_24 { 0%, 95% { opacity: 0; display: none; } 96%, 100% { opacity: 1; display: block; } }
+            .g-repo-16 { animation: g_kf_16 125.0s infinite; -webkit-animation: g_kf_16 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_16 { 0%, 63% { opacity: 0; } 64%, 68% { opacity: 1; } 68%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_16 { 0%, 63% { opacity: 0; } 64%, 68% { opacity: 1; } 68%, 100% { opacity: 0; } }
 
-        .clip-rect-24 { animation: clp_kf_24 112.5s infinite steps(40); -webkit-animation: clp_kf_24 112.5s infinite steps(40); }
-        @keyframes clp_kf_24 { 0%, 96% { width: 0px; } 97%, 100% { width: 770px; } 100%, 100% { width: 0px; } }
-        @-webkit-keyframes clp_kf_24 { 0%, 96% { width: 0px; } 97%, 100% { width: 770px; } 100%, 100% { width: 0px; } }
+        .clip-cmd-16 { animation: cmd_kf_16 125.0s infinite steps(25); -webkit-animation: cmd_kf_16 125.0s infinite steps(25); }
+        @keyframes cmd_kf_16 { 0%, 64% { width: 0px; } 65%, 68% { width: 770px; } 68%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_16 { 0%, 64% { width: 0px; } 65%, 68% { width: 770px; } 68%, 100% { width: 0px; } }
+
+        .clip-out-16 { animation: out_kf_16 125.0s infinite steps(30); -webkit-animation: out_kf_16 125.0s infinite steps(30); }
+        @keyframes out_kf_16 { 0%, 65% { width: 0px; } 66%, 68% { width: 770px; } 68%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_16 { 0%, 65% { width: 0px; } 66%, 68% { width: 770px; } 68%, 100% { width: 0px; } }
+
+            .g-repo-17 { animation: g_kf_17 125.0s infinite; -webkit-animation: g_kf_17 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_17 { 0%, 67% { opacity: 0; } 68%, 72% { opacity: 1; } 72%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_17 { 0%, 67% { opacity: 0; } 68%, 72% { opacity: 1; } 72%, 100% { opacity: 0; } }
+
+        .clip-cmd-17 { animation: cmd_kf_17 125.0s infinite steps(25); -webkit-animation: cmd_kf_17 125.0s infinite steps(25); }
+        @keyframes cmd_kf_17 { 0%, 68% { width: 0px; } 69%, 72% { width: 770px; } 72%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_17 { 0%, 68% { width: 0px; } 69%, 72% { width: 770px; } 72%, 100% { width: 0px; } }
+
+        .clip-out-17 { animation: out_kf_17 125.0s infinite steps(30); -webkit-animation: out_kf_17 125.0s infinite steps(30); }
+        @keyframes out_kf_17 { 0%, 69% { width: 0px; } 70%, 72% { width: 770px; } 72%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_17 { 0%, 69% { width: 0px; } 70%, 72% { width: 770px; } 72%, 100% { width: 0px; } }
+
+            .g-repo-18 { animation: g_kf_18 125.0s infinite; -webkit-animation: g_kf_18 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_18 { 0%, 71% { opacity: 0; } 72%, 76% { opacity: 1; } 76%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_18 { 0%, 71% { opacity: 0; } 72%, 76% { opacity: 1; } 76%, 100% { opacity: 0; } }
+
+        .clip-cmd-18 { animation: cmd_kf_18 125.0s infinite steps(25); -webkit-animation: cmd_kf_18 125.0s infinite steps(25); }
+        @keyframes cmd_kf_18 { 0%, 72% { width: 0px; } 73%, 76% { width: 770px; } 76%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_18 { 0%, 72% { width: 0px; } 73%, 76% { width: 770px; } 76%, 100% { width: 0px; } }
+
+        .clip-out-18 { animation: out_kf_18 125.0s infinite steps(30); -webkit-animation: out_kf_18 125.0s infinite steps(30); }
+        @keyframes out_kf_18 { 0%, 73% { width: 0px; } 74%, 76% { width: 770px; } 76%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_18 { 0%, 73% { width: 0px; } 74%, 76% { width: 770px; } 76%, 100% { width: 0px; } }
+
+            .g-repo-19 { animation: g_kf_19 125.0s infinite; -webkit-animation: g_kf_19 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_19 { 0%, 75% { opacity: 0; } 76%, 80% { opacity: 1; } 80%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_19 { 0%, 75% { opacity: 0; } 76%, 80% { opacity: 1; } 80%, 100% { opacity: 0; } }
+
+        .clip-cmd-19 { animation: cmd_kf_19 125.0s infinite steps(25); -webkit-animation: cmd_kf_19 125.0s infinite steps(25); }
+        @keyframes cmd_kf_19 { 0%, 76% { width: 0px; } 77%, 80% { width: 770px; } 80%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_19 { 0%, 76% { width: 0px; } 77%, 80% { width: 770px; } 80%, 100% { width: 0px; } }
+
+        .clip-out-19 { animation: out_kf_19 125.0s infinite steps(30); -webkit-animation: out_kf_19 125.0s infinite steps(30); }
+        @keyframes out_kf_19 { 0%, 77% { width: 0px; } 78%, 80% { width: 770px; } 80%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_19 { 0%, 77% { width: 0px; } 78%, 80% { width: 770px; } 80%, 100% { width: 0px; } }
+
+            .g-repo-20 { animation: g_kf_20 125.0s infinite; -webkit-animation: g_kf_20 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_20 { 0%, 79% { opacity: 0; } 80%, 84% { opacity: 1; } 84%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_20 { 0%, 79% { opacity: 0; } 80%, 84% { opacity: 1; } 84%, 100% { opacity: 0; } }
+
+        .clip-cmd-20 { animation: cmd_kf_20 125.0s infinite steps(25); -webkit-animation: cmd_kf_20 125.0s infinite steps(25); }
+        @keyframes cmd_kf_20 { 0%, 80% { width: 0px; } 81%, 84% { width: 770px; } 84%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_20 { 0%, 80% { width: 0px; } 81%, 84% { width: 770px; } 84%, 100% { width: 0px; } }
+
+        .clip-out-20 { animation: out_kf_20 125.0s infinite steps(30); -webkit-animation: out_kf_20 125.0s infinite steps(30); }
+        @keyframes out_kf_20 { 0%, 81% { width: 0px; } 82%, 84% { width: 770px; } 84%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_20 { 0%, 81% { width: 0px; } 82%, 84% { width: 770px; } 84%, 100% { width: 0px; } }
+
+            .g-repo-21 { animation: g_kf_21 125.0s infinite; -webkit-animation: g_kf_21 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_21 { 0%, 83% { opacity: 0; } 84%, 88% { opacity: 1; } 88%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_21 { 0%, 83% { opacity: 0; } 84%, 88% { opacity: 1; } 88%, 100% { opacity: 0; } }
+
+        .clip-cmd-21 { animation: cmd_kf_21 125.0s infinite steps(25); -webkit-animation: cmd_kf_21 125.0s infinite steps(25); }
+        @keyframes cmd_kf_21 { 0%, 84% { width: 0px; } 85%, 88% { width: 770px; } 88%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_21 { 0%, 84% { width: 0px; } 85%, 88% { width: 770px; } 88%, 100% { width: 0px; } }
+
+        .clip-out-21 { animation: out_kf_21 125.0s infinite steps(30); -webkit-animation: out_kf_21 125.0s infinite steps(30); }
+        @keyframes out_kf_21 { 0%, 85% { width: 0px; } 86%, 88% { width: 770px; } 88%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_21 { 0%, 85% { width: 0px; } 86%, 88% { width: 770px; } 88%, 100% { width: 0px; } }
+
+            .g-repo-22 { animation: g_kf_22 125.0s infinite; -webkit-animation: g_kf_22 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_22 { 0%, 87% { opacity: 0; } 88%, 92% { opacity: 1; } 92%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_22 { 0%, 87% { opacity: 0; } 88%, 92% { opacity: 1; } 92%, 100% { opacity: 0; } }
+
+        .clip-cmd-22 { animation: cmd_kf_22 125.0s infinite steps(25); -webkit-animation: cmd_kf_22 125.0s infinite steps(25); }
+        @keyframes cmd_kf_22 { 0%, 88% { width: 0px; } 89%, 92% { width: 770px; } 92%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_22 { 0%, 88% { width: 0px; } 89%, 92% { width: 770px; } 92%, 100% { width: 0px; } }
+
+        .clip-out-22 { animation: out_kf_22 125.0s infinite steps(30); -webkit-animation: out_kf_22 125.0s infinite steps(30); }
+        @keyframes out_kf_22 { 0%, 89% { width: 0px; } 90%, 92% { width: 770px; } 92%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_22 { 0%, 89% { width: 0px; } 90%, 92% { width: 770px; } 92%, 100% { width: 0px; } }
+
+            .g-repo-23 { animation: g_kf_23 125.0s infinite; -webkit-animation: g_kf_23 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_23 { 0%, 91% { opacity: 0; } 92%, 96% { opacity: 1; } 96%, 100% { opacity: 0; } }
+            @-webkit-keyframes g_kf_23 { 0%, 91% { opacity: 0; } 92%, 96% { opacity: 1; } 96%, 100% { opacity: 0; } }
+
+        .clip-cmd-23 { animation: cmd_kf_23 125.0s infinite steps(25); -webkit-animation: cmd_kf_23 125.0s infinite steps(25); }
+        @keyframes cmd_kf_23 { 0%, 92% { width: 0px; } 93%, 96% { width: 770px; } 96%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_23 { 0%, 92% { width: 0px; } 93%, 96% { width: 770px; } 96%, 100% { width: 0px; } }
+
+        .clip-out-23 { animation: out_kf_23 125.0s infinite steps(30); -webkit-animation: out_kf_23 125.0s infinite steps(30); }
+        @keyframes out_kf_23 { 0%, 93% { width: 0px; } 94%, 96% { width: 770px; } 96%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_23 { 0%, 93% { width: 0px; } 94%, 96% { width: 770px; } 96%, 100% { width: 0px; } }
+
+            .g-repo-24 { animation: g_kf_24 125.0s infinite; -webkit-animation: g_kf_24 125.0s infinite; opacity: 0; }
+            @keyframes g_kf_24 { 0%, 95% { opacity: 0; } 96%, 100% { opacity: 1; } }
+            @-webkit-keyframes g_kf_24 { 0%, 95% { opacity: 0; } 96%, 100% { opacity: 1; } }
+
+        .clip-cmd-24 { animation: cmd_kf_24 125.0s infinite steps(25); -webkit-animation: cmd_kf_24 125.0s infinite steps(25); }
+        @keyframes cmd_kf_24 { 0%, 96% { width: 0px; } 97%, 100% { width: 770px; } 100%, 100% { width: 0px; } }
+        @-webkit-keyframes cmd_kf_24 { 0%, 96% { width: 0px; } 97%, 100% { width: 770px; } 100%, 100% { width: 0px; } }
+
+        .clip-out-24 { animation: out_kf_24 125.0s infinite steps(30); -webkit-animation: out_kf_24 125.0s infinite steps(30); }
+        @keyframes out_kf_24 { 0%, 97% { width: 0px; } 98%, 100% { width: 770px; } 100%, 100% { width: 0px; } }
+        @-webkit-keyframes out_kf_24 { 0%, 97% { width: 0px; } 98%, 100% { width: 770px; } 100%, 100% { width: 0px; } }
   </style>
 </defs>
 
@@ -295,11 +420,16 @@
   <path d="M 0 0 L 50 0 M 0 0 L 40 18 M 0 0 L 20 32" stroke="#0099ff" stroke-width="1.5" fill="none" opacity="0.6"/>
 </g>
 
-<!-- ALL REPOSITORY GROUPS WITH TYPEWRITER CLIP PATHS -->
+<!-- ALL REPOSITORY GROUPS WITH TWO-STEP TERMINAL TYPEWRITER -->
 <!-- [1/25] Midhun-M-git -->
 <g class="g-repo-0" style="opacity: 0;">
-  <g clip-path="url(#c_0)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_0)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat Midhun-M-git.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_0)">
     <a href="https://github.com/Midhun-M-git/Midhun-M-git" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [1/25] Midhun-M-git</text>
     </a>
@@ -309,8 +439,13 @@
   </g>
 </g><!-- [2/25] t4kcommon -->
 <g class="g-repo-1" style="opacity: 0;">
-  <g clip-path="url(#c_1)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_1)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat t4kcommon.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_1)">
     <a href="https://github.com/Midhun-M-git/t4kcommon" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [2/25] t4kcommon</text>
     </a>
@@ -320,8 +455,13 @@
   </g>
 </g><!-- [3/25] Agry-Key -->
 <g class="g-repo-2" style="opacity: 0;">
-  <g clip-path="url(#c_2)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_2)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat Agry-Key.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_2)">
     <a href="https://github.com/Midhun-M-git/Agry-Key" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [3/25] Agry-Key</text>
     </a>
@@ -331,8 +471,13 @@
   </g>
 </g><!-- [4/25] tuxtype -->
 <g class="g-repo-3" style="opacity: 0;">
-  <g clip-path="url(#c_3)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_3)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat tuxtype.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_3)">
     <a href="https://github.com/Midhun-M-git/tuxtype" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [4/25] tuxtype</text>
     </a>
@@ -342,8 +487,13 @@
   </g>
 </g><!-- [5/25] tuxmath -->
 <g class="g-repo-4" style="opacity: 0;">
-  <g clip-path="url(#c_4)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_4)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat tuxmath.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_4)">
     <a href="https://github.com/Midhun-M-git/tuxmath" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [5/25] tuxmath</text>
     </a>
@@ -353,8 +503,13 @@
   </g>
 </g><!-- [6/25] tuxmath_kite -->
 <g class="g-repo-5" style="opacity: 0;">
-  <g clip-path="url(#c_5)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_5)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat tuxmath_kite.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_5)">
     <a href="https://github.com/Midhun-M-git/tuxmath_kite" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [6/25] tuxmath_kite</text>
     </a>
@@ -364,8 +519,13 @@
   </g>
 </g><!-- [7/25] tuxtype_kite -->
 <g class="g-repo-6" style="opacity: 0;">
-  <g clip-path="url(#c_6)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_6)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat tuxtype_kite.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_6)">
     <a href="https://github.com/Midhun-M-git/tuxtype_kite" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [7/25] tuxtype_kite</text>
     </a>
@@ -375,8 +535,13 @@
   </g>
 </g><!-- [8/25] Esp32_Cyber_packet_sniffer -->
 <g class="g-repo-7" style="opacity: 0;">
-  <g clip-path="url(#c_7)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_7)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat Esp32_Cyber_packet_sniffer.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_7)">
     <a href="https://github.com/Midhun-M-git/Esp32_Cyber_packet_sniffer" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [8/25] Esp32_Cyber_packet_sniffer</text>
     </a>
@@ -386,8 +551,13 @@
   </g>
 </g><!-- [9/25] DT -->
 <g class="g-repo-8" style="opacity: 0;">
-  <g clip-path="url(#c_8)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_8)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat DT.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_8)">
     <a href="https://github.com/Midhun-M-git/DT" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [9/25] DT</text>
     </a>
@@ -397,8 +567,13 @@
   </g>
 </g><!-- [10/25] DRIVER_EYE_DETECTION -->
 <g class="g-repo-9" style="opacity: 0;">
-  <g clip-path="url(#c_9)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_9)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat DRIVER_EYE_DETECTION.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_9)">
     <a href="https://github.com/Midhun-M-git/DRIVER_EYE_DETECTION" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [10/25] DRIVER_EYE_DETECTION</text>
     </a>
@@ -408,8 +583,13 @@
   </g>
 </g><!-- [11/25] ASTHRA-V4 -->
 <g class="g-repo-10" style="opacity: 0;">
-  <g clip-path="url(#c_10)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_10)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat ASTHRA-V4.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_10)">
     <a href="https://github.com/Midhun-M-git/ASTHRA-V4" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [11/25] ASTHRA-V4</text>
     </a>
@@ -419,8 +599,13 @@
   </g>
 </g><!-- [12/25] asthra -->
 <g class="g-repo-11" style="opacity: 0;">
-  <g clip-path="url(#c_11)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_11)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat asthra.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_11)">
     <a href="https://github.com/Midhun-M-git/asthra" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [12/25] asthra</text>
     </a>
@@ -430,8 +615,13 @@
   </g>
 </g><!-- [13/25] Resort_app -->
 <g class="g-repo-12" style="opacity: 0;">
-  <g clip-path="url(#c_12)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_12)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat Resort_app.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_12)">
     <a href="https://github.com/Midhun-M-git/Resort_app" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [13/25] Resort_app</text>
     </a>
@@ -441,8 +631,13 @@
   </g>
 </g><!-- [14/25] webapp-security-analyzer -->
 <g class="g-repo-13" style="opacity: 0;">
-  <g clip-path="url(#c_13)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_13)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat webapp-security-analyzer.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_13)">
     <a href="https://github.com/Midhun-M-git/webapp-security-analyzer" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [14/25] webapp-security-analyzer</text>
     </a>
@@ -452,8 +647,13 @@
   </g>
 </g><!-- [15/25] ahalia_sports_bot -->
 <g class="g-repo-14" style="opacity: 0;">
-  <g clip-path="url(#c_14)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_14)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat ahalia_sports_bot.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_14)">
     <a href="https://github.com/Midhun-M-git/ahalia_sports_bot" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [15/25] ahalia_sports_bot</text>
     </a>
@@ -463,8 +663,13 @@
   </g>
 </g><!-- [16/25] spnxa-race-z -->
 <g class="g-repo-15" style="opacity: 0;">
-  <g clip-path="url(#c_15)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_15)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat spnxa-race-z.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_15)">
     <a href="https://github.com/Midhun-M-git/spnxa-race-z" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [16/25] spnxa-race-z</text>
     </a>
@@ -474,8 +679,13 @@
   </g>
 </g><!-- [17/25] portfolio -->
 <g class="g-repo-16" style="opacity: 0;">
-  <g clip-path="url(#c_16)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_16)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat portfolio.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_16)">
     <a href="https://github.com/Midhun-M-git/portfolio" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [17/25] portfolio</text>
     </a>
@@ -485,8 +695,13 @@
   </g>
 </g><!-- [18/25] breach-checker-app -->
 <g class="g-repo-17" style="opacity: 0;">
-  <g clip-path="url(#c_17)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_17)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat breach-checker-app.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_17)">
     <a href="https://github.com/Midhun-M-git/breach-checker-app" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [18/25] breach-checker-app</text>
     </a>
@@ -496,8 +711,13 @@
   </g>
 </g><!-- [19/25] code_crush -->
 <g class="g-repo-18" style="opacity: 0;">
-  <g clip-path="url(#c_18)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_18)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat code_crush.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_18)">
     <a href="https://github.com/Midhun-M-git/code_crush" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [19/25] code_crush</text>
     </a>
@@ -507,8 +727,13 @@
   </g>
 </g><!-- [20/25] novus-web -->
 <g class="g-repo-19" style="opacity: 0;">
-  <g clip-path="url(#c_19)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_19)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat novus-web.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_19)">
     <a href="https://github.com/Midhun-M-git/novus-web" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [20/25] novus-web</text>
     </a>
@@ -518,8 +743,13 @@
   </g>
 </g><!-- [21/25] piravi-bot -->
 <g class="g-repo-20" style="opacity: 0;">
-  <g clip-path="url(#c_20)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_20)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat piravi-bot.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_20)">
     <a href="https://github.com/Midhun-M-git/piravi-bot" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [21/25] piravi-bot</text>
     </a>
@@ -529,8 +759,13 @@
   </g>
 </g><!-- [22/25] iedc-treasure-hunt -->
 <g class="g-repo-21" style="opacity: 0;">
-  <g clip-path="url(#c_21)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_21)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat iedc-treasure-hunt.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_21)">
     <a href="https://github.com/Midhun-M-git/iedc-treasure-hunt" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [22/25] iedc-treasure-hunt</text>
     </a>
@@ -540,8 +775,13 @@
   </g>
 </g><!-- [23/25] simple-chat-bot -->
 <g class="g-repo-22" style="opacity: 0;">
-  <g clip-path="url(#c_22)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_22)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat simple-chat-bot.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_22)">
     <a href="https://github.com/Midhun-M-git/simple-chat-bot" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [23/25] simple-chat-bot</text>
     </a>
@@ -551,8 +791,13 @@
   </g>
 </g><!-- [24/25] info-tech -->
 <g class="g-repo-23" style="opacity: 0;">
-  <g clip-path="url(#c_23)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_23)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat info-tech.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_23)">
     <a href="https://github.com/Midhun-M-git/info-tech" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [24/25] info-tech</text>
     </a>
@@ -562,8 +807,13 @@
   </g>
 </g><!-- [25/25] press-website -->
 <g class="g-repo-24" style="opacity: 0;">
-  <g clip-path="url(#c_24)">
+  <!-- STEP 1: Command typed out letter-by-letter -->
+  <g clip-path="url(#cmd_c_24)">
     <text x="25" y="70" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat press-website.json</tspan></text>
+  </g>
+  
+  <!-- STEP 2: Output details appear after command enters -->
+  <g clip-path="url(#out_c_24)">
     <a href="https://github.com/Midhun-M-git/press-website" target="_blank">
       <text x="25" y="105" class="proj-title">📂 [25/25] press-website</text>
     </a>
