@@ -1,57 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="100%" height="auto">
+#!/usr/bin/env python3
+import os
+
+FONT = "-apple-system, BlinkMacSystemFont, 'Fira Code', 'Courier New', monospace"
+
+def build_typing_projects_terminal():
+    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_projects_terminal.svg"
+    
+    # 4 cycling project terminal views
+    # Each view has: Command typed, Project Name, Description, Tech & Link
+    
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="100%" height="auto">
 <defs>
   <style>
-    .term-text {
+    .term-text {{
       font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
       font-size: 14.5px;
       fill: #c9d1d9;
-    }
-    .prompt {
+    }}
+    .prompt {{
       fill: #e74c3c;
       font-weight: 700;
-    }
-    .path {
+    }}
+    .path {{
       fill: #38bdf8;
-    }
-    .cmd {
+    }}
+    .cmd {{
       fill: #f0f6fc;
       font-weight: 600;
-    }
-    .proj-title {
+    }}
+    .proj-title {{
       fill: #58a6ff;
       font-weight: 700;
       font-size: 16px;
-    }
-    .proj-desc {
+    }}
+    .proj-desc {{
       fill: #8b949e;
       font-size: 13.5px;
-    }
-    .tech-tag {
+    }}
+    .tech-tag {{
       fill: #2ea043;
       font-weight: 600;
-    }
-    .status-tag {
+    }}
+    .status-tag {{
       fill: #38bdf8;
-    }
-    .cursor {
+    }}
+    .cursor {{
       animation: blink 0.8s infinite;
       fill: #e74c3c;
-    }
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
+    }}
+    @keyframes blink {{
+      0%, 100% {{ opacity: 1; }}
+      50% {{ opacity: 0; }}
+    }}
 
     /* Typewriter animation cycle across 4 project repositories */
-    .proj-1 { animation: cycle1 20s infinite; }
-    .proj-2 { animation: cycle2 20s infinite; }
-    .proj-3 { animation: cycle3 20s infinite; }
-    .proj-4 { animation: cycle4 20s infinite; }
+    .proj-1 {{ animation: cycle1 20s infinite; }}
+    .proj-2 {{ animation: cycle2 20s infinite; }}
+    .proj-3 {{ animation: cycle3 20s infinite; }}
+    .proj-4 {{ animation: cycle4 20s infinite; }}
 
-    @keyframes cycle1 { 0%, 23% { opacity: 1; } 25%, 100% { opacity: 0; } }
-    @keyframes cycle2 { 0%, 24% { opacity: 0; } 25%, 48% { opacity: 1; } 50%, 100% { opacity: 0; } }
-    @keyframes cycle3 { 0%, 49% { opacity: 0; } 50%, 73% { opacity: 1; } 75%, 100% { opacity: 0; } }
-    @keyframes cycle4 { 0%, 74% { opacity: 0; } 75%, 98% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes cycle1 {{ 0%, 23% {{ opacity: 1; }} 25%, 100% {{ opacity: 0; }} }}
+    @keyframes cycle2 {{ 0%, 24% {{ opacity: 0; }} 25%, 48% {{ opacity: 1; }} 50%, 100% {{ opacity: 0; }} }}
+    @keyframes cycle3 {{ 0%, 49% {{ opacity: 0; }} 50%, 73% {{ opacity: 1; }} 75%, 100% {{ opacity: 0; }} }}
+    @keyframes cycle4 {{ 0%, 74% {{ opacity: 0; }} 75%, 98% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
   </style>
 </defs>
 
@@ -68,7 +79,7 @@
 <circle cx="56" cy="16" r="6" fill="#27c93f"/>
 
 <!-- TERMINAL TITLE -->
-<text x="400" y="21" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Fira Code', 'Courier New', monospace" font-size="12" text-anchor="middle" font-weight="600">🕷️ spidey@novustech: ~/repositories (zsh)</text>
+<text x="400" y="21" fill="#8b949e" font-family="{FONT}" font-size="12" text-anchor="middle" font-weight="600">🕷️ spidey@novustech: ~/repositories (zsh)</text>
 
 <!-- SPIDER WEB ACCENT IN TOP RIGHT OF TERMINAL -->
 <g transform="translate(800, 0) scale(-1, 1)">
@@ -119,4 +130,12 @@
   <text x="25" y="188" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cursor">█</tspan></text>
 </g>
 
-</svg>
+</svg>'''
+
+    with open(output_svg, 'w', encoding='utf-8') as f:
+        f.write(svg_content)
+        
+    print(f"Generated animated typewriter Spidey Projects Terminal: {output_svg}")
+
+if __name__ == '__main__':
+    build_typing_projects_terminal()
