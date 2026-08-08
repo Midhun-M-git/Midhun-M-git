@@ -1,0 +1,32 @@
+name: Auto Update Spidey Terminal Repositories
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+  push:
+    branches:
+      - main
+
+jobs:
+  update-terminal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/python-version@v4
+        with:
+          python-version: '3.10'
+
+      - name: Fetch Latest Repositories and Build Spidey Terminal SVG
+        run: python fetch_all_repos_and_build_terminal.py
+
+      - name: Commit and Push Updated Terminal SVG
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add spidey_repos_terminal.svg spidey_all_repos_terminal.svg spidey_typewriter_terminal.svg
+          git diff-index --quiet HEAD || git commit -m "Auto-update Spidey Terminal with latest GitHub repositories [skip ci]"
+          git push

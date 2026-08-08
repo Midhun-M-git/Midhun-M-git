@@ -74,202 +74,202 @@
 
 
             .g-repo-0 { animation: g_kf_0 112.5s infinite; -webkit-animation: g_kf_0 112.5s infinite; }
-            @keyframes g_kf_0 { 0%, 4% { opacity: 1; } 4%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_0 { 0%, 4% { opacity: 1; } 4%, 100% { opacity: 0; } }
+            @keyframes g_kf_0 { 0%, 4% { opacity: 1; display: block; } 5%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_0 { 0%, 4% { opacity: 1; display: block; } 5%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-0 { animation: clp_kf_0 112.5s infinite steps(35); -webkit-animation: clp_kf_0 112.5s infinite steps(35); }
+        .clip-rect-0 { animation: clp_kf_0 112.5s infinite steps(40); -webkit-animation: clp_kf_0 112.5s infinite steps(40); }
         @keyframes clp_kf_0 { 0%, 0% { width: 0px; } 1%, 4% { width: 770px; } 4%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_0 { 0%, 0% { width: 0px; } 1%, 4% { width: 770px; } 4%, 100% { width: 0px; } }
 
             .g-repo-1 { animation: g_kf_1 112.5s infinite; -webkit-animation: g_kf_1 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_1 { 0%, 4% { opacity: 0; } 5%, 8% { opacity: 1; } 8%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_1 { 0%, 4% { opacity: 0; } 5%, 8% { opacity: 1; } 8%, 100% { opacity: 0; } }
+            @keyframes g_kf_1 { 0%, 3% { opacity: 0; display: none; } 4%, 8% { opacity: 1; display: block; } 9%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_1 { 0%, 3% { opacity: 0; display: none; } 4%, 8% { opacity: 1; display: block; } 9%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-1 { animation: clp_kf_1 112.5s infinite steps(35); -webkit-animation: clp_kf_1 112.5s infinite steps(35); }
+        .clip-rect-1 { animation: clp_kf_1 112.5s infinite steps(40); -webkit-animation: clp_kf_1 112.5s infinite steps(40); }
         @keyframes clp_kf_1 { 0%, 4% { width: 0px; } 5%, 8% { width: 770px; } 8%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_1 { 0%, 4% { width: 0px; } 5%, 8% { width: 770px; } 8%, 100% { width: 0px; } }
 
             .g-repo-2 { animation: g_kf_2 112.5s infinite; -webkit-animation: g_kf_2 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_2 { 0%, 8% { opacity: 0; } 9%, 12% { opacity: 1; } 12%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_2 { 0%, 8% { opacity: 0; } 9%, 12% { opacity: 1; } 12%, 100% { opacity: 0; } }
+            @keyframes g_kf_2 { 0%, 7% { opacity: 0; display: none; } 8%, 12% { opacity: 1; display: block; } 13%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_2 { 0%, 7% { opacity: 0; display: none; } 8%, 12% { opacity: 1; display: block; } 13%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-2 { animation: clp_kf_2 112.5s infinite steps(35); -webkit-animation: clp_kf_2 112.5s infinite steps(35); }
+        .clip-rect-2 { animation: clp_kf_2 112.5s infinite steps(40); -webkit-animation: clp_kf_2 112.5s infinite steps(40); }
         @keyframes clp_kf_2 { 0%, 8% { width: 0px; } 9%, 12% { width: 770px; } 12%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_2 { 0%, 8% { width: 0px; } 9%, 12% { width: 770px; } 12%, 100% { width: 0px; } }
 
             .g-repo-3 { animation: g_kf_3 112.5s infinite; -webkit-animation: g_kf_3 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_3 { 0%, 12% { opacity: 0; } 13%, 16% { opacity: 1; } 16%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_3 { 0%, 12% { opacity: 0; } 13%, 16% { opacity: 1; } 16%, 100% { opacity: 0; } }
+            @keyframes g_kf_3 { 0%, 11% { opacity: 0; display: none; } 12%, 16% { opacity: 1; display: block; } 17%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_3 { 0%, 11% { opacity: 0; display: none; } 12%, 16% { opacity: 1; display: block; } 17%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-3 { animation: clp_kf_3 112.5s infinite steps(35); -webkit-animation: clp_kf_3 112.5s infinite steps(35); }
+        .clip-rect-3 { animation: clp_kf_3 112.5s infinite steps(40); -webkit-animation: clp_kf_3 112.5s infinite steps(40); }
         @keyframes clp_kf_3 { 0%, 12% { width: 0px; } 13%, 16% { width: 770px; } 16%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_3 { 0%, 12% { width: 0px; } 13%, 16% { width: 770px; } 16%, 100% { width: 0px; } }
 
             .g-repo-4 { animation: g_kf_4 112.5s infinite; -webkit-animation: g_kf_4 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_4 { 0%, 16% { opacity: 0; } 17%, 20% { opacity: 1; } 20%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_4 { 0%, 16% { opacity: 0; } 17%, 20% { opacity: 1; } 20%, 100% { opacity: 0; } }
+            @keyframes g_kf_4 { 0%, 15% { opacity: 0; display: none; } 16%, 20% { opacity: 1; display: block; } 21%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_4 { 0%, 15% { opacity: 0; display: none; } 16%, 20% { opacity: 1; display: block; } 21%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-4 { animation: clp_kf_4 112.5s infinite steps(35); -webkit-animation: clp_kf_4 112.5s infinite steps(35); }
+        .clip-rect-4 { animation: clp_kf_4 112.5s infinite steps(40); -webkit-animation: clp_kf_4 112.5s infinite steps(40); }
         @keyframes clp_kf_4 { 0%, 16% { width: 0px; } 17%, 20% { width: 770px; } 20%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_4 { 0%, 16% { width: 0px; } 17%, 20% { width: 770px; } 20%, 100% { width: 0px; } }
 
             .g-repo-5 { animation: g_kf_5 112.5s infinite; -webkit-animation: g_kf_5 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_5 { 0%, 20% { opacity: 0; } 21%, 24% { opacity: 1; } 24%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_5 { 0%, 20% { opacity: 0; } 21%, 24% { opacity: 1; } 24%, 100% { opacity: 0; } }
+            @keyframes g_kf_5 { 0%, 19% { opacity: 0; display: none; } 20%, 24% { opacity: 1; display: block; } 25%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_5 { 0%, 19% { opacity: 0; display: none; } 20%, 24% { opacity: 1; display: block; } 25%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-5 { animation: clp_kf_5 112.5s infinite steps(35); -webkit-animation: clp_kf_5 112.5s infinite steps(35); }
+        .clip-rect-5 { animation: clp_kf_5 112.5s infinite steps(40); -webkit-animation: clp_kf_5 112.5s infinite steps(40); }
         @keyframes clp_kf_5 { 0%, 20% { width: 0px; } 21%, 24% { width: 770px; } 24%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_5 { 0%, 20% { width: 0px; } 21%, 24% { width: 770px; } 24%, 100% { width: 0px; } }
 
             .g-repo-6 { animation: g_kf_6 112.5s infinite; -webkit-animation: g_kf_6 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_6 { 0%, 24% { opacity: 0; } 25%, 28% { opacity: 1; } 28%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_6 { 0%, 24% { opacity: 0; } 25%, 28% { opacity: 1; } 28%, 100% { opacity: 0; } }
+            @keyframes g_kf_6 { 0%, 23% { opacity: 0; display: none; } 24%, 28% { opacity: 1; display: block; } 29%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_6 { 0%, 23% { opacity: 0; display: none; } 24%, 28% { opacity: 1; display: block; } 29%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-6 { animation: clp_kf_6 112.5s infinite steps(35); -webkit-animation: clp_kf_6 112.5s infinite steps(35); }
+        .clip-rect-6 { animation: clp_kf_6 112.5s infinite steps(40); -webkit-animation: clp_kf_6 112.5s infinite steps(40); }
         @keyframes clp_kf_6 { 0%, 24% { width: 0px; } 25%, 28% { width: 770px; } 28%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_6 { 0%, 24% { width: 0px; } 25%, 28% { width: 770px; } 28%, 100% { width: 0px; } }
 
             .g-repo-7 { animation: g_kf_7 112.5s infinite; -webkit-animation: g_kf_7 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_7 { 0%, 28% { opacity: 0; } 29%, 32% { opacity: 1; } 32%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_7 { 0%, 28% { opacity: 0; } 29%, 32% { opacity: 1; } 32%, 100% { opacity: 0; } }
+            @keyframes g_kf_7 { 0%, 27% { opacity: 0; display: none; } 28%, 32% { opacity: 1; display: block; } 33%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_7 { 0%, 27% { opacity: 0; display: none; } 28%, 32% { opacity: 1; display: block; } 33%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-7 { animation: clp_kf_7 112.5s infinite steps(35); -webkit-animation: clp_kf_7 112.5s infinite steps(35); }
+        .clip-rect-7 { animation: clp_kf_7 112.5s infinite steps(40); -webkit-animation: clp_kf_7 112.5s infinite steps(40); }
         @keyframes clp_kf_7 { 0%, 28% { width: 0px; } 29%, 32% { width: 770px; } 32%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_7 { 0%, 28% { width: 0px; } 29%, 32% { width: 770px; } 32%, 100% { width: 0px; } }
 
             .g-repo-8 { animation: g_kf_8 112.5s infinite; -webkit-animation: g_kf_8 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_8 { 0%, 32% { opacity: 0; } 33%, 36% { opacity: 1; } 36%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_8 { 0%, 32% { opacity: 0; } 33%, 36% { opacity: 1; } 36%, 100% { opacity: 0; } }
+            @keyframes g_kf_8 { 0%, 31% { opacity: 0; display: none; } 32%, 36% { opacity: 1; display: block; } 37%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_8 { 0%, 31% { opacity: 0; display: none; } 32%, 36% { opacity: 1; display: block; } 37%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-8 { animation: clp_kf_8 112.5s infinite steps(35); -webkit-animation: clp_kf_8 112.5s infinite steps(35); }
+        .clip-rect-8 { animation: clp_kf_8 112.5s infinite steps(40); -webkit-animation: clp_kf_8 112.5s infinite steps(40); }
         @keyframes clp_kf_8 { 0%, 32% { width: 0px; } 33%, 36% { width: 770px; } 36%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_8 { 0%, 32% { width: 0px; } 33%, 36% { width: 770px; } 36%, 100% { width: 0px; } }
 
             .g-repo-9 { animation: g_kf_9 112.5s infinite; -webkit-animation: g_kf_9 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_9 { 0%, 36% { opacity: 0; } 37%, 40% { opacity: 1; } 40%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_9 { 0%, 36% { opacity: 0; } 37%, 40% { opacity: 1; } 40%, 100% { opacity: 0; } }
+            @keyframes g_kf_9 { 0%, 35% { opacity: 0; display: none; } 36%, 40% { opacity: 1; display: block; } 41%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_9 { 0%, 35% { opacity: 0; display: none; } 36%, 40% { opacity: 1; display: block; } 41%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-9 { animation: clp_kf_9 112.5s infinite steps(35); -webkit-animation: clp_kf_9 112.5s infinite steps(35); }
+        .clip-rect-9 { animation: clp_kf_9 112.5s infinite steps(40); -webkit-animation: clp_kf_9 112.5s infinite steps(40); }
         @keyframes clp_kf_9 { 0%, 36% { width: 0px; } 37%, 40% { width: 770px; } 40%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_9 { 0%, 36% { width: 0px; } 37%, 40% { width: 770px; } 40%, 100% { width: 0px; } }
 
             .g-repo-10 { animation: g_kf_10 112.5s infinite; -webkit-animation: g_kf_10 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_10 { 0%, 40% { opacity: 0; } 41%, 44% { opacity: 1; } 44%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_10 { 0%, 40% { opacity: 0; } 41%, 44% { opacity: 1; } 44%, 100% { opacity: 0; } }
+            @keyframes g_kf_10 { 0%, 39% { opacity: 0; display: none; } 40%, 44% { opacity: 1; display: block; } 45%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_10 { 0%, 39% { opacity: 0; display: none; } 40%, 44% { opacity: 1; display: block; } 45%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-10 { animation: clp_kf_10 112.5s infinite steps(35); -webkit-animation: clp_kf_10 112.5s infinite steps(35); }
+        .clip-rect-10 { animation: clp_kf_10 112.5s infinite steps(40); -webkit-animation: clp_kf_10 112.5s infinite steps(40); }
         @keyframes clp_kf_10 { 0%, 40% { width: 0px; } 41%, 44% { width: 770px; } 44%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_10 { 0%, 40% { width: 0px; } 41%, 44% { width: 770px; } 44%, 100% { width: 0px; } }
 
             .g-repo-11 { animation: g_kf_11 112.5s infinite; -webkit-animation: g_kf_11 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_11 { 0%, 44% { opacity: 0; } 45%, 48% { opacity: 1; } 48%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_11 { 0%, 44% { opacity: 0; } 45%, 48% { opacity: 1; } 48%, 100% { opacity: 0; } }
+            @keyframes g_kf_11 { 0%, 43% { opacity: 0; display: none; } 44%, 48% { opacity: 1; display: block; } 49%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_11 { 0%, 43% { opacity: 0; display: none; } 44%, 48% { opacity: 1; display: block; } 49%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-11 { animation: clp_kf_11 112.5s infinite steps(35); -webkit-animation: clp_kf_11 112.5s infinite steps(35); }
+        .clip-rect-11 { animation: clp_kf_11 112.5s infinite steps(40); -webkit-animation: clp_kf_11 112.5s infinite steps(40); }
         @keyframes clp_kf_11 { 0%, 44% { width: 0px; } 45%, 48% { width: 770px; } 48%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_11 { 0%, 44% { width: 0px; } 45%, 48% { width: 770px; } 48%, 100% { width: 0px; } }
 
             .g-repo-12 { animation: g_kf_12 112.5s infinite; -webkit-animation: g_kf_12 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_12 { 0%, 48% { opacity: 0; } 49%, 52% { opacity: 1; } 52%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_12 { 0%, 48% { opacity: 0; } 49%, 52% { opacity: 1; } 52%, 100% { opacity: 0; } }
+            @keyframes g_kf_12 { 0%, 47% { opacity: 0; display: none; } 48%, 52% { opacity: 1; display: block; } 53%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_12 { 0%, 47% { opacity: 0; display: none; } 48%, 52% { opacity: 1; display: block; } 53%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-12 { animation: clp_kf_12 112.5s infinite steps(35); -webkit-animation: clp_kf_12 112.5s infinite steps(35); }
+        .clip-rect-12 { animation: clp_kf_12 112.5s infinite steps(40); -webkit-animation: clp_kf_12 112.5s infinite steps(40); }
         @keyframes clp_kf_12 { 0%, 48% { width: 0px; } 49%, 52% { width: 770px; } 52%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_12 { 0%, 48% { width: 0px; } 49%, 52% { width: 770px; } 52%, 100% { width: 0px; } }
 
             .g-repo-13 { animation: g_kf_13 112.5s infinite; -webkit-animation: g_kf_13 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_13 { 0%, 52% { opacity: 0; } 53%, 56% { opacity: 1; } 56%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_13 { 0%, 52% { opacity: 0; } 53%, 56% { opacity: 1; } 56%, 100% { opacity: 0; } }
+            @keyframes g_kf_13 { 0%, 51% { opacity: 0; display: none; } 52%, 56% { opacity: 1; display: block; } 57%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_13 { 0%, 51% { opacity: 0; display: none; } 52%, 56% { opacity: 1; display: block; } 57%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-13 { animation: clp_kf_13 112.5s infinite steps(35); -webkit-animation: clp_kf_13 112.5s infinite steps(35); }
+        .clip-rect-13 { animation: clp_kf_13 112.5s infinite steps(40); -webkit-animation: clp_kf_13 112.5s infinite steps(40); }
         @keyframes clp_kf_13 { 0%, 52% { width: 0px; } 53%, 56% { width: 770px; } 56%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_13 { 0%, 52% { width: 0px; } 53%, 56% { width: 770px; } 56%, 100% { width: 0px; } }
 
             .g-repo-14 { animation: g_kf_14 112.5s infinite; -webkit-animation: g_kf_14 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_14 { 0%, 56% { opacity: 0; } 57%, 60% { opacity: 1; } 60%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_14 { 0%, 56% { opacity: 0; } 57%, 60% { opacity: 1; } 60%, 100% { opacity: 0; } }
+            @keyframes g_kf_14 { 0%, 55% { opacity: 0; display: none; } 56%, 60% { opacity: 1; display: block; } 61%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_14 { 0%, 55% { opacity: 0; display: none; } 56%, 60% { opacity: 1; display: block; } 61%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-14 { animation: clp_kf_14 112.5s infinite steps(35); -webkit-animation: clp_kf_14 112.5s infinite steps(35); }
+        .clip-rect-14 { animation: clp_kf_14 112.5s infinite steps(40); -webkit-animation: clp_kf_14 112.5s infinite steps(40); }
         @keyframes clp_kf_14 { 0%, 56% { width: 0px; } 57%, 60% { width: 770px; } 60%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_14 { 0%, 56% { width: 0px; } 57%, 60% { width: 770px; } 60%, 100% { width: 0px; } }
 
             .g-repo-15 { animation: g_kf_15 112.5s infinite; -webkit-animation: g_kf_15 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_15 { 0%, 60% { opacity: 0; } 61%, 64% { opacity: 1; } 64%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_15 { 0%, 60% { opacity: 0; } 61%, 64% { opacity: 1; } 64%, 100% { opacity: 0; } }
+            @keyframes g_kf_15 { 0%, 59% { opacity: 0; display: none; } 60%, 64% { opacity: 1; display: block; } 65%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_15 { 0%, 59% { opacity: 0; display: none; } 60%, 64% { opacity: 1; display: block; } 65%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-15 { animation: clp_kf_15 112.5s infinite steps(35); -webkit-animation: clp_kf_15 112.5s infinite steps(35); }
+        .clip-rect-15 { animation: clp_kf_15 112.5s infinite steps(40); -webkit-animation: clp_kf_15 112.5s infinite steps(40); }
         @keyframes clp_kf_15 { 0%, 60% { width: 0px; } 61%, 64% { width: 770px; } 64%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_15 { 0%, 60% { width: 0px; } 61%, 64% { width: 770px; } 64%, 100% { width: 0px; } }
 
             .g-repo-16 { animation: g_kf_16 112.5s infinite; -webkit-animation: g_kf_16 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_16 { 0%, 64% { opacity: 0; } 65%, 68% { opacity: 1; } 68%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_16 { 0%, 64% { opacity: 0; } 65%, 68% { opacity: 1; } 68%, 100% { opacity: 0; } }
+            @keyframes g_kf_16 { 0%, 63% { opacity: 0; display: none; } 64%, 68% { opacity: 1; display: block; } 69%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_16 { 0%, 63% { opacity: 0; display: none; } 64%, 68% { opacity: 1; display: block; } 69%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-16 { animation: clp_kf_16 112.5s infinite steps(35); -webkit-animation: clp_kf_16 112.5s infinite steps(35); }
+        .clip-rect-16 { animation: clp_kf_16 112.5s infinite steps(40); -webkit-animation: clp_kf_16 112.5s infinite steps(40); }
         @keyframes clp_kf_16 { 0%, 64% { width: 0px; } 65%, 68% { width: 770px; } 68%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_16 { 0%, 64% { width: 0px; } 65%, 68% { width: 770px; } 68%, 100% { width: 0px; } }
 
             .g-repo-17 { animation: g_kf_17 112.5s infinite; -webkit-animation: g_kf_17 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_17 { 0%, 68% { opacity: 0; } 69%, 72% { opacity: 1; } 72%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_17 { 0%, 68% { opacity: 0; } 69%, 72% { opacity: 1; } 72%, 100% { opacity: 0; } }
+            @keyframes g_kf_17 { 0%, 67% { opacity: 0; display: none; } 68%, 72% { opacity: 1; display: block; } 73%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_17 { 0%, 67% { opacity: 0; display: none; } 68%, 72% { opacity: 1; display: block; } 73%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-17 { animation: clp_kf_17 112.5s infinite steps(35); -webkit-animation: clp_kf_17 112.5s infinite steps(35); }
+        .clip-rect-17 { animation: clp_kf_17 112.5s infinite steps(40); -webkit-animation: clp_kf_17 112.5s infinite steps(40); }
         @keyframes clp_kf_17 { 0%, 68% { width: 0px; } 69%, 72% { width: 770px; } 72%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_17 { 0%, 68% { width: 0px; } 69%, 72% { width: 770px; } 72%, 100% { width: 0px; } }
 
             .g-repo-18 { animation: g_kf_18 112.5s infinite; -webkit-animation: g_kf_18 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_18 { 0%, 72% { opacity: 0; } 73%, 76% { opacity: 1; } 76%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_18 { 0%, 72% { opacity: 0; } 73%, 76% { opacity: 1; } 76%, 100% { opacity: 0; } }
+            @keyframes g_kf_18 { 0%, 71% { opacity: 0; display: none; } 72%, 76% { opacity: 1; display: block; } 77%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_18 { 0%, 71% { opacity: 0; display: none; } 72%, 76% { opacity: 1; display: block; } 77%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-18 { animation: clp_kf_18 112.5s infinite steps(35); -webkit-animation: clp_kf_18 112.5s infinite steps(35); }
+        .clip-rect-18 { animation: clp_kf_18 112.5s infinite steps(40); -webkit-animation: clp_kf_18 112.5s infinite steps(40); }
         @keyframes clp_kf_18 { 0%, 72% { width: 0px; } 73%, 76% { width: 770px; } 76%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_18 { 0%, 72% { width: 0px; } 73%, 76% { width: 770px; } 76%, 100% { width: 0px; } }
 
             .g-repo-19 { animation: g_kf_19 112.5s infinite; -webkit-animation: g_kf_19 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_19 { 0%, 76% { opacity: 0; } 77%, 80% { opacity: 1; } 80%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_19 { 0%, 76% { opacity: 0; } 77%, 80% { opacity: 1; } 80%, 100% { opacity: 0; } }
+            @keyframes g_kf_19 { 0%, 75% { opacity: 0; display: none; } 76%, 80% { opacity: 1; display: block; } 81%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_19 { 0%, 75% { opacity: 0; display: none; } 76%, 80% { opacity: 1; display: block; } 81%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-19 { animation: clp_kf_19 112.5s infinite steps(35); -webkit-animation: clp_kf_19 112.5s infinite steps(35); }
+        .clip-rect-19 { animation: clp_kf_19 112.5s infinite steps(40); -webkit-animation: clp_kf_19 112.5s infinite steps(40); }
         @keyframes clp_kf_19 { 0%, 76% { width: 0px; } 77%, 80% { width: 770px; } 80%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_19 { 0%, 76% { width: 0px; } 77%, 80% { width: 770px; } 80%, 100% { width: 0px; } }
 
             .g-repo-20 { animation: g_kf_20 112.5s infinite; -webkit-animation: g_kf_20 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_20 { 0%, 80% { opacity: 0; } 81%, 84% { opacity: 1; } 84%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_20 { 0%, 80% { opacity: 0; } 81%, 84% { opacity: 1; } 84%, 100% { opacity: 0; } }
+            @keyframes g_kf_20 { 0%, 79% { opacity: 0; display: none; } 80%, 84% { opacity: 1; display: block; } 85%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_20 { 0%, 79% { opacity: 0; display: none; } 80%, 84% { opacity: 1; display: block; } 85%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-20 { animation: clp_kf_20 112.5s infinite steps(35); -webkit-animation: clp_kf_20 112.5s infinite steps(35); }
+        .clip-rect-20 { animation: clp_kf_20 112.5s infinite steps(40); -webkit-animation: clp_kf_20 112.5s infinite steps(40); }
         @keyframes clp_kf_20 { 0%, 80% { width: 0px; } 81%, 84% { width: 770px; } 84%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_20 { 0%, 80% { width: 0px; } 81%, 84% { width: 770px; } 84%, 100% { width: 0px; } }
 
             .g-repo-21 { animation: g_kf_21 112.5s infinite; -webkit-animation: g_kf_21 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_21 { 0%, 84% { opacity: 0; } 85%, 88% { opacity: 1; } 88%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_21 { 0%, 84% { opacity: 0; } 85%, 88% { opacity: 1; } 88%, 100% { opacity: 0; } }
+            @keyframes g_kf_21 { 0%, 83% { opacity: 0; display: none; } 84%, 88% { opacity: 1; display: block; } 89%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_21 { 0%, 83% { opacity: 0; display: none; } 84%, 88% { opacity: 1; display: block; } 89%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-21 { animation: clp_kf_21 112.5s infinite steps(35); -webkit-animation: clp_kf_21 112.5s infinite steps(35); }
+        .clip-rect-21 { animation: clp_kf_21 112.5s infinite steps(40); -webkit-animation: clp_kf_21 112.5s infinite steps(40); }
         @keyframes clp_kf_21 { 0%, 84% { width: 0px; } 85%, 88% { width: 770px; } 88%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_21 { 0%, 84% { width: 0px; } 85%, 88% { width: 770px; } 88%, 100% { width: 0px; } }
 
             .g-repo-22 { animation: g_kf_22 112.5s infinite; -webkit-animation: g_kf_22 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_22 { 0%, 88% { opacity: 0; } 89%, 92% { opacity: 1; } 92%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_22 { 0%, 88% { opacity: 0; } 89%, 92% { opacity: 1; } 92%, 100% { opacity: 0; } }
+            @keyframes g_kf_22 { 0%, 87% { opacity: 0; display: none; } 88%, 92% { opacity: 1; display: block; } 93%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_22 { 0%, 87% { opacity: 0; display: none; } 88%, 92% { opacity: 1; display: block; } 93%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-22 { animation: clp_kf_22 112.5s infinite steps(35); -webkit-animation: clp_kf_22 112.5s infinite steps(35); }
+        .clip-rect-22 { animation: clp_kf_22 112.5s infinite steps(40); -webkit-animation: clp_kf_22 112.5s infinite steps(40); }
         @keyframes clp_kf_22 { 0%, 88% { width: 0px; } 89%, 92% { width: 770px; } 92%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_22 { 0%, 88% { width: 0px; } 89%, 92% { width: 770px; } 92%, 100% { width: 0px; } }
 
             .g-repo-23 { animation: g_kf_23 112.5s infinite; -webkit-animation: g_kf_23 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_23 { 0%, 92% { opacity: 0; } 93%, 96% { opacity: 1; } 96%, 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_23 { 0%, 92% { opacity: 0; } 93%, 96% { opacity: 1; } 96%, 100% { opacity: 0; } }
+            @keyframes g_kf_23 { 0%, 91% { opacity: 0; display: none; } 92%, 96% { opacity: 1; display: block; } 97%, 100% { opacity: 0; display: none; } }
+            @-webkit-keyframes g_kf_23 { 0%, 91% { opacity: 0; display: none; } 92%, 96% { opacity: 1; display: block; } 97%, 100% { opacity: 0; display: none; } }
 
-        .clip-rect-23 { animation: clp_kf_23 112.5s infinite steps(35); -webkit-animation: clp_kf_23 112.5s infinite steps(35); }
+        .clip-rect-23 { animation: clp_kf_23 112.5s infinite steps(40); -webkit-animation: clp_kf_23 112.5s infinite steps(40); }
         @keyframes clp_kf_23 { 0%, 92% { width: 0px; } 93%, 96% { width: 770px; } 96%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_23 { 0%, 92% { width: 0px; } 93%, 96% { width: 770px; } 96%, 100% { width: 0px; } }
 
             .g-repo-24 { animation: g_kf_24 112.5s infinite; -webkit-animation: g_kf_24 112.5s infinite; opacity: 0; }
-            @keyframes g_kf_24 { 0%, 96% { opacity: 0; } 97%, 100% { opacity: 1; } 100% { opacity: 0; } }
-            @-webkit-keyframes g_kf_24 { 0%, 96% { opacity: 0; } 97%, 100% { opacity: 1; } 100% { opacity: 0; } }
+            @keyframes g_kf_24 { 0%, 95% { opacity: 0; display: none; } 96%, 100% { opacity: 1; display: block; } }
+            @-webkit-keyframes g_kf_24 { 0%, 95% { opacity: 0; display: none; } 96%, 100% { opacity: 1; display: block; } }
 
-        .clip-rect-24 { animation: clp_kf_24 112.5s infinite steps(35); -webkit-animation: clp_kf_24 112.5s infinite steps(35); }
+        .clip-rect-24 { animation: clp_kf_24 112.5s infinite steps(40); -webkit-animation: clp_kf_24 112.5s infinite steps(40); }
         @keyframes clp_kf_24 { 0%, 96% { width: 0px; } 97%, 100% { width: 770px; } 100%, 100% { width: 0px; } }
         @-webkit-keyframes clp_kf_24 { 0%, 96% { width: 0px; } 97%, 100% { width: 770px; } 100%, 100% { width: 0px; } }
   </style>

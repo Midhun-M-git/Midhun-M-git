@@ -18,9 +18,9 @@ def fetch_repos():
         return []
 
 def build_svg(repos):
-    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_repos_terminal.svg"
+    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_typewriter_terminal.svg"
+    output_repos = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_repos_terminal.svg"
     output_all = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_all_repos_terminal.svg"
-    output_typewriter = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_typewriter_terminal.svg"
     
     if not repos:
         repos = [
@@ -31,7 +31,7 @@ def build_svg(repos):
         ]
         
     total_repos = len(repos)
-    print(f"Building true letter-by-letter typewriter terminal for {total_repos} repositories...")
+    print(f"Building zero-blink typewriter terminal for {total_repos} repositories...")
     
     # 4.5 seconds per repo
     duration = max(35, total_repos * 4.5)
@@ -57,44 +57,41 @@ def build_svg(repos):
         # Calculate timing percentages
         start_p = int(round(i * pct_per_repo))
         type_done_p = int(round(start_p + (pct_per_repo * 0.35)))
-        active_p = int(round(start_p + (pct_per_repo * 0.90)))
+        active_p = int(round(start_p + (pct_per_repo * 0.98)))
         end_p = int(round((i + 1) * pct_per_repo))
         
-        # Clamp percentages 0..100
         start_p = max(0, min(100, start_p))
         type_done_p = max(0, min(100, type_done_p))
         active_p = max(0, min(100, active_p))
         end_p = max(0, min(100, end_p))
         
-        # CSS rule for repo group visibility
+        # Zero-blink CSS rule for repo group visibility
         if i == 0:
             g_kf = f"""
             .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; }}
-            @keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
-            @-webkit-keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
+            @keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; display: block; }} {active_p + 1}%, 100% {{ opacity: 0; display: none; }} }}
+            @-webkit-keyframes g_kf_{i} {{ 0%, {active_p}% {{ opacity: 1; display: block; }} {active_p + 1}%, 100% {{ opacity: 0; display: none; }} }}"""
         elif i == total_repos - 1:
             g_kf = f"""
             .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; opacity: 0; }}
-            @keyframes g_kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
-            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}"""
+            @keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; display: none; }} {start_p}%, 100% {{ opacity: 1; display: block; }} }}
+            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; display: none; }} {start_p}%, 100% {{ opacity: 1; display: block; }} }}"""
         else:
             g_kf = f"""
             .{cls_g} {{ animation: g_kf_{i} {duration}s infinite; -webkit-animation: g_kf_{i} {duration}s infinite; opacity: 0; }}
-            @keyframes g_kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}
-            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p}% {{ opacity: 0; }} {start_p + 1}%, {active_p}% {{ opacity: 1; }} {end_p}%, 100% {{ opacity: 0; }} }}"""
+            @keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; display: none; }} {start_p}%, {active_p}% {{ opacity: 1; display: block; }} {active_p + 1}%, 100% {{ opacity: 0; display: none; }} }}
+            @-webkit-keyframes g_kf_{i} {{ 0%, {start_p - 1}% {{ opacity: 0; display: none; }} {start_p}%, {active_p}% {{ opacity: 1; display: block; }} {active_p + 1}%, 100% {{ opacity: 0; display: none; }} }}"""
 
-        # CSS rule for true letter-by-letter typewriter clip-path reveal
+        # True letter-by-letter typewriter clip-path reveal
         clip_kf = f"""
-        .{cls_clip} {{ animation: clp_kf_{i} {duration}s infinite steps(35); -webkit-animation: clp_kf_{i} {duration}s infinite steps(35); }}
+        .{cls_clip} {{ animation: clp_kf_{i} {duration}s infinite steps(40); -webkit-animation: clp_kf_{i} {duration}s infinite steps(40); }}
         @keyframes clp_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {type_done_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}
         @-webkit-keyframes clp_kf_{i} {{ 0%, {start_p}% {{ width: 0px; }} {type_done_p}%, {active_p}% {{ width: 770px; }} {end_p}%, 100% {{ width: 0px; }} }}"""
 
         css_rules.append(g_kf + "\n" + clip_kf)
         
-        # ClipPath definition
         clip_defs.append(f'<clipPath id="{clip_id}"><rect x="20" y="45" width="0" height="155" class="{cls_clip}"/></clipPath>')
 
-        # Group with clip-path applied for letter-by-letter typing reveal!
         g_elm = f'''<!-- [{i+1}/{total_repos}] {r_name} -->
 <g class="{cls_g}" style="opacity: 0;">
   <g clip-path="url(#{clip_id})">
@@ -191,11 +188,11 @@ def build_svg(repos):
 
 </svg>'''
 
-    for path in [output_svg, output_all, output_typewriter]:
+    for path in [output_svg, output_repos, output_all]:
         with open(path, 'w', encoding='utf-8') as f:
             f.write(svg_content)
         
-    print(f"Successfully generated true typewriter SVG with ALL {total_repos} repositories!")
+    print(f"Successfully generated zero-blink typewriter SVG for ALL {total_repos} repositories!")
 
 if __name__ == '__main__':
     repos = fetch_repos()
