@@ -26,9 +26,7 @@ jobs:
           python-version: '3.10'
 
       - name: Fetch Latest Repositories and Build Spidey Terminal SVG
-        run: |
-          python fetch_all_repos_and_build_terminal.py
-          python generate_accurate_contribution_graph.py
+        run: python fetch_all_repos_and_build_terminal.py
 
       - name: Commit and Push Updated Terminal & Graph SVGs
         uses: stefanzweifel/git-auto-commit-action@v4
