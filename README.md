@@ -63,9 +63,7 @@ I am a Computer Science student and software engineer focusing on building scala
 
 <div align="center">
   <!-- Animated Spider-Man -->
-  <img src="spidey_swinging.svg" alt="Spider-Man" width="100%" style="max-width: 800px;" />
-
-  <br />
+  <img src="spidey_swinging.svg?v=2" alt="Spider-Man" width="100%" style="max-width: 800px; display: block; margin-bottom: -5px;" />
 
   <!-- Real Live GitHub Activity Overview Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Midhun-M-git&theme=github-dark&bg_color=0d1117&color=e74c3c&line=39d353&point=39d353&area=true" alt="Midhun-M-git's Real Contribution Graph" width="100%" style="max-width: 800px;" />
