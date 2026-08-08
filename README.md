@@ -54,7 +54,7 @@ I am a Computer Science student and software engineer focusing on building scala
 ## Projects Overview
 
 <div align="center">
-  <img src="spidey_projects_terminal.svg?v=2" alt="Spidey Projects Terminal" width="100%" style="max-width: 800px;" />
+  <img src="spidey_projects_terminal.svg?v=3" alt="Spidey Projects Terminal" width="100%" style="max-width: 800px;" />
 </div>
 
 ---
