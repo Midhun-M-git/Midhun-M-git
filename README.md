@@ -54,7 +54,7 @@ I am a Computer Science student and software engineer focusing on building scala
 ## Projects Overview
 
 <div align="center">
-  <img src="spidey_scroll_terminal.svg" alt="Spidey Real Terminal Vertical Scroll Stream" width="100%" style="max-width: 800px;" />
+  <img src="spidey_real_terminal.svg" alt="Spidey Authentic Terminal Session" width="100%" style="max-width: 800px;" />
 </div>
 
 ---

@@ -1,59 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 850" width="100%" height="auto">
 <defs>
-<clipPath id="cmd_c_0"><rect x="20" y="10" width="0" height="30" class="clip-cmd-0"/></clipPath>
-<clipPath id="out_c_0"><rect x="20" y="40" width="0" height="110" class="clip-out-0"/></clipPath>
-<clipPath id="cmd_c_1"><rect x="20" y="170" width="0" height="30" class="clip-cmd-1"/></clipPath>
-<clipPath id="out_c_1"><rect x="20" y="200" width="0" height="110" class="clip-out-1"/></clipPath>
-<clipPath id="cmd_c_2"><rect x="20" y="330" width="0" height="30" class="clip-cmd-2"/></clipPath>
-<clipPath id="out_c_2"><rect x="20" y="360" width="0" height="110" class="clip-out-2"/></clipPath>
-<clipPath id="cmd_c_3"><rect x="20" y="490" width="0" height="30" class="clip-cmd-3"/></clipPath>
-<clipPath id="out_c_3"><rect x="20" y="520" width="0" height="110" class="clip-out-3"/></clipPath>
-<clipPath id="cmd_c_4"><rect x="20" y="650" width="0" height="30" class="clip-cmd-4"/></clipPath>
-<clipPath id="out_c_4"><rect x="20" y="680" width="0" height="110" class="clip-out-4"/></clipPath>
-<clipPath id="cmd_c_5"><rect x="20" y="810" width="0" height="30" class="clip-cmd-5"/></clipPath>
-<clipPath id="out_c_5"><rect x="20" y="840" width="0" height="110" class="clip-out-5"/></clipPath>
-<clipPath id="cmd_c_6"><rect x="20" y="970" width="0" height="30" class="clip-cmd-6"/></clipPath>
-<clipPath id="out_c_6"><rect x="20" y="1000" width="0" height="110" class="clip-out-6"/></clipPath>
-<clipPath id="cmd_c_7"><rect x="20" y="1130" width="0" height="30" class="clip-cmd-7"/></clipPath>
-<clipPath id="out_c_7"><rect x="20" y="1160" width="0" height="110" class="clip-out-7"/></clipPath>
-<clipPath id="cmd_c_8"><rect x="20" y="1290" width="0" height="30" class="clip-cmd-8"/></clipPath>
-<clipPath id="out_c_8"><rect x="20" y="1320" width="0" height="110" class="clip-out-8"/></clipPath>
-<clipPath id="cmd_c_9"><rect x="20" y="1450" width="0" height="30" class="clip-cmd-9"/></clipPath>
-<clipPath id="out_c_9"><rect x="20" y="1480" width="0" height="110" class="clip-out-9"/></clipPath>
-<clipPath id="cmd_c_10"><rect x="20" y="1610" width="0" height="30" class="clip-cmd-10"/></clipPath>
-<clipPath id="out_c_10"><rect x="20" y="1640" width="0" height="110" class="clip-out-10"/></clipPath>
-<clipPath id="cmd_c_11"><rect x="20" y="1770" width="0" height="30" class="clip-cmd-11"/></clipPath>
-<clipPath id="out_c_11"><rect x="20" y="1800" width="0" height="110" class="clip-out-11"/></clipPath>
-<clipPath id="cmd_c_12"><rect x="20" y="1930" width="0" height="30" class="clip-cmd-12"/></clipPath>
-<clipPath id="out_c_12"><rect x="20" y="1960" width="0" height="110" class="clip-out-12"/></clipPath>
-<clipPath id="cmd_c_13"><rect x="20" y="2090" width="0" height="30" class="clip-cmd-13"/></clipPath>
-<clipPath id="out_c_13"><rect x="20" y="2120" width="0" height="110" class="clip-out-13"/></clipPath>
-<clipPath id="cmd_c_14"><rect x="20" y="2250" width="0" height="30" class="clip-cmd-14"/></clipPath>
-<clipPath id="out_c_14"><rect x="20" y="2280" width="0" height="110" class="clip-out-14"/></clipPath>
-<clipPath id="cmd_c_15"><rect x="20" y="2410" width="0" height="30" class="clip-cmd-15"/></clipPath>
-<clipPath id="out_c_15"><rect x="20" y="2440" width="0" height="110" class="clip-out-15"/></clipPath>
-<clipPath id="cmd_c_16"><rect x="20" y="2570" width="0" height="30" class="clip-cmd-16"/></clipPath>
-<clipPath id="out_c_16"><rect x="20" y="2600" width="0" height="110" class="clip-out-16"/></clipPath>
-<clipPath id="cmd_c_17"><rect x="20" y="2730" width="0" height="30" class="clip-cmd-17"/></clipPath>
-<clipPath id="out_c_17"><rect x="20" y="2760" width="0" height="110" class="clip-out-17"/></clipPath>
-<clipPath id="cmd_c_18"><rect x="20" y="2890" width="0" height="30" class="clip-cmd-18"/></clipPath>
-<clipPath id="out_c_18"><rect x="20" y="2920" width="0" height="110" class="clip-out-18"/></clipPath>
-<clipPath id="cmd_c_19"><rect x="20" y="3050" width="0" height="30" class="clip-cmd-19"/></clipPath>
-<clipPath id="out_c_19"><rect x="20" y="3080" width="0" height="110" class="clip-out-19"/></clipPath>
-<clipPath id="cmd_c_20"><rect x="20" y="3210" width="0" height="30" class="clip-cmd-20"/></clipPath>
-<clipPath id="out_c_20"><rect x="20" y="3240" width="0" height="110" class="clip-out-20"/></clipPath>
-<clipPath id="cmd_c_21"><rect x="20" y="3370" width="0" height="30" class="clip-cmd-21"/></clipPath>
-<clipPath id="out_c_21"><rect x="20" y="3400" width="0" height="110" class="clip-out-21"/></clipPath>
-<clipPath id="cmd_c_22"><rect x="20" y="3530" width="0" height="30" class="clip-cmd-22"/></clipPath>
-<clipPath id="out_c_22"><rect x="20" y="3560" width="0" height="110" class="clip-out-22"/></clipPath>
-<clipPath id="cmd_c_23"><rect x="20" y="3690" width="0" height="30" class="clip-cmd-23"/></clipPath>
-<clipPath id="out_c_23"><rect x="20" y="3720" width="0" height="110" class="clip-out-23"/></clipPath>
-<clipPath id="cmd_c_24"><rect x="20" y="3850" width="0" height="30" class="clip-cmd-24"/></clipPath>
-<clipPath id="out_c_24"><rect x="20" y="3880" width="0" height="110" class="clip-out-24"/></clipPath>
+<clipPath id="c_line_0"><rect x="20" y="92" width="0" height="26" class="clip-line-0"/></clipPath>
+<clipPath id="c_line_1"><rect x="20" y="120" width="0" height="26" class="clip-line-1"/></clipPath>
+<clipPath id="c_line_2"><rect x="20" y="148" width="0" height="26" class="clip-line-2"/></clipPath>
+<clipPath id="c_line_3"><rect x="20" y="176" width="0" height="26" class="clip-line-3"/></clipPath>
+<clipPath id="c_line_4"><rect x="20" y="204" width="0" height="26" class="clip-line-4"/></clipPath>
+<clipPath id="c_line_5"><rect x="20" y="232" width="0" height="26" class="clip-line-5"/></clipPath>
+<clipPath id="c_line_6"><rect x="20" y="260" width="0" height="26" class="clip-line-6"/></clipPath>
+<clipPath id="c_line_7"><rect x="20" y="288" width="0" height="26" class="clip-line-7"/></clipPath>
+<clipPath id="c_line_8"><rect x="20" y="316" width="0" height="26" class="clip-line-8"/></clipPath>
+<clipPath id="c_line_9"><rect x="20" y="344" width="0" height="26" class="clip-line-9"/></clipPath>
+<clipPath id="c_line_10"><rect x="20" y="372" width="0" height="26" class="clip-line-10"/></clipPath>
+<clipPath id="c_line_11"><rect x="20" y="400" width="0" height="26" class="clip-line-11"/></clipPath>
+<clipPath id="c_line_12"><rect x="20" y="428" width="0" height="26" class="clip-line-12"/></clipPath>
+<clipPath id="c_line_13"><rect x="20" y="456" width="0" height="26" class="clip-line-13"/></clipPath>
+<clipPath id="c_line_14"><rect x="20" y="484" width="0" height="26" class="clip-line-14"/></clipPath>
+<clipPath id="c_line_15"><rect x="20" y="512" width="0" height="26" class="clip-line-15"/></clipPath>
+<clipPath id="c_line_16"><rect x="20" y="540" width="0" height="26" class="clip-line-16"/></clipPath>
+<clipPath id="c_line_17"><rect x="20" y="568" width="0" height="26" class="clip-line-17"/></clipPath>
+<clipPath id="c_line_18"><rect x="20" y="596" width="0" height="26" class="clip-line-18"/></clipPath>
+<clipPath id="c_line_19"><rect x="20" y="624" width="0" height="26" class="clip-line-19"/></clipPath>
+<clipPath id="c_line_20"><rect x="20" y="652" width="0" height="26" class="clip-line-20"/></clipPath>
+<clipPath id="c_line_21"><rect x="20" y="680" width="0" height="26" class="clip-line-21"/></clipPath>
+<clipPath id="c_line_22"><rect x="20" y="708" width="0" height="26" class="clip-line-22"/></clipPath>
+<clipPath id="c_line_23"><rect x="20" y="736" width="0" height="26" class="clip-line-23"/></clipPath>
+<clipPath id="c_line_24"><rect x="20" y="764" width="0" height="26" class="clip-line-24"/></clipPath>
+<clipPath id="c_header"><rect x="20" y="40" width="0" height="60" class="clip-header"/></clipPath>
   <style>
     .term-text {
-      font-family: Consolas, Monaco, monospace, sans-serif;
-      font-size: 14px;
+      font-family: 'Fira Code', Consolas, Monaco, monospace, sans-serif;
+      font-size: 13px;
       fill: #c9d1d9;
     }
     .prompt {
@@ -67,21 +43,24 @@
       fill: #f0f6fc;
       font-weight: 600;
     }
+    .num {
+      fill: #8b949e;
+      font-weight: 600;
+    }
     .proj-title {
       fill: #58a6ff;
       font-weight: 700;
-      font-size: 16px;
+      text-decoration: none;
     }
-    .proj-desc {
-      fill: #8b949e;
-      font-size: 13px;
+    .proj-title:hover {
+      text-decoration: underline;
     }
-    .tech-tag {
+    .lang {
       fill: #2ea043;
       font-weight: 600;
     }
-    .status-tag {
-      fill: #38bdf8;
+    .desc {
+      fill: #8b949e;
     }
     .cursor {
       animation: blink 0.8s infinite;
@@ -98,274 +77,114 @@
     }
 
 
-        .clip-cmd-0 { animation: cmd_kf_0 112.5s infinite steps(25); -webkit-animation: cmd_kf_0 112.5s infinite steps(25); }
-        @keyframes cmd_kf_0 { 0%, 0% { width: 0px; } 1%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_0 { 0%, 0% { width: 0px; } 1%, 100% { width: 770px; } }
+        .clip-line-0 { animation: l_kf_0 37.5s infinite steps(25); -webkit-animation: l_kf_0 37.5s infinite steps(25); }
+        @keyframes l_kf_0 { 0%, 15% { width: 0px; } 18%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_0 { 0%, 15% { width: 0px; } 18%, 100% { width: 770px; } }
 
-        .clip-out-0 { animation: out_kf_0 112.5s infinite steps(30); -webkit-animation: out_kf_0 112.5s infinite steps(30); }
-        @keyframes out_kf_0 { 0%, 1% { width: 0px; } 3%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_0 { 0%, 1% { width: 0px; } 3%, 100% { width: 770px; } }
+        .clip-line-1 { animation: l_kf_1 37.5s infinite steps(25); -webkit-animation: l_kf_1 37.5s infinite steps(25); }
+        @keyframes l_kf_1 { 0%, 18% { width: 0px; } 21%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_1 { 0%, 18% { width: 0px; } 21%, 100% { width: 770px; } }
 
-        .clip-cmd-1 { animation: cmd_kf_1 112.5s infinite steps(25); -webkit-animation: cmd_kf_1 112.5s infinite steps(25); }
-        @keyframes cmd_kf_1 { 0%, 4% { width: 0px; } 5%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_1 { 0%, 4% { width: 0px; } 5%, 100% { width: 770px; } }
+        .clip-line-2 { animation: l_kf_2 37.5s infinite steps(25); -webkit-animation: l_kf_2 37.5s infinite steps(25); }
+        @keyframes l_kf_2 { 0%, 21% { width: 0px; } 24%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_2 { 0%, 21% { width: 0px; } 24%, 100% { width: 770px; } }
 
-        .clip-out-1 { animation: out_kf_1 112.5s infinite steps(30); -webkit-animation: out_kf_1 112.5s infinite steps(30); }
-        @keyframes out_kf_1 { 0%, 5% { width: 0px; } 7%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_1 { 0%, 5% { width: 0px; } 7%, 100% { width: 770px; } }
+        .clip-line-3 { animation: l_kf_3 37.5s infinite steps(25); -webkit-animation: l_kf_3 37.5s infinite steps(25); }
+        @keyframes l_kf_3 { 0%, 25% { width: 0px; } 28%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_3 { 0%, 25% { width: 0px; } 28%, 100% { width: 770px; } }
 
-        .clip-cmd-2 { animation: cmd_kf_2 112.5s infinite steps(25); -webkit-animation: cmd_kf_2 112.5s infinite steps(25); }
-        @keyframes cmd_kf_2 { 0%, 8% { width: 0px; } 9%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_2 { 0%, 8% { width: 0px; } 9%, 100% { width: 770px; } }
+        .clip-line-4 { animation: l_kf_4 37.5s infinite steps(25); -webkit-animation: l_kf_4 37.5s infinite steps(25); }
+        @keyframes l_kf_4 { 0%, 28% { width: 0px; } 31%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_4 { 0%, 28% { width: 0px; } 31%, 100% { width: 770px; } }
 
-        .clip-out-2 { animation: out_kf_2 112.5s infinite steps(30); -webkit-animation: out_kf_2 112.5s infinite steps(30); }
-        @keyframes out_kf_2 { 0%, 9% { width: 0px; } 11%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_2 { 0%, 9% { width: 0px; } 11%, 100% { width: 770px; } }
+        .clip-line-5 { animation: l_kf_5 37.5s infinite steps(25); -webkit-animation: l_kf_5 37.5s infinite steps(25); }
+        @keyframes l_kf_5 { 0%, 31% { width: 0px; } 34%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_5 { 0%, 31% { width: 0px; } 34%, 100% { width: 770px; } }
 
-        .clip-cmd-3 { animation: cmd_kf_3 112.5s infinite steps(25); -webkit-animation: cmd_kf_3 112.5s infinite steps(25); }
-        @keyframes cmd_kf_3 { 0%, 12% { width: 0px; } 13%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_3 { 0%, 12% { width: 0px; } 13%, 100% { width: 770px; } }
+        .clip-line-6 { animation: l_kf_6 37.5s infinite steps(25); -webkit-animation: l_kf_6 37.5s infinite steps(25); }
+        @keyframes l_kf_6 { 0%, 34% { width: 0px; } 37%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_6 { 0%, 34% { width: 0px; } 37%, 100% { width: 770px; } }
 
-        .clip-out-3 { animation: out_kf_3 112.5s infinite steps(30); -webkit-animation: out_kf_3 112.5s infinite steps(30); }
-        @keyframes out_kf_3 { 0%, 13% { width: 0px; } 15%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_3 { 0%, 13% { width: 0px; } 15%, 100% { width: 770px; } }
+        .clip-line-7 { animation: l_kf_7 37.5s infinite steps(25); -webkit-animation: l_kf_7 37.5s infinite steps(25); }
+        @keyframes l_kf_7 { 0%, 37% { width: 0px; } 40%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_7 { 0%, 37% { width: 0px; } 40%, 100% { width: 770px; } }
 
-        .clip-cmd-4 { animation: cmd_kf_4 112.5s infinite steps(25); -webkit-animation: cmd_kf_4 112.5s infinite steps(25); }
-        @keyframes cmd_kf_4 { 0%, 16% { width: 0px; } 17%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_4 { 0%, 16% { width: 0px; } 17%, 100% { width: 770px; } }
+        .clip-line-8 { animation: l_kf_8 37.5s infinite steps(25); -webkit-animation: l_kf_8 37.5s infinite steps(25); }
+        @keyframes l_kf_8 { 0%, 41% { width: 0px; } 44%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_8 { 0%, 41% { width: 0px; } 44%, 100% { width: 770px; } }
 
-        .clip-out-4 { animation: out_kf_4 112.5s infinite steps(30); -webkit-animation: out_kf_4 112.5s infinite steps(30); }
-        @keyframes out_kf_4 { 0%, 17% { width: 0px; } 19%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_4 { 0%, 17% { width: 0px; } 19%, 100% { width: 770px; } }
+        .clip-line-9 { animation: l_kf_9 37.5s infinite steps(25); -webkit-animation: l_kf_9 37.5s infinite steps(25); }
+        @keyframes l_kf_9 { 0%, 44% { width: 0px; } 47%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_9 { 0%, 44% { width: 0px; } 47%, 100% { width: 770px; } }
 
-        .clip-cmd-5 { animation: cmd_kf_5 112.5s infinite steps(25); -webkit-animation: cmd_kf_5 112.5s infinite steps(25); }
-        @keyframes cmd_kf_5 { 0%, 20% { width: 0px; } 21%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_5 { 0%, 20% { width: 0px; } 21%, 100% { width: 770px; } }
+        .clip-line-10 { animation: l_kf_10 37.5s infinite steps(25); -webkit-animation: l_kf_10 37.5s infinite steps(25); }
+        @keyframes l_kf_10 { 0%, 47% { width: 0px; } 50%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_10 { 0%, 47% { width: 0px; } 50%, 100% { width: 770px; } }
 
-        .clip-out-5 { animation: out_kf_5 112.5s infinite steps(30); -webkit-animation: out_kf_5 112.5s infinite steps(30); }
-        @keyframes out_kf_5 { 0%, 21% { width: 0px; } 23%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_5 { 0%, 21% { width: 0px; } 23%, 100% { width: 770px; } }
+        .clip-line-11 { animation: l_kf_11 37.5s infinite steps(25); -webkit-animation: l_kf_11 37.5s infinite steps(25); }
+        @keyframes l_kf_11 { 0%, 50% { width: 0px; } 53%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_11 { 0%, 50% { width: 0px; } 53%, 100% { width: 770px; } }
 
-        .clip-cmd-6 { animation: cmd_kf_6 112.5s infinite steps(25); -webkit-animation: cmd_kf_6 112.5s infinite steps(25); }
-        @keyframes cmd_kf_6 { 0%, 24% { width: 0px; } 25%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_6 { 0%, 24% { width: 0px; } 25%, 100% { width: 770px; } }
+        .clip-line-12 { animation: l_kf_12 37.5s infinite steps(25); -webkit-animation: l_kf_12 37.5s infinite steps(25); }
+        @keyframes l_kf_12 { 0%, 53% { width: 0px; } 56%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_12 { 0%, 53% { width: 0px; } 56%, 100% { width: 770px; } }
 
-        .clip-out-6 { animation: out_kf_6 112.5s infinite steps(30); -webkit-animation: out_kf_6 112.5s infinite steps(30); }
-        @keyframes out_kf_6 { 0%, 25% { width: 0px; } 27%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_6 { 0%, 25% { width: 0px; } 27%, 100% { width: 770px; } }
+        .clip-line-13 { animation: l_kf_13 37.5s infinite steps(25); -webkit-animation: l_kf_13 37.5s infinite steps(25); }
+        @keyframes l_kf_13 { 0%, 57% { width: 0px; } 60%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_13 { 0%, 57% { width: 0px; } 60%, 100% { width: 770px; } }
 
-        .clip-cmd-7 { animation: cmd_kf_7 112.5s infinite steps(25); -webkit-animation: cmd_kf_7 112.5s infinite steps(25); }
-        @keyframes cmd_kf_7 { 0%, 28% { width: 0px; } 29%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_7 { 0%, 28% { width: 0px; } 29%, 100% { width: 770px; } }
+        .clip-line-14 { animation: l_kf_14 37.5s infinite steps(25); -webkit-animation: l_kf_14 37.5s infinite steps(25); }
+        @keyframes l_kf_14 { 0%, 60% { width: 0px; } 63%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_14 { 0%, 60% { width: 0px; } 63%, 100% { width: 770px; } }
 
-        .clip-out-7 { animation: out_kf_7 112.5s infinite steps(30); -webkit-animation: out_kf_7 112.5s infinite steps(30); }
-        @keyframes out_kf_7 { 0%, 29% { width: 0px; } 31%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_7 { 0%, 29% { width: 0px; } 31%, 100% { width: 770px; } }
+        .clip-line-15 { animation: l_kf_15 37.5s infinite steps(25); -webkit-animation: l_kf_15 37.5s infinite steps(25); }
+        @keyframes l_kf_15 { 0%, 63% { width: 0px; } 66%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_15 { 0%, 63% { width: 0px; } 66%, 100% { width: 770px; } }
 
-        .clip-cmd-8 { animation: cmd_kf_8 112.5s infinite steps(25); -webkit-animation: cmd_kf_8 112.5s infinite steps(25); }
-        @keyframes cmd_kf_8 { 0%, 32% { width: 0px; } 33%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_8 { 0%, 32% { width: 0px; } 33%, 100% { width: 770px; } }
+        .clip-line-16 { animation: l_kf_16 37.5s infinite steps(25); -webkit-animation: l_kf_16 37.5s infinite steps(25); }
+        @keyframes l_kf_16 { 0%, 66% { width: 0px; } 69%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_16 { 0%, 66% { width: 0px; } 69%, 100% { width: 770px; } }
 
-        .clip-out-8 { animation: out_kf_8 112.5s infinite steps(30); -webkit-animation: out_kf_8 112.5s infinite steps(30); }
-        @keyframes out_kf_8 { 0%, 33% { width: 0px; } 35%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_8 { 0%, 33% { width: 0px; } 35%, 100% { width: 770px; } }
+        .clip-line-17 { animation: l_kf_17 37.5s infinite steps(25); -webkit-animation: l_kf_17 37.5s infinite steps(25); }
+        @keyframes l_kf_17 { 0%, 69% { width: 0px; } 72%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_17 { 0%, 69% { width: 0px; } 72%, 100% { width: 770px; } }
 
-        .clip-cmd-9 { animation: cmd_kf_9 112.5s infinite steps(25); -webkit-animation: cmd_kf_9 112.5s infinite steps(25); }
-        @keyframes cmd_kf_9 { 0%, 36% { width: 0px; } 37%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_9 { 0%, 36% { width: 0px; } 37%, 100% { width: 770px; } }
+        .clip-line-18 { animation: l_kf_18 37.5s infinite steps(25); -webkit-animation: l_kf_18 37.5s infinite steps(25); }
+        @keyframes l_kf_18 { 0%, 73% { width: 0px; } 76%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_18 { 0%, 73% { width: 0px; } 76%, 100% { width: 770px; } }
 
-        .clip-out-9 { animation: out_kf_9 112.5s infinite steps(30); -webkit-animation: out_kf_9 112.5s infinite steps(30); }
-        @keyframes out_kf_9 { 0%, 37% { width: 0px; } 39%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_9 { 0%, 37% { width: 0px; } 39%, 100% { width: 770px; } }
+        .clip-line-19 { animation: l_kf_19 37.5s infinite steps(25); -webkit-animation: l_kf_19 37.5s infinite steps(25); }
+        @keyframes l_kf_19 { 0%, 76% { width: 0px; } 79%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_19 { 0%, 76% { width: 0px; } 79%, 100% { width: 770px; } }
 
-        .clip-cmd-10 { animation: cmd_kf_10 112.5s infinite steps(25); -webkit-animation: cmd_kf_10 112.5s infinite steps(25); }
-        @keyframes cmd_kf_10 { 0%, 40% { width: 0px; } 41%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_10 { 0%, 40% { width: 0px; } 41%, 100% { width: 770px; } }
+        .clip-line-20 { animation: l_kf_20 37.5s infinite steps(25); -webkit-animation: l_kf_20 37.5s infinite steps(25); }
+        @keyframes l_kf_20 { 0%, 79% { width: 0px; } 82%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_20 { 0%, 79% { width: 0px; } 82%, 100% { width: 770px; } }
 
-        .clip-out-10 { animation: out_kf_10 112.5s infinite steps(30); -webkit-animation: out_kf_10 112.5s infinite steps(30); }
-        @keyframes out_kf_10 { 0%, 41% { width: 0px; } 43%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_10 { 0%, 41% { width: 0px; } 43%, 100% { width: 770px; } }
+        .clip-line-21 { animation: l_kf_21 37.5s infinite steps(25); -webkit-animation: l_kf_21 37.5s infinite steps(25); }
+        @keyframes l_kf_21 { 0%, 82% { width: 0px; } 85%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_21 { 0%, 82% { width: 0px; } 85%, 100% { width: 770px; } }
 
-        .clip-cmd-11 { animation: cmd_kf_11 112.5s infinite steps(25); -webkit-animation: cmd_kf_11 112.5s infinite steps(25); }
-        @keyframes cmd_kf_11 { 0%, 44% { width: 0px; } 45%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_11 { 0%, 44% { width: 0px; } 45%, 100% { width: 770px; } }
+        .clip-line-22 { animation: l_kf_22 37.5s infinite steps(25); -webkit-animation: l_kf_22 37.5s infinite steps(25); }
+        @keyframes l_kf_22 { 0%, 85% { width: 0px; } 88%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_22 { 0%, 85% { width: 0px; } 88%, 100% { width: 770px; } }
 
-        .clip-out-11 { animation: out_kf_11 112.5s infinite steps(30); -webkit-animation: out_kf_11 112.5s infinite steps(30); }
-        @keyframes out_kf_11 { 0%, 45% { width: 0px; } 47%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_11 { 0%, 45% { width: 0px; } 47%, 100% { width: 770px; } }
+        .clip-line-23 { animation: l_kf_23 37.5s infinite steps(25); -webkit-animation: l_kf_23 37.5s infinite steps(25); }
+        @keyframes l_kf_23 { 0%, 89% { width: 0px; } 92%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_23 { 0%, 89% { width: 0px; } 92%, 100% { width: 770px; } }
 
-        .clip-cmd-12 { animation: cmd_kf_12 112.5s infinite steps(25); -webkit-animation: cmd_kf_12 112.5s infinite steps(25); }
-        @keyframes cmd_kf_12 { 0%, 48% { width: 0px; } 49%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_12 { 0%, 48% { width: 0px; } 49%, 100% { width: 770px; } }
+        .clip-line-24 { animation: l_kf_24 37.5s infinite steps(25); -webkit-animation: l_kf_24 37.5s infinite steps(25); }
+        @keyframes l_kf_24 { 0%, 92% { width: 0px; } 95%, 100% { width: 770px; } }
+        @-webkit-keyframes l_kf_24 { 0%, 92% { width: 0px; } 95%, 100% { width: 770px; } }
 
-        .clip-out-12 { animation: out_kf_12 112.5s infinite steps(30); -webkit-animation: out_kf_12 112.5s infinite steps(30); }
-        @keyframes out_kf_12 { 0%, 49% { width: 0px; } 51%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_12 { 0%, 49% { width: 0px; } 51%, 100% { width: 770px; } }
-
-        .clip-cmd-13 { animation: cmd_kf_13 112.5s infinite steps(25); -webkit-animation: cmd_kf_13 112.5s infinite steps(25); }
-        @keyframes cmd_kf_13 { 0%, 52% { width: 0px; } 53%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_13 { 0%, 52% { width: 0px; } 53%, 100% { width: 770px; } }
-
-        .clip-out-13 { animation: out_kf_13 112.5s infinite steps(30); -webkit-animation: out_kf_13 112.5s infinite steps(30); }
-        @keyframes out_kf_13 { 0%, 53% { width: 0px; } 55%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_13 { 0%, 53% { width: 0px; } 55%, 100% { width: 770px; } }
-
-        .clip-cmd-14 { animation: cmd_kf_14 112.5s infinite steps(25); -webkit-animation: cmd_kf_14 112.5s infinite steps(25); }
-        @keyframes cmd_kf_14 { 0%, 56% { width: 0px; } 57%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_14 { 0%, 56% { width: 0px; } 57%, 100% { width: 770px; } }
-
-        .clip-out-14 { animation: out_kf_14 112.5s infinite steps(30); -webkit-animation: out_kf_14 112.5s infinite steps(30); }
-        @keyframes out_kf_14 { 0%, 57% { width: 0px; } 59%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_14 { 0%, 57% { width: 0px; } 59%, 100% { width: 770px; } }
-
-        .clip-cmd-15 { animation: cmd_kf_15 112.5s infinite steps(25); -webkit-animation: cmd_kf_15 112.5s infinite steps(25); }
-        @keyframes cmd_kf_15 { 0%, 60% { width: 0px; } 61%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_15 { 0%, 60% { width: 0px; } 61%, 100% { width: 770px; } }
-
-        .clip-out-15 { animation: out_kf_15 112.5s infinite steps(30); -webkit-animation: out_kf_15 112.5s infinite steps(30); }
-        @keyframes out_kf_15 { 0%, 61% { width: 0px; } 63%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_15 { 0%, 61% { width: 0px; } 63%, 100% { width: 770px; } }
-
-        .clip-cmd-16 { animation: cmd_kf_16 112.5s infinite steps(25); -webkit-animation: cmd_kf_16 112.5s infinite steps(25); }
-        @keyframes cmd_kf_16 { 0%, 64% { width: 0px; } 65%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_16 { 0%, 64% { width: 0px; } 65%, 100% { width: 770px; } }
-
-        .clip-out-16 { animation: out_kf_16 112.5s infinite steps(30); -webkit-animation: out_kf_16 112.5s infinite steps(30); }
-        @keyframes out_kf_16 { 0%, 65% { width: 0px; } 67%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_16 { 0%, 65% { width: 0px; } 67%, 100% { width: 770px; } }
-
-        .clip-cmd-17 { animation: cmd_kf_17 112.5s infinite steps(25); -webkit-animation: cmd_kf_17 112.5s infinite steps(25); }
-        @keyframes cmd_kf_17 { 0%, 68% { width: 0px; } 69%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_17 { 0%, 68% { width: 0px; } 69%, 100% { width: 770px; } }
-
-        .clip-out-17 { animation: out_kf_17 112.5s infinite steps(30); -webkit-animation: out_kf_17 112.5s infinite steps(30); }
-        @keyframes out_kf_17 { 0%, 69% { width: 0px; } 71%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_17 { 0%, 69% { width: 0px; } 71%, 100% { width: 770px; } }
-
-        .clip-cmd-18 { animation: cmd_kf_18 112.5s infinite steps(25); -webkit-animation: cmd_kf_18 112.5s infinite steps(25); }
-        @keyframes cmd_kf_18 { 0%, 72% { width: 0px; } 73%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_18 { 0%, 72% { width: 0px; } 73%, 100% { width: 770px; } }
-
-        .clip-out-18 { animation: out_kf_18 112.5s infinite steps(30); -webkit-animation: out_kf_18 112.5s infinite steps(30); }
-        @keyframes out_kf_18 { 0%, 73% { width: 0px; } 75%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_18 { 0%, 73% { width: 0px; } 75%, 100% { width: 770px; } }
-
-        .clip-cmd-19 { animation: cmd_kf_19 112.5s infinite steps(25); -webkit-animation: cmd_kf_19 112.5s infinite steps(25); }
-        @keyframes cmd_kf_19 { 0%, 76% { width: 0px; } 77%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_19 { 0%, 76% { width: 0px; } 77%, 100% { width: 770px; } }
-
-        .clip-out-19 { animation: out_kf_19 112.5s infinite steps(30); -webkit-animation: out_kf_19 112.5s infinite steps(30); }
-        @keyframes out_kf_19 { 0%, 77% { width: 0px; } 79%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_19 { 0%, 77% { width: 0px; } 79%, 100% { width: 770px; } }
-
-        .clip-cmd-20 { animation: cmd_kf_20 112.5s infinite steps(25); -webkit-animation: cmd_kf_20 112.5s infinite steps(25); }
-        @keyframes cmd_kf_20 { 0%, 80% { width: 0px; } 81%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_20 { 0%, 80% { width: 0px; } 81%, 100% { width: 770px; } }
-
-        .clip-out-20 { animation: out_kf_20 112.5s infinite steps(30); -webkit-animation: out_kf_20 112.5s infinite steps(30); }
-        @keyframes out_kf_20 { 0%, 81% { width: 0px; } 83%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_20 { 0%, 81% { width: 0px; } 83%, 100% { width: 770px; } }
-
-        .clip-cmd-21 { animation: cmd_kf_21 112.5s infinite steps(25); -webkit-animation: cmd_kf_21 112.5s infinite steps(25); }
-        @keyframes cmd_kf_21 { 0%, 84% { width: 0px; } 85%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_21 { 0%, 84% { width: 0px; } 85%, 100% { width: 770px; } }
-
-        .clip-out-21 { animation: out_kf_21 112.5s infinite steps(30); -webkit-animation: out_kf_21 112.5s infinite steps(30); }
-        @keyframes out_kf_21 { 0%, 85% { width: 0px; } 87%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_21 { 0%, 85% { width: 0px; } 87%, 100% { width: 770px; } }
-
-        .clip-cmd-22 { animation: cmd_kf_22 112.5s infinite steps(25); -webkit-animation: cmd_kf_22 112.5s infinite steps(25); }
-        @keyframes cmd_kf_22 { 0%, 88% { width: 0px; } 89%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_22 { 0%, 88% { width: 0px; } 89%, 100% { width: 770px; } }
-
-        .clip-out-22 { animation: out_kf_22 112.5s infinite steps(30); -webkit-animation: out_kf_22 112.5s infinite steps(30); }
-        @keyframes out_kf_22 { 0%, 89% { width: 0px; } 91%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_22 { 0%, 89% { width: 0px; } 91%, 100% { width: 770px; } }
-
-        .clip-cmd-23 { animation: cmd_kf_23 112.5s infinite steps(25); -webkit-animation: cmd_kf_23 112.5s infinite steps(25); }
-        @keyframes cmd_kf_23 { 0%, 92% { width: 0px; } 93%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_23 { 0%, 92% { width: 0px; } 93%, 100% { width: 770px; } }
-
-        .clip-out-23 { animation: out_kf_23 112.5s infinite steps(30); -webkit-animation: out_kf_23 112.5s infinite steps(30); }
-        @keyframes out_kf_23 { 0%, 93% { width: 0px; } 95%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_23 { 0%, 93% { width: 0px; } 95%, 100% { width: 770px; } }
-
-        .clip-cmd-24 { animation: cmd_kf_24 112.5s infinite steps(25); -webkit-animation: cmd_kf_24 112.5s infinite steps(25); }
-        @keyframes cmd_kf_24 { 0%, 96% { width: 0px; } 97%, 100% { width: 770px; } }
-        @-webkit-keyframes cmd_kf_24 { 0%, 96% { width: 0px; } 97%, 100% { width: 770px; } }
-
-        .clip-out-24 { animation: out_kf_24 112.5s infinite steps(30); -webkit-animation: out_kf_24 112.5s infinite steps(30); }
-        @keyframes out_kf_24 { 0%, 97% { width: 0px; } 99%, 100% { width: 770px; } }
-        @-webkit-keyframes out_kf_24 { 0%, 97% { width: 0px; } 99%, 100% { width: 770px; } }
-
-    .scroll-stream {
-      animation: term_scroll 112.5s infinite cubic-bezier(0.25, 1, 0.5, 1);
-      -webkit-animation: term_scroll 112.5s infinite cubic-bezier(0.25, 1, 0.5, 1);
-    }
-    @keyframes term_scroll {
-      0%, 3% { transform: translateY(0px); -webkit-transform: translateY(0px); }
-4%, 7% { transform: translateY(-160px); -webkit-transform: translateY(-160px); }
-8%, 11% { transform: translateY(-320px); -webkit-transform: translateY(-320px); }
-12%, 15% { transform: translateY(-480px); -webkit-transform: translateY(-480px); }
-16%, 19% { transform: translateY(-640px); -webkit-transform: translateY(-640px); }
-20%, 23% { transform: translateY(-800px); -webkit-transform: translateY(-800px); }
-24%, 27% { transform: translateY(-960px); -webkit-transform: translateY(-960px); }
-28%, 31% { transform: translateY(-1120px); -webkit-transform: translateY(-1120px); }
-32%, 35% { transform: translateY(-1280px); -webkit-transform: translateY(-1280px); }
-36%, 39% { transform: translateY(-1440px); -webkit-transform: translateY(-1440px); }
-40%, 43% { transform: translateY(-1600px); -webkit-transform: translateY(-1600px); }
-44%, 47% { transform: translateY(-1760px); -webkit-transform: translateY(-1760px); }
-48%, 51% { transform: translateY(-1920px); -webkit-transform: translateY(-1920px); }
-52%, 55% { transform: translateY(-2080px); -webkit-transform: translateY(-2080px); }
-56%, 59% { transform: translateY(-2240px); -webkit-transform: translateY(-2240px); }
-60%, 63% { transform: translateY(-2400px); -webkit-transform: translateY(-2400px); }
-64%, 67% { transform: translateY(-2560px); -webkit-transform: translateY(-2560px); }
-68%, 71% { transform: translateY(-2720px); -webkit-transform: translateY(-2720px); }
-72%, 75% { transform: translateY(-2880px); -webkit-transform: translateY(-2880px); }
-76%, 79% { transform: translateY(-3040px); -webkit-transform: translateY(-3040px); }
-80%, 83% { transform: translateY(-3200px); -webkit-transform: translateY(-3200px); }
-84%, 87% { transform: translateY(-3360px); -webkit-transform: translateY(-3360px); }
-88%, 91% { transform: translateY(-3520px); -webkit-transform: translateY(-3520px); }
-92%, 95% { transform: translateY(-3680px); -webkit-transform: translateY(-3680px); }
-96%, 100% { transform: translateY(-3840px); -webkit-transform: translateY(-3840px); }
-    }
-    @-webkit-keyframes term_scroll {
-      0%, 3% { transform: translateY(0px); -webkit-transform: translateY(0px); }
-4%, 7% { transform: translateY(-160px); -webkit-transform: translateY(-160px); }
-8%, 11% { transform: translateY(-320px); -webkit-transform: translateY(-320px); }
-12%, 15% { transform: translateY(-480px); -webkit-transform: translateY(-480px); }
-16%, 19% { transform: translateY(-640px); -webkit-transform: translateY(-640px); }
-20%, 23% { transform: translateY(-800px); -webkit-transform: translateY(-800px); }
-24%, 27% { transform: translateY(-960px); -webkit-transform: translateY(-960px); }
-28%, 31% { transform: translateY(-1120px); -webkit-transform: translateY(-1120px); }
-32%, 35% { transform: translateY(-1280px); -webkit-transform: translateY(-1280px); }
-36%, 39% { transform: translateY(-1440px); -webkit-transform: translateY(-1440px); }
-40%, 43% { transform: translateY(-1600px); -webkit-transform: translateY(-1600px); }
-44%, 47% { transform: translateY(-1760px); -webkit-transform: translateY(-1760px); }
-48%, 51% { transform: translateY(-1920px); -webkit-transform: translateY(-1920px); }
-52%, 55% { transform: translateY(-2080px); -webkit-transform: translateY(-2080px); }
-56%, 59% { transform: translateY(-2240px); -webkit-transform: translateY(-2240px); }
-60%, 63% { transform: translateY(-2400px); -webkit-transform: translateY(-2400px); }
-64%, 67% { transform: translateY(-2560px); -webkit-transform: translateY(-2560px); }
-68%, 71% { transform: translateY(-2720px); -webkit-transform: translateY(-2720px); }
-72%, 75% { transform: translateY(-2880px); -webkit-transform: translateY(-2880px); }
-76%, 79% { transform: translateY(-3040px); -webkit-transform: translateY(-3040px); }
-80%, 83% { transform: translateY(-3200px); -webkit-transform: translateY(-3200px); }
-84%, 87% { transform: translateY(-3360px); -webkit-transform: translateY(-3360px); }
-88%, 91% { transform: translateY(-3520px); -webkit-transform: translateY(-3520px); }
-92%, 95% { transform: translateY(-3680px); -webkit-transform: translateY(-3680px); }
-96%, 100% { transform: translateY(-3840px); -webkit-transform: translateY(-3840px); }
-    }
+    .clip-header { animation: h_kf 37.5s infinite steps(30); -webkit-animation: h_kf 37.5s infinite steps(30); }
+    @keyframes h_kf { 0% { width: 0px; } 12%, 100% { width: 770px; } }
+    @-webkit-keyframes h_kf { 0% { width: 0px; } 12%, 100% { width: 770px; } }
   </style>
-
-  <!-- CLIP VIEWPORT TO PREVENT OVERFLOW -->
-  <clipPath id="viewport_clip">
-    <rect x="0" y="32" width="800" height="208" />
-  </clipPath>
 </defs>
 
 <!-- TERMINAL WINDOW CONTAINER -->
-<rect width="800" height="240" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+<rect width="800" height="850" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
 
 <!-- TERMINAL HEADER BAR -->
 <path d="M0 10 Q0 0 10 0 L790 0 Q800 0 800 10 L800 32 L0 32 Z" fill="#21262d"/>
@@ -377,401 +196,223 @@
 <circle cx="56" cy="16" r="6" fill="#27c93f"/>
 
 <!-- TERMINAL TITLE -->
-<text x="400" y="21" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="600">🕷️ spidey@novustech: ~/repositories (25 Repositories)</text>
+<text x="400" y="21" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Fira Code', 'Courier New', monospace" font-size="12" text-anchor="middle" font-weight="600">🕷️ spidey@novustech: ~/repositories (zsh)</text>
 
 <!-- SPIDER WEB ACCENT IN TOP RIGHT OF TERMINAL -->
 <g transform="translate(800, 0) scale(-1, 1)">
   <path d="M 0 0 L 50 0 M 0 0 L 40 18 M 0 0 L 20 32" stroke="#0099ff" stroke-width="1.5" fill="none" opacity="0.6"/>
 </g>
 
-<!-- TERMINAL VIEWPORT CONTAINER -->
-<g clip-path="url(#viewport_clip)">
-  <!-- VERTICAL SCROLL STREAM -->
-  <g class="scroll-stream" transform="translate(0, 32)">
-    <!-- [1/25] Midhun-M-git -->
-<g transform="translate(0, 0)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_0)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat Midhun-M-git.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_0)">
-    <a href="https://github.com/Midhun-M-git/Midhun-M-git" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [1/25] Midhun-M-git</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Python</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [2/25] t4kcommon -->
-<g transform="translate(0, 160)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_1)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat t4kcommon.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_1)">
-    <a href="https://github.com/Midhun-M-git/t4kcommon" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [2/25] t4kcommon</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">C</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [3/25] Agry-Key -->
-<g transform="translate(0, 320)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_2)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat Agry-Key.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_2)">
-    <a href="https://github.com/Midhun-M-git/Agry-Key" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [3/25] Agry-Key</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Agriculture smart app</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Code</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [4/25] tuxtype -->
-<g transform="translate(0, 480)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_3)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat tuxtype.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_3)">
-    <a href="https://github.com/Midhun-M-git/tuxtype" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [4/25] tuxtype</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Code</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [5/25] tuxmath -->
-<g transform="translate(0, 640)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_4)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat tuxmath.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_4)">
-    <a href="https://github.com/Midhun-M-git/tuxmath" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [5/25] tuxmath</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Code</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [6/25] tuxmath_kite -->
-<g transform="translate(0, 800)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_5)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat tuxmath_kite.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_5)">
-    <a href="https://github.com/Midhun-M-git/tuxmath_kite" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [6/25] tuxmath_kite</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: TuxMath and t4k_common source code</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">C</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [7/25] tuxtype_kite -->
-<g transform="translate(0, 960)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_6)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat tuxtype_kite.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_6)">
-    <a href="https://github.com/Midhun-M-git/tuxtype_kite" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [7/25] tuxtype_kite</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">C</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [8/25] Esp32_Cyber_packet_sniffer -->
-<g transform="translate(0, 1120)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_7)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat Esp32_Cyber_packet_sniffer.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_7)">
-    <a href="https://github.com/Midhun-M-git/Esp32_Cyber_packet_sniffer" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [8/25] Esp32_Cyber_packet_sniffer</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">C++</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [9/25] DT -->
-<g transform="translate(0, 1280)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_8)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat DT.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_8)">
-    <a href="https://github.com/Midhun-M-git/DT" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [9/25] DT</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">TypeScript</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [10/25] DRIVER_EYE_DETECTION -->
-<g transform="translate(0, 1440)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_9)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat DRIVER_EYE_DETECTION.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_9)">
-    <a href="https://github.com/Midhun-M-git/DRIVER_EYE_DETECTION" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [10/25] DRIVER_EYE_DETECTION</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Python</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [11/25] ASTHRA-V4 -->
-<g transform="translate(0, 1600)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_10)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat ASTHRA-V4.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_10)">
-    <a href="https://github.com/Midhun-M-git/ASTHRA-V4" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [11/25] ASTHRA-V4</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">JavaScript</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [12/25] asthra -->
-<g transform="translate(0, 1760)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_11)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat asthra.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_11)">
-    <a href="https://github.com/Midhun-M-git/asthra" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [12/25] asthra</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: AI-driven mobile application automating technical documentation generation.</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Python</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [13/25] Resort_app -->
-<g transform="translate(0, 1920)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_12)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat Resort_app.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_12)">
-    <a href="https://github.com/Midhun-M-git/Resort_app" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [13/25] Resort_app</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description:  A full-featured resort room booking app built with Flutter &amp; Supabase —...</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Dart</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [14/25] webapp-security-analyzer -->
-<g transform="translate(0, 2080)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_13)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat webapp-security-analyzer.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_13)">
-    <a href="https://github.com/Midhun-M-git/webapp-security-analyzer" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [14/25] webapp-security-analyzer</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: GUI based web app security analyzer</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">C++</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [15/25] ahalia_sports_bot -->
-<g transform="translate(0, 2240)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_14)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat ahalia_sports_bot.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_14)">
-    <a href="https://github.com/Midhun-M-git/ahalia_sports_bot" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [15/25] ahalia_sports_bot</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Automation bot handling sports events management for Ahalia college.</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Dart</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [16/25] spnxa-race-z -->
-<g transform="translate(0, 2400)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_15)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat spnxa-race-z.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_15)">
-    <a href="https://github.com/Midhun-M-git/spnxa-race-z" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [16/25] spnxa-race-z</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: An interactive browser-based 2D car racing game.</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Dart</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [17/25] portfolio -->
-<g transform="translate(0, 2560)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_16)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat portfolio.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_16)">
-    <a href="https://github.com/Midhun-M-git/portfolio" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [17/25] portfolio</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Personal developer portfolio, interactive resume, and showcase of my bes...</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">CSS</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [18/25] breach-checker-app -->
-<g transform="translate(0, 2720)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_17)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat breach-checker-app.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_17)">
-    <a href="https://github.com/Midhun-M-git/breach-checker-app" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [18/25] breach-checker-app</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Secure credential validation engine querying global vulnerability and us...</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Code</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [19/25] code_crush -->
-<g transform="translate(0, 2880)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_18)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat code_crush.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_18)">
-    <a href="https://github.com/Midhun-M-git/code_crush" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [19/25] code_crush</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">Dart</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [20/25] novus-web -->
-<g transform="translate(0, 3040)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_19)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat novus-web.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_19)">
-    <a href="https://github.com/Midhun-M-git/novus-web" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [20/25] novus-web</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">JavaScript</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [21/25] piravi-bot -->
-<g transform="translate(0, 3200)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_20)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat piravi-bot.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_20)">
-    <a href="https://github.com/Midhun-M-git/piravi-bot" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [21/25] piravi-bot</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">HTML</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [22/25] iedc-treasure-hunt -->
-<g transform="translate(0, 3360)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_21)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat iedc-treasure-hunt.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_21)">
-    <a href="https://github.com/Midhun-M-git/iedc-treasure-hunt" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [22/25] iedc-treasure-hunt</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">JavaScript</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [23/25] simple-chat-bot -->
-<g transform="translate(0, 3520)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_22)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat simple-chat-bot.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_22)">
-    <a href="https://github.com/Midhun-M-git/simple-chat-bot" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [23/25] simple-chat-bot</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">C++</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [24/25] info-tech -->
-<g transform="translate(0, 3680)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_23)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat info-tech.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_23)">
-    <a href="https://github.com/Midhun-M-git/info-tech" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [24/25] info-tech</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: Open source software project repository</text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">CSS</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g><!-- [25/25] press-website -->
-<g transform="translate(0, 3840)">
-  <!-- Line 1: Command typed -->
-  <g clip-path="url(#cmd_c_24)">
-    <text x="25" y="30" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">cat press-website.json</tspan></text>
-  </g>
-  
-  <!-- Line 2,3,4: Output printed -->
-  <g clip-path="url(#out_c_24)">
-    <a href="https://github.com/Midhun-M-git/press-website" target="_blank">
-      <text x="25" y="62" class="proj-title">📂 [25/25] press-website</text>
-    </a>
-    <text x="25" y="86" class="term-text proj-desc">├─ Description: A website created for a press shop </text>
-    <text x="25" y="108" class="term-text">└─ Tech: <tspan class="tech-tag">CSS</tspan>  |  Status: <tspan class="status-tag">🌐 Public</tspan></text>
-  </g>
-</g>
-  </g>
+<!-- TERMINAL STARTUP SESSION HEADER -->
+<g clip-path="url(#c_header)">
+  <text x="25" y="56" class="term-text" fill="#8b949e">Last login: Sat Aug 8 16:14:00 on ttys000</text>
+  <text x="25" y="80" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cmd">./fetch_repositories.sh --user=Midhun-M-git --all</tspan></text>
 </g>
 
-<!-- FIXED BOTTOM PROMPT WITH BLINKING CURSOR (ALWAYS VISIBLE) -->
-<g transform="translate(0, 202)">
-  <rect x="0" y="-12" width="800" height="50" fill="#161b22" opacity="0.95"/>
-  <line x1="0" y1="-12" x2="800" y2="-12" stroke="#21262d" stroke-width="1"/>
-  <text x="25" y="10" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cursor">█</tspan></text>
+<!-- ALL REPOSITORY OUTPUT LINES (PRINTING SEQUENTIALLY DOWNWARDS) -->
+<!-- [01] Midhun-M-git -->
+<g clip-path="url(#c_line_0)">
+  <text x="25" y="110" class="term-text">
+    <tspan class="num">[01]</tspan> 
+    <a href="https://github.com/Midhun-M-git/Midhun-M-git" target="_blank" class="proj-title">📂 Midhun-M-git</a> 
+    <tspan class="lang">(Python)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [02] t4kcommon -->
+<g clip-path="url(#c_line_1)">
+  <text x="25" y="138" class="term-text">
+    <tspan class="num">[02]</tspan> 
+    <a href="https://github.com/Midhun-M-git/t4kcommon" target="_blank" class="proj-title">📂 t4kcommon</a> 
+    <tspan class="lang">(C)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [03] Agry-Key -->
+<g clip-path="url(#c_line_2)">
+  <text x="25" y="166" class="term-text">
+    <tspan class="num">[03]</tspan> 
+    <a href="https://github.com/Midhun-M-git/Agry-Key" target="_blank" class="proj-title">📂 Agry-Key</a> 
+    <tspan class="lang">(Code)</tspan> - 
+    <tspan class="desc">Agriculture smart app</tspan>
+  </text>
+</g><!-- [04] tuxtype -->
+<g clip-path="url(#c_line_3)">
+  <text x="25" y="194" class="term-text">
+    <tspan class="num">[04]</tspan> 
+    <a href="https://github.com/Midhun-M-git/tuxtype" target="_blank" class="proj-title">📂 tuxtype</a> 
+    <tspan class="lang">(Code)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [05] tuxmath -->
+<g clip-path="url(#c_line_4)">
+  <text x="25" y="222" class="term-text">
+    <tspan class="num">[05]</tspan> 
+    <a href="https://github.com/Midhun-M-git/tuxmath" target="_blank" class="proj-title">📂 tuxmath</a> 
+    <tspan class="lang">(Code)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [06] tuxmath_kite -->
+<g clip-path="url(#c_line_5)">
+  <text x="25" y="250" class="term-text">
+    <tspan class="num">[06]</tspan> 
+    <a href="https://github.com/Midhun-M-git/tuxmath_kite" target="_blank" class="proj-title">📂 tuxmath_kite</a> 
+    <tspan class="lang">(C)</tspan> - 
+    <tspan class="desc">TuxMath and t4k_common source code</tspan>
+  </text>
+</g><!-- [07] tuxtype_kite -->
+<g clip-path="url(#c_line_6)">
+  <text x="25" y="278" class="term-text">
+    <tspan class="num">[07]</tspan> 
+    <a href="https://github.com/Midhun-M-git/tuxtype_kite" target="_blank" class="proj-title">📂 tuxtype_kite</a> 
+    <tspan class="lang">(C)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [08] Esp32_Cyber_packet_sniffer -->
+<g clip-path="url(#c_line_7)">
+  <text x="25" y="306" class="term-text">
+    <tspan class="num">[08]</tspan> 
+    <a href="https://github.com/Midhun-M-git/Esp32_Cyber_packet_sniffer" target="_blank" class="proj-title">📂 Esp32_Cyber_packet_sniffer</a> 
+    <tspan class="lang">(C++)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [09] DT -->
+<g clip-path="url(#c_line_8)">
+  <text x="25" y="334" class="term-text">
+    <tspan class="num">[09]</tspan> 
+    <a href="https://github.com/Midhun-M-git/DT" target="_blank" class="proj-title">📂 DT</a> 
+    <tspan class="lang">(TypeScript)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [10] DRIVER_EYE_DETECTION -->
+<g clip-path="url(#c_line_9)">
+  <text x="25" y="362" class="term-text">
+    <tspan class="num">[10]</tspan> 
+    <a href="https://github.com/Midhun-M-git/DRIVER_EYE_DETECTION" target="_blank" class="proj-title">📂 DRIVER_EYE_DETECTION</a> 
+    <tspan class="lang">(Python)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [11] ASTHRA-V4 -->
+<g clip-path="url(#c_line_10)">
+  <text x="25" y="390" class="term-text">
+    <tspan class="num">[11]</tspan> 
+    <a href="https://github.com/Midhun-M-git/ASTHRA-V4" target="_blank" class="proj-title">📂 ASTHRA-V4</a> 
+    <tspan class="lang">(JavaScript)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [12] asthra -->
+<g clip-path="url(#c_line_11)">
+  <text x="25" y="418" class="term-text">
+    <tspan class="num">[12]</tspan> 
+    <a href="https://github.com/Midhun-M-git/asthra" target="_blank" class="proj-title">📂 asthra</a> 
+    <tspan class="lang">(Python)</tspan> - 
+    <tspan class="desc">AI-driven mobile application automating technical do...</tspan>
+  </text>
+</g><!-- [13] Resort_app -->
+<g clip-path="url(#c_line_12)">
+  <text x="25" y="446" class="term-text">
+    <tspan class="num">[13]</tspan> 
+    <a href="https://github.com/Midhun-M-git/Resort_app" target="_blank" class="proj-title">📂 Resort_app</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc"> A full-featured resort room booking app built with ...</tspan>
+  </text>
+</g><!-- [14] webapp-security-analyzer -->
+<g clip-path="url(#c_line_13)">
+  <text x="25" y="474" class="term-text">
+    <tspan class="num">[14]</tspan> 
+    <a href="https://github.com/Midhun-M-git/webapp-security-analyzer" target="_blank" class="proj-title">📂 webapp-security-analyzer</a> 
+    <tspan class="lang">(C++)</tspan> - 
+    <tspan class="desc">GUI based web app security analyzer</tspan>
+  </text>
+</g><!-- [15] ahalia_sports_bot -->
+<g clip-path="url(#c_line_14)">
+  <text x="25" y="502" class="term-text">
+    <tspan class="num">[15]</tspan> 
+    <a href="https://github.com/Midhun-M-git/ahalia_sports_bot" target="_blank" class="proj-title">📂 ahalia_sports_bot</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc">Automation bot handling sports events management for...</tspan>
+  </text>
+</g><!-- [16] spnxa-race-z -->
+<g clip-path="url(#c_line_15)">
+  <text x="25" y="530" class="term-text">
+    <tspan class="num">[16]</tspan> 
+    <a href="https://github.com/Midhun-M-git/spnxa-race-z" target="_blank" class="proj-title">📂 spnxa-race-z</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc">An interactive browser-based 2D car racing game.</tspan>
+  </text>
+</g><!-- [17] portfolio -->
+<g clip-path="url(#c_line_16)">
+  <text x="25" y="558" class="term-text">
+    <tspan class="num">[17]</tspan> 
+    <a href="https://github.com/Midhun-M-git/portfolio" target="_blank" class="proj-title">📂 portfolio</a> 
+    <tspan class="lang">(CSS)</tspan> - 
+    <tspan class="desc">Personal developer portfolio, interactive resume, an...</tspan>
+  </text>
+</g><!-- [18] breach-checker-app -->
+<g clip-path="url(#c_line_17)">
+  <text x="25" y="586" class="term-text">
+    <tspan class="num">[18]</tspan> 
+    <a href="https://github.com/Midhun-M-git/breach-checker-app" target="_blank" class="proj-title">📂 breach-checker-app</a> 
+    <tspan class="lang">(Code)</tspan> - 
+    <tspan class="desc">Secure credential validation engine querying global ...</tspan>
+  </text>
+</g><!-- [19] code_crush -->
+<g clip-path="url(#c_line_18)">
+  <text x="25" y="614" class="term-text">
+    <tspan class="num">[19]</tspan> 
+    <a href="https://github.com/Midhun-M-git/code_crush" target="_blank" class="proj-title">📂 code_crush</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [20] novus-web -->
+<g clip-path="url(#c_line_19)">
+  <text x="25" y="642" class="term-text">
+    <tspan class="num">[20]</tspan> 
+    <a href="https://github.com/Midhun-M-git/novus-web" target="_blank" class="proj-title">📂 novus-web</a> 
+    <tspan class="lang">(JavaScript)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [21] piravi-bot -->
+<g clip-path="url(#c_line_20)">
+  <text x="25" y="670" class="term-text">
+    <tspan class="num">[21]</tspan> 
+    <a href="https://github.com/Midhun-M-git/piravi-bot" target="_blank" class="proj-title">📂 piravi-bot</a> 
+    <tspan class="lang">(HTML)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [22] iedc-treasure-hunt -->
+<g clip-path="url(#c_line_21)">
+  <text x="25" y="698" class="term-text">
+    <tspan class="num">[22]</tspan> 
+    <a href="https://github.com/Midhun-M-git/iedc-treasure-hunt" target="_blank" class="proj-title">📂 iedc-treasure-hunt</a> 
+    <tspan class="lang">(JavaScript)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [23] simple-chat-bot -->
+<g clip-path="url(#c_line_22)">
+  <text x="25" y="726" class="term-text">
+    <tspan class="num">[23]</tspan> 
+    <a href="https://github.com/Midhun-M-git/simple-chat-bot" target="_blank" class="proj-title">📂 simple-chat-bot</a> 
+    <tspan class="lang">(C++)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [24] info-tech -->
+<g clip-path="url(#c_line_23)">
+  <text x="25" y="754" class="term-text">
+    <tspan class="num">[24]</tspan> 
+    <a href="https://github.com/Midhun-M-git/info-tech" target="_blank" class="proj-title">📂 info-tech</a> 
+    <tspan class="lang">(CSS)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
+  </text>
+</g><!-- [25] press-website -->
+<g clip-path="url(#c_line_24)">
+  <text x="25" y="782" class="term-text">
+    <tspan class="num">[25]</tspan> 
+    <a href="https://github.com/Midhun-M-git/press-website" target="_blank" class="proj-title">📂 press-website</a> 
+    <tspan class="lang">(CSS)</tspan> - 
+    <tspan class="desc">A website created for a press shop </tspan>
+  </text>
 </g>
+
+<!-- FINAL TERMINAL PROMPT AT BOTTOM WITH BLINKING CURSOR -->
+<text x="25" y="825" class="term-text"><tspan class="prompt">spidey@novustech</tspan>:<tspan class="path">~/projects</tspan>$ <tspan class="cursor">█</tspan></text>
 
 </svg>
