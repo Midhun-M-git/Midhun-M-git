@@ -19,9 +19,11 @@ def fetch_repos():
         return []
 
 def build_svg(repos):
-    output_svg = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_real_terminal.svg"
-    output_scroll = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_scroll_terminal.svg"
-    output_v2 = r"C:\Users\MIDHUN\.gemini\antigravity-ide\scratch\Midhun-M-git\spidey_terminal_typewriter_v2.svg"
+    import os
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    output_svg = os.path.join(base_dir, "spidey_real_terminal.svg")
+    output_scroll = os.path.join(base_dir, "spidey_scroll_terminal.svg")
+    output_v2 = os.path.join(base_dir, "spidey_terminal_typewriter_v2.svg")
     
     if not repos:
         repos = [
