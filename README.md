@@ -63,11 +63,8 @@ I am a Computer Science student and software engineer focusing on building scala
   <!-- Transparent Animated Spider-Man (Adapts to Light & Dark Mode) -->
   <img src="spidey_swinging.svg?v=5" alt="Spider-Man" width="100%" style="max-width: 800px;" />
 
-  <!-- Spider-Man Custom Contribution Graph -->
-  <img src="spidey_contribution.svg?v=3" alt="Midhun-M-git's Real Contribution Graph" width="100%" style="max-width: 800px;" />
-
-  <!-- Live GitHub Contribution Grid -->
-  <img src="https://ghchart.rshah.org/e74c3c/Midhun-M-git" alt="Midhun-M-git's GitHub Contributions" width="100%" style="max-width: 800px;" />
+  <!-- Clean Live GitHub Contribution Graph (Spider-Man Dark Theme) -->
+  <img src="spidey_contribution.svg?v=10" alt="Midhun-M-git's Real Contribution Graph" width="100%" style="max-width: 800px;" />
 
   <!-- Transparent Real Live GitHub Streak Stats (Demolab Host) -->
   <img src="https://streak-stats.demolab.com/?user=Midhun-M-git&theme=dark&background=00000000&border=00000000&stroke=e74c3c&ring=e74c3c&fire=e74c3c&hide_border=true" alt="Midhun-M-git's Real GitHub Streak Stats" width="100%" style="max-width: 800px;" />

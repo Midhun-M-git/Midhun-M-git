@@ -208,3 +208,9 @@ def build_svg(repos):
 if __name__ == '__main__':
     repos = fetch_repos()
     build_svg(repos)
+    try:
+        from build_clean_contribution_graph import fetch_contributions, build_clean_graph_svg
+        total, days = fetch_contributions()
+        build_clean_graph_svg(total, days)
+    except Exception as e:
+        print(f"Error building contribution graph: {e}")
