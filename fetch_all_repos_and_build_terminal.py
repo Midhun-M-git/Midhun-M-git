@@ -8,15 +8,24 @@ from datetime import datetime
 FONT = "-apple-system, BlinkMacSystemFont, 'Fira Code', 'Courier New', monospace"
 
 def fetch_repos():
-    url = "https://api.github.com/users/Midhun-M-git/repos?per_page=100&sort=updated"
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    try:
-        with urllib.request.urlopen(req) as resp:
-            data = json.loads(resp.read().decode('utf-8'))
-            return data
-    except Exception as e:
-        print(f"Error fetching repos: {e}")
-        return []
+    repos = []
+    page = 1
+    while True:
+        url = f"https://api.github.com/users/Midhun-M-git/repos?per_page=100&page={page}&sort=updated"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        try:
+            with urllib.request.urlopen(req) as resp:
+                data = json.loads(resp.read().decode('utf-8'))
+                if not data or not isinstance(data, list):
+                    break
+                repos.extend(data)
+                if len(data) < 100:
+                    break
+                page += 1
+        except Exception as e:
+            print(f"Error fetching repos: {e}")
+            break
+    return repos
 
 def build_svg(repos):
     import os
