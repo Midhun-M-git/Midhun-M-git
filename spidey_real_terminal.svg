@@ -215,19 +215,19 @@
 </g>
 
 <!-- ALL REPOSITORY OUTPUT LINES (PRINTING SEQUENTIALLY DOWNWARDS) -->
-<!-- [01] tuxtype -->
+<!-- [01] t4kcommon -->
 <g clip-path="url(#c_line_0)">
   <text x="25" y="110" class="term-text">
     <tspan class="num">[01]</tspan> 
-    <a href="https://github.com/Midhun-M-git/tuxtype" target="_blank" class="proj-title">📂 tuxtype</a> 
+    <a href="https://github.com/Midhun-M-git/t4kcommon" target="_blank" class="proj-title">📂 t4kcommon</a> 
     <tspan class="lang">(C)</tspan> - 
     <tspan class="desc">Open source software project repository</tspan>
   </text>
-</g><!-- [02] t4kcommon -->
+</g><!-- [02] tuxtype -->
 <g clip-path="url(#c_line_1)">
   <text x="25" y="138" class="term-text">
     <tspan class="num">[02]</tspan> 
-    <a href="https://github.com/Midhun-M-git/t4kcommon" target="_blank" class="proj-title">📂 t4kcommon</a> 
+    <a href="https://github.com/Midhun-M-git/tuxtype" target="_blank" class="proj-title">📂 tuxtype</a> 
     <tspan class="lang">(C)</tspan> - 
     <tspan class="desc">Open source software project repository</tspan>
   </text>
