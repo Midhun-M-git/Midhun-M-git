@@ -12,35 +12,35 @@
 
   <!-- Text-based social navigation -->
   <p align="center">
-    <a href="https://portfolio-omega-eosin-56.vercel.app" target="_blank">🌐 Portfolio</a> •
-    <a href="https://www.linkedin.com/in/techwithmidhun/" target="_blank">💼 LinkedIn</a> •
-    <a href="https://novustech.in" target="_blank">🚀 NovusTech.in</a> •
-    <a href="mailto:mmidhun781@gmail.com">✉️ Contact Me</a>
+    <a href="https://portfolio-omega-eosin-56.vercel.app" target="_blank">Portfolio</a> •
+    <a href="https://www.linkedin.com/in/techwithmidhun/" target="_blank">LinkedIn</a> •
+    <a href="https://novustech.in" target="_blank">NovusTech.in</a> •
+    <a href="mailto:mmidhun781@gmail.com">Contact Me</a>
   </p>
 
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="Rainbow line" />
 </div>
 
-## 🕷️ About Me
+## About Me
 
-I am a Software Engineer and Computer Science student specializing in building production-ready mobile applications, scalable cloud backends, and low-level embedded/cybersecurity systems.
+I am a Software Engineer and Computer Science student specializing in building production-ready mobile applications, scalable cloud backends, and low-level embedded systems.
 
-* 🚀 **Founder & Engineer:** Building hardware & software solutions at **[NovusTech](https://novustech.in)**
-* 💼 **Industry Experience:** Software Intern at **ZENDALONA** (Software Development & Automation Testing)
-* 🎯 **Core Domains:** Cross-Platform Mobile (Flutter/Dart), Full-Stack Python (FastAPI/Supabase), Embedded IoT & Computer Vision
-* 💬 **Motto:** *"With great power comes great code."*
-
----
-
-## 🏛️ Leadership & Impact
-
-* 🌟 **Tech Lead** @ IEDC ASET (2025–26) — Leading student engineering initiatives, hackathons, and technical projects.
-* 🎓 **General Secretary** @ College Union (2025–26) — Representing student interests and spearheading large-scale events.
-* ⛓️ **Student Lead** @ Kerala Blockchain Academy (KBA) (2025–26) — Fostering decentralized tech and Web3 literacy.
+- **Founder & Engineer:** Building hardware and software solutions at **[NovusTech](https://novustech.in)**
+- **Industry Experience:** Software Intern at **ZENDALONA** (Software Development & Automation Testing)
+- **Core Focus:** Cross-Platform Mobile (Flutter/Dart), Full-Stack Systems (Python/FastAPI/Supabase), Embedded IoT & Computer Vision
+- **Motto:** *"With great power comes great code."*
 
 ---
 
-## 🛠️ Technical Stack & Tools
+## Leadership and Impact
+
+- **Tech Lead** @ IEDC ASET (2025–26) — Leading student engineering initiatives, hackathons, and technical projects.
+- **General Secretary** @ College Union (2025–26) — Representing student interests and coordinating campus-wide events.
+- **Student Lead** @ Kerala Blockchain Academy (KBA) (2025–26) — Fostering decentralized tech and Web3 literacy.
+
+---
+
+## Technical Stack and Tools
 
 <p>
   <img src="spidey_tech.svg?v=3" alt="Spider-Man" align="right" height="130" />
@@ -52,20 +52,20 @@ I am a Software Engineer and Computer Science student specializing in building p
 
 ---
 
-## ⭐ Featured Engineering Projects
+## Featured Engineering Projects
 
 | Project | Domain | Stack | Highlights |
 | :--- | :--- | :--- | :--- |
-| **[Agry-Key](https://github.com/Midhun-M-git/Agry-Key)** | Mobile & AI | Flutter, FastAPI, Docker, DL | Unified agriculture intelligence platform with automated mobile CI/CD (17 tagged releases) |
+| **[Agry-Key](https://github.com/Midhun-M-git/Agry-Key)** | Mobile & AI | Flutter, FastAPI, Docker, DL | Unified agriculture intelligence platform with automated mobile CI/CD pipeline (17 releases) |
 | **[Resort_app](https://github.com/Midhun-M-git/Resort_app)** | Mobile & Web | Flutter, Dart, Supabase Auth | Full-stack luxury resort booking engine with dynamic room filtering and state management |
 | **[bulk-certificate-generator](https://github.com/Midhun-M-git/bulk-certificate-generator)** | Backend & API | FastAPI, Celery, Docker, Redis | High-throughput asynchronous bulk certificate generation engine and REST API with CI pipeline |
-| **[Esp32_Cyber_packet_sniffer](https://github.com/Midhun-M-git/Esp32_Cyber_packet_sniffer)** | Embedded & IoT | C++, ESP32, 3.5" TFT Display | Futuristic cyberpunk-themed 802.11 Wi-Fi traffic sniffer and hardware dashboard |
-| **[webapp-security-analyzer](https://github.com/Midhun-M-git/webapp-security-analyzer)** | Cybersecurity | Python, C++, Security Tools | Desktop GUI application to audit, inspect, and identify vulnerabilities in web apps |
+| **[Esp32_Cyber_packet_sniffer](https://github.com/Midhun-M-git/Esp32_Cyber_packet_sniffer)** | Embedded & IoT | C++, ESP32, 3.5" TFT Display | Cyberpunk-themed 802.11 Wi-Fi traffic sniffer and real-time packet analyzer on physical hardware |
+| **[webapp-security-analyzer](https://github.com/Midhun-M-git/webapp-security-analyzer)** | Cybersecurity | Python, C++, Security Tools | Desktop GUI application to audit, inspect, and identify vulnerabilities in web applications |
 | **[DRIVER_EYE_DETECTION](https://github.com/Midhun-M-git/DRIVER_EYE_DETECTION)** | Computer Vision | MediaPipe, OpenCV, Python | Real-time driver drowsiness monitoring using Facial Mesh and Eye Aspect Ratio (EAR) calibration |
 
 ---
 
-## 💻 Projects Terminal Overview
+## Projects Terminal Overview
 
 <div align="center">
   <img src="spidey_real_terminal.svg?v=5" alt="Spidey Authentic Terminal Session" width="100%" style="max-width: 800px;" />
@@ -73,7 +73,7 @@ I am a Software Engineer and Computer Science student specializing in building p
 
 ---
 
-## 📊 Live GitHub Activity & Analytics
+## GitHub Activity and Analytics
 
 <div align="center">
   <!-- Transparent Animated Spider-Man (Adapts to Light & Dark Mode) -->
