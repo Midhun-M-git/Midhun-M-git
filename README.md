@@ -7,7 +7,7 @@
   
   <!-- Typing Animation Title (Spider Red) -->
   <a href="https://novustech.in">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=E53E3E&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Midhun+M;Founder+%40+NovusTech.in;Software+Engineer+%26+Tech+Lead;Building+Scalable+Mobile%2C+Cloud+%26+IoT+Solutions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=E53E3E&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Midhun+M;Founder+%40+NovusTech.in;Software+Engineer+%26+Tech+Lead;Coding+in+C%2B%2B%2C+C%2C+Python%2C+Flutter+%26+Java" alt="Typing SVG" />
   </a>
 
   <!-- Text-based social navigation -->
@@ -23,11 +23,11 @@
 
 ## About Me
 
-I am a Software Engineer and Computer Science student specializing in building production-ready mobile applications, scalable cloud backends, and low-level embedded systems.
+I am a Software Engineer and Computer Science student focusing on building high-performance software, mobile applications, and system-level tools.
 
 - **Founder & Engineer:** Building hardware and software solutions at **[NovusTech](https://novustech.in)**
 - **Industry Experience:** Software Intern at **ZENDALONA** (Software Development & Automation Testing)
-- **Core Focus:** Cross-Platform Mobile (Flutter/Dart), Full-Stack Systems (Python/FastAPI/Supabase), Embedded IoT & Computer Vision
+- **Core Skills:** C++, C, Python, Flutter, and Java
 - **Motto:** *"With great power comes great code."*
 
 ---
@@ -43,10 +43,9 @@ I am a Software Engineer and Computer Science student specializing in building p
 ## Technical Stack and Tools
 
 <p>
-  <img src="spidey_tech.svg?v=3" alt="Spider-Man" align="right" height="130" />
+  <img src="spidey_tech.svg?v=3" alt="Spider-Man" align="right" height="110" />
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,dart,python,fastapi,supabase,postgres,c,cpp&theme=dark" alt="Skills Row 1" /><br/>
-    <img src="https://skillicons.dev/icons?i=js,ts,html,css,docker,linux,git,githubactions&theme=dark" alt="Skills Row 2" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,py,java,flutter&theme=dark" alt="Skills" />
   </a>
 </p>
 
@@ -56,12 +55,12 @@ I am a Software Engineer and Computer Science student specializing in building p
 
 | Project | Domain | Stack | Highlights |
 | :--- | :--- | :--- | :--- |
-| **[Agry-Key](https://github.com/Midhun-M-git/Agry-Key)** | Mobile & AI | Flutter, FastAPI, Docker, DL | Unified agriculture intelligence platform with automated mobile CI/CD pipeline (17 releases) |
-| **[Resort_app](https://github.com/Midhun-M-git/Resort_app)** | Mobile & Web | Flutter, Dart, Supabase Auth | Full-stack luxury resort booking engine with dynamic room filtering and state management |
-| **[bulk-certificate-generator](https://github.com/Midhun-M-git/bulk-certificate-generator)** | Backend & API | FastAPI, Celery, Docker, Redis | High-throughput asynchronous bulk certificate generation engine and REST API with CI pipeline |
-| **[Esp32_Cyber_packet_sniffer](https://github.com/Midhun-M-git/Esp32_Cyber_packet_sniffer)** | Embedded & IoT | C++, ESP32, 3.5" TFT Display | Cyberpunk-themed 802.11 Wi-Fi traffic sniffer and real-time packet analyzer on physical hardware |
-| **[webapp-security-analyzer](https://github.com/Midhun-M-git/webapp-security-analyzer)** | Cybersecurity | Python, C++, Security Tools | Desktop GUI application to audit, inspect, and identify vulnerabilities in web applications |
-| **[DRIVER_EYE_DETECTION](https://github.com/Midhun-M-git/DRIVER_EYE_DETECTION)** | Computer Vision | MediaPipe, OpenCV, Python | Real-time driver drowsiness monitoring using Facial Mesh and Eye Aspect Ratio (EAR) calibration |
+| **[Agry-Key](https://github.com/Midhun-M-git/Agry-Key)** | Mobile & AI | Flutter, Python | Unified agriculture intelligence platform with automated mobile CI/CD pipeline (17 releases) |
+| **[Resort_app](https://github.com/Midhun-M-git/Resort_app)** | Mobile Application | Flutter | Full-stack luxury resort booking engine with dynamic room filtering and state management |
+| **[bulk-certificate-generator](https://github.com/Midhun-M-git/bulk-certificate-generator)** | Backend & Automation | Python | High-throughput asynchronous bulk certificate generation engine and REST API with CI pipeline |
+| **[Esp32_Cyber_packet_sniffer](https://github.com/Midhun-M-git/Esp32_Cyber_packet_sniffer)** | Embedded & Systems | C++, C | Cyberpunk-themed 802.11 Wi-Fi traffic sniffer and real-time packet analyzer on physical hardware |
+| **[webapp-security-analyzer](https://github.com/Midhun-M-git/webapp-security-analyzer)** | Cybersecurity & GUI | Python, C++ | Desktop GUI application to audit, inspect, and identify vulnerabilities in web applications |
+| **[DRIVER_EYE_DETECTION](https://github.com/Midhun-M-git/DRIVER_EYE_DETECTION)** | Computer Vision | Python | Real-time driver drowsiness monitoring using Facial Mesh and Eye Aspect Ratio (EAR) calibration |
 
 ---
 
