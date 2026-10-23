@@ -226,215 +226,215 @@
     <tspan class="num">[01]</tspan> 
     <a href="https://github.com/Midhun-M-git/Midhun-M-git" target="_blank" class="proj-title">📂 Midhun-M-git</a> 
     <tspan class="lang">(Python)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
+    <tspan class="desc">Personal GitHub configuration profile and portfolio ...</tspan>
   </text>
-</g><!-- [02] novus-web -->
+</g><!-- [02] portfolio -->
 <g clip-path="url(#c_line_1)">
   <text x="25" y="138" class="term-text">
     <tspan class="num">[02]</tspan> 
-    <a href="https://github.com/Midhun-M-git/novus-web" target="_blank" class="proj-title">📂 novus-web</a> 
+    <a href="https://github.com/Midhun-M-git/portfolio" target="_blank" class="proj-title">📂 portfolio</a> 
     <tspan class="lang">(JavaScript)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
+    <tspan class="desc">Personal software engineering portfolio and interact...</tspan>
   </text>
-</g><!-- [03] portfolio -->
+</g><!-- [03] novus-web -->
 <g clip-path="url(#c_line_2)">
   <text x="25" y="166" class="term-text">
     <tspan class="num">[03]</tspan> 
-    <a href="https://github.com/Midhun-M-git/portfolio" target="_blank" class="proj-title">📂 portfolio</a> 
+    <a href="https://github.com/Midhun-M-git/novus-web" target="_blank" class="proj-title">📂 novus-web</a> 
     <tspan class="lang">(JavaScript)</tspan> - 
-    <tspan class="desc">Personal developer portfolio, interactive resume, an...</tspan>
+    <tspan class="desc">Official modern landing page and web platform for No...</tspan>
   </text>
-</g><!-- [04] ktu-S7-CSE-CD-LAB -->
+</g><!-- [04] asthra -->
 <g clip-path="url(#c_line_3)">
   <text x="25" y="194" class="term-text">
     <tspan class="num">[04]</tspan> 
-    <a href="https://github.com/Midhun-M-git/ktu-S7-CSE-CD-LAB" target="_blank" class="proj-title">📂 ktu-S7-CSE-CD-LAB</a> 
-    <tspan class="lang">(C)</tspan> - 
-    <tspan class="desc">This repository consists of the S7 cse compilor desi...</tspan>
+    <a href="https://github.com/Midhun-M-git/asthra" target="_blank" class="proj-title">📂 asthra</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc">AI-driven mobile application automating technical do...</tspan>
   </text>
-</g><!-- [05] t4kcommon -->
+</g><!-- [05] breach-checker-app -->
 <g clip-path="url(#c_line_4)">
   <text x="25" y="222" class="term-text">
     <tspan class="num">[05]</tspan> 
+    <a href="https://github.com/Midhun-M-git/breach-checker-app" target="_blank" class="proj-title">📂 breach-checker-app</a> 
+    <tspan class="lang">(Python)</tspan> - 
+    <tspan class="desc">Secure credential validation engine querying global ...</tspan>
+  </text>
+</g><!-- [06] tuxmath_kite -->
+<g clip-path="url(#c_line_5)">
+  <text x="25" y="250" class="term-text">
+    <tspan class="num">[06]</tspan> 
+    <a href="https://github.com/Midhun-M-git/tuxmath_kite" target="_blank" class="proj-title">📂 tuxmath_kite</a> 
+    <tspan class="lang">(C)</tspan> - 
+    <tspan class="desc">Packaging and compilation suite for the TuxMath educ...</tspan>
+  </text>
+</g><!-- [07] tuxtype_kite -->
+<g clip-path="url(#c_line_6)">
+  <text x="25" y="278" class="term-text">
+    <tspan class="num">[07]</tspan> 
+    <a href="https://github.com/Midhun-M-git/tuxtype_kite" target="_blank" class="proj-title">📂 tuxtype_kite</a> 
+    <tspan class="lang">(C)</tspan> - 
+    <tspan class="desc">Packaging and build environment for TuxType educatio...</tspan>
+  </text>
+</g><!-- [08] ktu-S7-CSE-CD-LAB -->
+<g clip-path="url(#c_line_7)">
+  <text x="25" y="306" class="term-text">
+    <tspan class="num">[08]</tspan> 
+    <a href="https://github.com/Midhun-M-git/ktu-S7-CSE-CD-LAB" target="_blank" class="proj-title">📂 ktu-S7-CSE-CD-LAB</a> 
+    <tspan class="lang">(C)</tspan> - 
+    <tspan class="desc">Complete KTU S7 Compiler Design laboratory experimen...</tspan>
+  </text>
+</g><!-- [09] press-website -->
+<g clip-path="url(#c_line_8)">
+  <text x="25" y="334" class="term-text">
+    <tspan class="num">[09]</tspan> 
+    <a href="https://github.com/Midhun-M-git/press-website" target="_blank" class="proj-title">📂 press-website</a> 
+    <tspan class="lang">(CSS)</tspan> - 
+    <tspan class="desc">Commercial web showcase and service pricing calculat...</tspan>
+  </text>
+</g><!-- [10] info-tech -->
+<g clip-path="url(#c_line_9)">
+  <text x="25" y="362" class="term-text">
+    <tspan class="num">[10]</tspan> 
+    <a href="https://github.com/Midhun-M-git/info-tech" target="_blank" class="proj-title">📂 info-tech</a> 
+    <tspan class="lang">(CSS)</tspan> - 
+    <tspan class="desc">Business website and service catalogue for IT hardwa...</tspan>
+  </text>
+</g><!-- [11] iedc-treasure-hunt -->
+<g clip-path="url(#c_line_10)">
+  <text x="25" y="390" class="term-text">
+    <tspan class="num">[11]</tspan> 
+    <a href="https://github.com/Midhun-M-git/iedc-treasure-hunt" target="_blank" class="proj-title">📂 iedc-treasure-hunt</a> 
+    <tspan class="lang">(JavaScript)</tspan> - 
+    <tspan class="desc">Campus-wide interactive tech treasure hunt platform ...</tspan>
+  </text>
+</g><!-- [12] piravi-bot -->
+<g clip-path="url(#c_line_11)">
+  <text x="25" y="418" class="term-text">
+    <tspan class="num">[12]</tspan> 
+    <a href="https://github.com/Midhun-M-git/piravi-bot" target="_blank" class="proj-title">📂 piravi-bot</a> 
+    <tspan class="lang">(HTML)</tspan> - 
+    <tspan class="desc">Automated WhatsApp event notification and messaging ...</tspan>
+  </text>
+</g><!-- [13] DT -->
+<g clip-path="url(#c_line_12)">
+  <text x="25" y="446" class="term-text">
+    <tspan class="num">[13]</tspan> 
+    <a href="https://github.com/Midhun-M-git/DT" target="_blank" class="proj-title">📂 DT</a> 
+    <tspan class="lang">(TypeScript)</tspan> - 
+    <tspan class="desc">Deterministic employee reflection agent and structur...</tspan>
+  </text>
+</g><!-- [14] ASTHRA-V4 -->
+<g clip-path="url(#c_line_13)">
+  <text x="25" y="474" class="term-text">
+    <tspan class="num">[14]</tspan> 
+    <a href="https://github.com/Midhun-M-git/ASTHRA-V4" target="_blank" class="proj-title">📂 ASTHRA-V4</a> 
+    <tspan class="lang">(JavaScript)</tspan> - 
+    <tspan class="desc">Codex-inspired local developer automation workstatio...</tspan>
+  </text>
+</g><!-- [15] code_crush -->
+<g clip-path="url(#c_line_14)">
+  <text x="25" y="502" class="term-text">
+    <tspan class="num">[15]</tspan> 
+    <a href="https://github.com/Midhun-M-git/code_crush" target="_blank" class="proj-title">📂 code_crush</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc">Interactive programming-themed match-3 puzzle and al...</tspan>
+  </text>
+</g><!-- [16] simple-chat-bot -->
+<g clip-path="url(#c_line_15)">
+  <text x="25" y="530" class="term-text">
+    <tspan class="num">[16]</tspan> 
+    <a href="https://github.com/Midhun-M-git/simple-chat-bot" target="_blank" class="proj-title">📂 simple-chat-bot</a> 
+    <tspan class="lang">(C++)</tspan> - 
+    <tspan class="desc">Clean mobile news aggregator and conversational mess...</tspan>
+  </text>
+</g><!-- [17] spnxa-race-z -->
+<g clip-path="url(#c_line_16)">
+  <text x="25" y="558" class="term-text">
+    <tspan class="num">[17]</tspan> 
+    <a href="https://github.com/Midhun-M-git/spnxa-race-z" target="_blank" class="proj-title">📂 spnxa-race-z</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc">Fast-paced 2D arcade car racing game with physics si...</tspan>
+  </text>
+</g><!-- [18] ahalia_sports_bot -->
+<g clip-path="url(#c_line_17)">
+  <text x="25" y="586" class="term-text">
+    <tspan class="num">[18]</tspan> 
+    <a href="https://github.com/Midhun-M-git/ahalia_sports_bot" target="_blank" class="proj-title">📂 ahalia_sports_bot</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc">Cross-platform sports events and campus athletics ma...</tspan>
+  </text>
+</g><!-- [19] bulk-certificate-generator -->
+<g clip-path="url(#c_line_18)">
+  <text x="25" y="614" class="term-text">
+    <tspan class="num">[19]</tspan> 
+    <a href="https://github.com/Midhun-M-git/bulk-certificate-generator" target="_blank" class="proj-title">📂 bulk-certificate-generator</a> 
+    <tspan class="lang">(Python)</tspan> - 
+    <tspan class="desc">High-throughput bulk certificate generation engine a...</tspan>
+  </text>
+</g><!-- [20] Resort_app -->
+<g clip-path="url(#c_line_19)">
+  <text x="25" y="642" class="term-text">
+    <tspan class="num">[20]</tspan> 
+    <a href="https://github.com/Midhun-M-git/Resort_app" target="_blank" class="proj-title">📂 Resort_app</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc">Full-featured luxury resort room booking application...</tspan>
+  </text>
+</g><!-- [21] Agry-Key -->
+<g clip-path="url(#c_line_20)">
+  <text x="25" y="670" class="term-text">
+    <tspan class="num">[21]</tspan> 
+    <a href="https://github.com/Midhun-M-git/Agry-Key" target="_blank" class="proj-title">📂 Agry-Key</a> 
+    <tspan class="lang">(Dart)</tspan> - 
+    <tspan class="desc">Unified food economy and agriculture intelligence pl...</tspan>
+  </text>
+</g><!-- [22] webapp-security-analyzer -->
+<g clip-path="url(#c_line_21)">
+  <text x="25" y="698" class="term-text">
+    <tspan class="num">[22]</tspan> 
+    <a href="https://github.com/Midhun-M-git/webapp-security-analyzer" target="_blank" class="proj-title">📂 webapp-security-analyzer</a> 
+    <tspan class="lang">(C++)</tspan> - 
+    <tspan class="desc">GUI-based desktop application to analyze and identif...</tspan>
+  </text>
+</g><!-- [23] Esp32_Cyber_packet_sniffer -->
+<g clip-path="url(#c_line_22)">
+  <text x="25" y="726" class="term-text">
+    <tspan class="num">[23]</tspan> 
+    <a href="https://github.com/Midhun-M-git/Esp32_Cyber_packet_sniffer" target="_blank" class="proj-title">📂 Esp32_Cyber_packet_sniffer</a> 
+    <tspan class="lang">(C++)</tspan> - 
+    <tspan class="desc">Real-time cyberpunk Wi-Fi 802.11 packet sniffer and ...</tspan>
+  </text>
+</g><!-- [24] DRIVER_EYE_DETECTION -->
+<g clip-path="url(#c_line_23)">
+  <text x="25" y="754" class="term-text">
+    <tspan class="num">[24]</tspan> 
+    <a href="https://github.com/Midhun-M-git/DRIVER_EYE_DETECTION" target="_blank" class="proj-title">📂 DRIVER_EYE_DETECTION</a> 
+    <tspan class="lang">(Python)</tspan> - 
+    <tspan class="desc">Real-time driver fatigue and drowsiness detection pi...</tspan>
+  </text>
+</g><!-- [25] t4kcommon -->
+<g clip-path="url(#c_line_24)">
+  <text x="25" y="782" class="term-text">
+    <tspan class="num">[25]</tspan> 
     <a href="https://github.com/Midhun-M-git/t4kcommon" target="_blank" class="proj-title">📂 t4kcommon</a> 
     <tspan class="lang">(C)</tspan> - 
     <tspan class="desc">Open source software project repository</tspan>
   </text>
-</g><!-- [06] tuxtype -->
-<g clip-path="url(#c_line_5)">
-  <text x="25" y="250" class="term-text">
-    <tspan class="num">[06]</tspan> 
+</g><!-- [26] tuxtype -->
+<g clip-path="url(#c_line_25)">
+  <text x="25" y="810" class="term-text">
+    <tspan class="num">[26]</tspan> 
     <a href="https://github.com/Midhun-M-git/tuxtype" target="_blank" class="proj-title">📂 tuxtype</a> 
     <tspan class="lang">(C)</tspan> - 
     <tspan class="desc">Open source software project repository</tspan>
   </text>
-</g><!-- [07] bulk-certificate-generator -->
-<g clip-path="url(#c_line_6)">
-  <text x="25" y="278" class="term-text">
-    <tspan class="num">[07]</tspan> 
-    <a href="https://github.com/Midhun-M-git/bulk-certificate-generator" target="_blank" class="proj-title">📂 bulk-certificate-generator</a> 
-    <tspan class="lang">(Python)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [08] Agry-Key -->
-<g clip-path="url(#c_line_7)">
-  <text x="25" y="306" class="term-text">
-    <tspan class="num">[08]</tspan> 
-    <a href="https://github.com/Midhun-M-git/Agry-Key" target="_blank" class="proj-title">📂 Agry-Key</a> 
-    <tspan class="lang">(Dart)</tspan> - 
-    <tspan class="desc">Agriculture smart app</tspan>
-  </text>
-</g><!-- [09] tuxmath -->
-<g clip-path="url(#c_line_8)">
-  <text x="25" y="334" class="term-text">
-    <tspan class="num">[09]</tspan> 
-    <a href="https://github.com/Midhun-M-git/tuxmath" target="_blank" class="proj-title">📂 tuxmath</a> 
-    <tspan class="lang">(C)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [10] tuxtype_kite -->
-<g clip-path="url(#c_line_9)">
-  <text x="25" y="362" class="term-text">
-    <tspan class="num">[10]</tspan> 
-    <a href="https://github.com/Midhun-M-git/tuxtype_kite" target="_blank" class="proj-title">📂 tuxtype_kite</a> 
-    <tspan class="lang">(C)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [11] tuxmath_kite -->
-<g clip-path="url(#c_line_10)">
-  <text x="25" y="390" class="term-text">
-    <tspan class="num">[11]</tspan> 
-    <a href="https://github.com/Midhun-M-git/tuxmath_kite" target="_blank" class="proj-title">📂 tuxmath_kite</a> 
-    <tspan class="lang">(C)</tspan> - 
-    <tspan class="desc">TuxMath and t4k_common source code</tspan>
-  </text>
-</g><!-- [12] Esp32_Cyber_packet_sniffer -->
-<g clip-path="url(#c_line_11)">
-  <text x="25" y="418" class="term-text">
-    <tspan class="num">[12]</tspan> 
-    <a href="https://github.com/Midhun-M-git/Esp32_Cyber_packet_sniffer" target="_blank" class="proj-title">📂 Esp32_Cyber_packet_sniffer</a> 
-    <tspan class="lang">(C++)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [13] DRIVER_EYE_DETECTION -->
-<g clip-path="url(#c_line_12)">
-  <text x="25" y="446" class="term-text">
-    <tspan class="num">[13]</tspan> 
-    <a href="https://github.com/Midhun-M-git/DRIVER_EYE_DETECTION" target="_blank" class="proj-title">📂 DRIVER_EYE_DETECTION</a> 
-    <tspan class="lang">(Python)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [14] DT -->
-<g clip-path="url(#c_line_13)">
-  <text x="25" y="474" class="term-text">
-    <tspan class="num">[14]</tspan> 
-    <a href="https://github.com/Midhun-M-git/DT" target="_blank" class="proj-title">📂 DT</a> 
-    <tspan class="lang">(TypeScript)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [15] ASTHRA-V4 -->
-<g clip-path="url(#c_line_14)">
-  <text x="25" y="502" class="term-text">
-    <tspan class="num">[15]</tspan> 
-    <a href="https://github.com/Midhun-M-git/ASTHRA-V4" target="_blank" class="proj-title">📂 ASTHRA-V4</a> 
-    <tspan class="lang">(JavaScript)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [16] asthra -->
-<g clip-path="url(#c_line_15)">
-  <text x="25" y="530" class="term-text">
-    <tspan class="num">[16]</tspan> 
-    <a href="https://github.com/Midhun-M-git/asthra" target="_blank" class="proj-title">📂 asthra</a> 
-    <tspan class="lang">(Python)</tspan> - 
-    <tspan class="desc">AI-driven mobile application automating technical do...</tspan>
-  </text>
-</g><!-- [17] Resort_app -->
-<g clip-path="url(#c_line_16)">
-  <text x="25" y="558" class="term-text">
-    <tspan class="num">[17]</tspan> 
-    <a href="https://github.com/Midhun-M-git/Resort_app" target="_blank" class="proj-title">📂 Resort_app</a> 
-    <tspan class="lang">(Dart)</tspan> - 
-    <tspan class="desc"> A full-featured resort room booking app built with ...</tspan>
-  </text>
-</g><!-- [18] breach-checker-app -->
-<g clip-path="url(#c_line_17)">
-  <text x="25" y="586" class="term-text">
-    <tspan class="num">[18]</tspan> 
-    <a href="https://github.com/Midhun-M-git/breach-checker-app" target="_blank" class="proj-title">📂 breach-checker-app</a> 
-    <tspan class="lang">(Code)</tspan> - 
-    <tspan class="desc">Secure credential validation engine querying global ...</tspan>
-  </text>
-</g><!-- [19] webapp-security-analyzer -->
-<g clip-path="url(#c_line_18)">
-  <text x="25" y="614" class="term-text">
-    <tspan class="num">[19]</tspan> 
-    <a href="https://github.com/Midhun-M-git/webapp-security-analyzer" target="_blank" class="proj-title">📂 webapp-security-analyzer</a> 
-    <tspan class="lang">(C++)</tspan> - 
-    <tspan class="desc">GUI based web app security analyzer</tspan>
-  </text>
-</g><!-- [20] code_crush -->
-<g clip-path="url(#c_line_19)">
-  <text x="25" y="642" class="term-text">
-    <tspan class="num">[20]</tspan> 
-    <a href="https://github.com/Midhun-M-git/code_crush" target="_blank" class="proj-title">📂 code_crush</a> 
-    <tspan class="lang">(Dart)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [21] ahalia_sports_bot -->
-<g clip-path="url(#c_line_20)">
-  <text x="25" y="670" class="term-text">
-    <tspan class="num">[21]</tspan> 
-    <a href="https://github.com/Midhun-M-git/ahalia_sports_bot" target="_blank" class="proj-title">📂 ahalia_sports_bot</a> 
-    <tspan class="lang">(Dart)</tspan> - 
-    <tspan class="desc">Automation bot handling sports events management for...</tspan>
-  </text>
-</g><!-- [22] piravi-bot -->
-<g clip-path="url(#c_line_21)">
-  <text x="25" y="698" class="term-text">
-    <tspan class="num">[22]</tspan> 
-    <a href="https://github.com/Midhun-M-git/piravi-bot" target="_blank" class="proj-title">📂 piravi-bot</a> 
-    <tspan class="lang">(HTML)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [23] iedc-treasure-hunt -->
-<g clip-path="url(#c_line_22)">
-  <text x="25" y="726" class="term-text">
-    <tspan class="num">[23]</tspan> 
-    <a href="https://github.com/Midhun-M-git/iedc-treasure-hunt" target="_blank" class="proj-title">📂 iedc-treasure-hunt</a> 
-    <tspan class="lang">(JavaScript)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [24] simple-chat-bot -->
-<g clip-path="url(#c_line_23)">
-  <text x="25" y="754" class="term-text">
-    <tspan class="num">[24]</tspan> 
-    <a href="https://github.com/Midhun-M-git/simple-chat-bot" target="_blank" class="proj-title">📂 simple-chat-bot</a> 
-    <tspan class="lang">(C++)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [25] info-tech -->
-<g clip-path="url(#c_line_24)">
-  <text x="25" y="782" class="term-text">
-    <tspan class="num">[25]</tspan> 
-    <a href="https://github.com/Midhun-M-git/info-tech" target="_blank" class="proj-title">📂 info-tech</a> 
-    <tspan class="lang">(CSS)</tspan> - 
-    <tspan class="desc">Open source software project repository</tspan>
-  </text>
-</g><!-- [26] spnxa-race-z -->
-<g clip-path="url(#c_line_25)">
-  <text x="25" y="810" class="term-text">
-    <tspan class="num">[26]</tspan> 
-    <a href="https://github.com/Midhun-M-git/spnxa-race-z" target="_blank" class="proj-title">📂 spnxa-race-z</a> 
-    <tspan class="lang">(Dart)</tspan> - 
-    <tspan class="desc">An interactive browser-based 2D car racing game.</tspan>
-  </text>
-</g><!-- [27] press-website -->
+</g><!-- [27] tuxmath -->
 <g clip-path="url(#c_line_26)">
   <text x="25" y="838" class="term-text">
     <tspan class="num">[27]</tspan> 
-    <a href="https://github.com/Midhun-M-git/press-website" target="_blank" class="proj-title">📂 press-website</a> 
-    <tspan class="lang">(CSS)</tspan> - 
-    <tspan class="desc">A website created for a press shop </tspan>
+    <a href="https://github.com/Midhun-M-git/tuxmath" target="_blank" class="proj-title">📂 tuxmath</a> 
+    <tspan class="lang">(C)</tspan> - 
+    <tspan class="desc">Open source software project repository</tspan>
   </text>
 </g>
 
